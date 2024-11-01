@@ -1,0 +1,68 @@
+<div id="srm-collection-review-{{ review['id'] }}" class="srm-collection-review">
+    {%  if elements['source'] == true %}
+        <div class="srm-collection-review-source">
+            <img alt="{{ review['source_name'] }}" title="{{ review['source_name'] }}" src="{{ review['source_logo'] }}"/>
+        </div>
+    {% endif %}
+    {% if elements['avatar'] == true %}
+        {% if avatar_pos == 'right' or avatar_pos == 'left' %}
+            <div class="srm-collection-review-avatar mr-3 ml-3 mb-4" style="float: {{ avatar_pos }}; vertical-align: top;">
+                <img alt="{{ review['name'] }}" src="{{ review['avatar_url'] }}" class="srm-collection-review-avatar-{{ avatar_size }}"/>
+            </div>
+        {% elseif avatar_pos == 'top' %}
+            <div class="srm-collection-review-avatar m-3" style="float: {{ avatar_pos }}; text-align: center">
+                <img alt="{{ review['name'] }}" src="{{ review['avatar_url'] }}" class="srm-collection-review-avatar-{{ avatar_size }}"/>
+            </div>
+        {% endif %}
+    {% endif %}
+    {% if elements['name'] == true %}
+        <div class="srm-collection-review-name"
+             style="text-align: {{ name_just }};
+                     font-weight: {{ name_font }};
+                     font-style: {{ name_font }};
+                     text-decoration: {{ name_font }};
+                     font-size: {{ name_size }}px;">
+            {{ review['name'] }}
+        </div>
+    {% endif %}
+    <div class="srm-collection-review-meta" style="text-align: {{ meta_just }};
+            font-weight: {{ meta_font }};
+            font-style: {{ meta_font }};
+            text-decoration: {{ meta_font }};
+            font-size: {{ meta_size }}px;">
+        {% if elements['rating'] == true %}
+            <div class="srm-collection-review-rating">
+                {% for i in 1..review['rating_value'] %}
+                    <span class="fa fa-star srm-collection-review-star"></span>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if elements['title'] == true %}
+            <div class="srm-collection-review-title">{{ review['review_title'] }}</div>
+        {% endif %}
+        {% if elements['date'] == true %}
+            <div class="srm-collection-review-date">{{ review['date']|date("F jS Y") }}</div>
+        {% endif %}
+    </div>
+    {% if elements['review'] == true %}
+        <div class="srm-collection-review-text" style="text-align: {{ body_just }};
+                font-weight: {{ body_font }};
+                font-style: {{ body_font }};
+                text-decoration: {{ body_font }};
+                font-size: {{ body_size }}px;">
+            {{ review['review_text']|slice(0, maxchar) }}
+            {% if elements['readmore'] == true %}
+                {% if review['review_text']|length > maxchar %}
+                    ... <a href="{{ review['url'] }}" class="srm-collection-review-readmore" title="Read More" target="_blank">Read More</a>
+                {% endif %}
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if elements['avatar'] == true %}
+        {% if avatar_pos == 'bottom' %}
+            <div class="srm-collection-review-avatar m-3" style="float: {{ avatar_pos }}; text-align: center">
+                <img alt="{{ review['name'] }}" src="{{ review['profile_picture_url'] }}" class="srm-collection-review-avatar-{{ avatar_size }}"/>
+            </div>
+        {% endif %}
+    {% endif %}
+</div>

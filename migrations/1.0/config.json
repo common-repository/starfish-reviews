@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "name": "reviews-to-feedback",
+  "description": "Convert Reviews to Feedback and update options to reflect Feedback instead of Review",
+  "data": false,
+  "status": null,
+  "comment": null,
+  "executed_on": null
+}

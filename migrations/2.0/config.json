@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "name": "reviews_schema",
+  "description": "Create new database tables for storing Reviews",
+  "data": true,
+  "status": null,
+  "comment": null,
+  "executed_on": null
+}

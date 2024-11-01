@@ -1,0 +1,258 @@
+<div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">
+    <div id="srm-collection-style" class="card mt-1">
+        <div class="card-body">
+            <p class="card-text">Select how each review will be styled.</p>
+            <div class="form-group">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-color">Color</label>
+                            <select class="form-control form-control-sm" name="srm-collection-color"
+                                    id="srm-collection-color">
+                                <option value="light" {% if color is empty or color == 'light' %}selected{% endif %}>
+                                    Light
+                                </option>
+                                <option value="dark" {% if color == 'dark' %}selected{% endif %}>Dark</option>
+                                <option value="transparent" {% if color == 'transparent' %}selected{% endif %}>
+                                    Transparent
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-avatar-position">Avatar Position</label>
+                            <select class="form-control form-control-sm" name="srm-collection-avatar-position"
+                                    id="srm-collection-avatar-position">
+                                <option value="right"
+                                        {% if avatar_position is empty or avatar_position == 'right' %}selected{% endif %}>
+                                    Right
+                                </option>
+                                <option value="left" {% if avatar_position == 'left' %}selected{% endif %}>Left</option>
+                                <option value="top" {% if avatar_position == 'top' %}selected{% endif %}>Top</option>
+                                <option value="bottom" {% if avatar_position == 'bottom' %}selected{% endif %}>Bottom
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-avatar-size">Avatar Size</label>
+                            <select class="form-control form-control-sm" name="srm-collection-avatar-size"
+                                    id="srm-collection-avatar-size">
+                                <option value="small"
+                                        {% if avatar_size is empty or avatar_size == 'small' %}selected{% endif %}>
+                                    Small
+                                </option>
+                                <option value="medium" {% if avatar_size == 'medium' %}selected{% endif %}>Medium
+                                </option>
+                                <option value="large" {% if avatar_size == 'large' %}selected{% endif %}>Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="srm-collection-style-body" class="col-sm mb-3 srm-collection-col">
+                            <div class="column-title-title mb-3">Body</div>
+                            <div class="container-fluid">
+                                <div class="row mb-3">
+                                    <div class="btn-group btn-group-toggle ml-3" data-toggle="buttons">
+                                        <label class="btn btn-outline-secondary {% if body_justification
+                                            is empty or
+                                            body_justification == 'left' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-body-justification"
+                                                   id="srm-collection-body-justification-left" value="left"
+                                                   autocomplete="off" {% if body_justification
+                                                       is empty or
+                                                       body_justification == 'left' %}checked{% endif %}>
+                                            <i class="fas fa-align-left" title="Left Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if body_justification == 'center' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-body-justification"
+                                                   id="srm-collection-body-justification-center" value="center"
+                                                   autocomplete="off"
+                                                   {% if body_justification == 'center' %}checked{% endif %}>
+                                            <i class="fas fa-align-center" title="Centered"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if body_justification == 'right' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-body-justification"
+                                                   id="srm-collection-body-justification-right" value="right"
+                                                   autocomplete="off"
+                                                   {% if body_justification == 'right' %}checked{% endif %}>
+                                            <i class="fas fa-align-right" title="Right Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if body_justification == 'justify' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-body-justification"
+                                                   id="srm-collection-body-justification-justify" value="justify"
+                                                   autocomplete="off"
+                                                   {% if body_justification == 'justify' %}checked{% endif %}>
+                                            <i class="fas fa-align-justify" title="Justified"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-body-font">Font Style</label>
+                                        <select class="form-control form-control-sm" name="srm-collection-body-font"
+                                                id="srm-collection-body-font">
+                                            <option value="normal"
+                                                    {% if body_font is empty or body_font == 'normal' %}selected{% endif %}>
+                                                Normal
+                                            </option>
+                                            <option value="bold" {% if body_font == 'bold' %}selected{% endif %}>Bold
+                                            </option>
+                                            <option value="italic" {% if body_font == 'italic' %}selected{% endif %}>
+                                                Italic
+                                            </option>
+                                            <option value="underline"
+                                                    {% if body_font == 'underline' %}selected{% endif %}>Underline
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-body-font-size">Font Size</label>
+                                        <input name="srm-collection-body-font-size" id="srm-collection-body-font-size"
+                                               type="text" class="form-control form-control-sm"
+                                               value="{% if body_font_size is empty %}12{% else %}{{ body_font_size }}{% endif %}"/>
+                                        <small class="form-text text-muted">Represented in Pixels (i.e. 12px)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="srm-collection-style-name" class="col-sm mb-3 srm-collection-col">
+                            <div class="column-title-title mb-3">Name</div>
+                            <div class="container-fluid">
+                                <div class="row mb-3">
+                                    <div class="btn-group btn-group-toggle ml-3" data-toggle="buttons">
+                                        <label class="btn btn-outline-secondary {% if name_justification
+                                            is empty or
+                                            name_justification == 'left' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-name-justification"
+                                                   id="srm-collection-name-justification-left" value="left"
+                                                   autocomplete="off" {% if name_justification
+                                                       is empty or
+                                                       name_justification == 'left' %}checked{% endif %}>
+                                            <i class="fas fa-align-left" title="Left Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if name_justification == 'center' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-name-justification"
+                                                   id="srm-collection-name-justification-center" value="center"
+                                                   autocomplete="off"
+                                                   {% if name_justification == 'center' %}checked{% endif %}>
+                                            <i class="fas fa-align-center" title="Centered"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if name_justification == 'right' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-name-justification"
+                                                   id="srm-collection-name-justification-right" value="right"
+                                                   autocomplete="off"
+                                                   {% if name_justification == 'right' %}checked{% endif %}>
+                                            <i class="fas fa-align-right" title="Right Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if name_justification == 'justify' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-name-justification"
+                                                   id="srm-collection-name-justification-justify" value="justify"
+                                                   autocomplete="off" {% if
+                                                       name_justification == 'justify' %}checked{% endif %}>
+                                            <i class="fas fa-align-justify" title="Justified"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-name-font">Font Style</label>
+                                        <select class="form-control form-control-sm" name="srm-collection-name-font"
+                                                id="srm-collection-name-font">
+                                            <option value="normal"
+                                                    {% if name_font is empty or name_font == 'normal' %}selected{% endif %}>
+                                                Normal
+                                            </option>
+                                            <option value="bold" {% if name_font == 'bold' %}selected{% endif %}>Bold
+                                            </option>
+                                            <option value="italic" {% if name_font == 'italic' %}selected{% endif %}>
+                                                Italic
+                                            </option>
+                                            <option value="underline"
+                                                    {% if name_font == 'underline' %}selected{% endif %}>Underline
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-name-font-size">Font Size</label>
+                                        <input name="srm-collection-name-font-size" id="srm-collection-name-font-size"
+                                               type="text" class="form-control form-control-sm"
+                                               value="{% if name_font_size is
+                                                   empty %}12{% else %}{{ name_font_size }}{% endif %}"/>
+                                        <small class="form-text text-muted">Represented in Pixels (i.e. 12px)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="srm-collection-style-meta" class="col-sm mb-3 srm-collection-col">
+                            <div class="column-title-title mb-3">Meta</div>
+                            <div class="container-fluid">
+                                <div class="row mb-3">
+                                    <div class="btn-group btn-group-toggle ml-3" data-toggle="buttons">
+                                        <label class="btn btn-outline-secondary {% if meta_justification
+                                            is empty or
+                                            meta_justification == 'left' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-meta-justification"
+                                                   id="srm-collection-meta-justification-left" value="left"
+                                                   autocomplete="off" {% if meta_justification
+                                                       is empty or
+                                                       meta_justification == 'left' %}checked{% endif %}>
+                                            <i class="fas fa-align-left" title="Left Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if meta_justification == 'center' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-meta-justification"
+                                                   id="srm-collection-meta-justification-center" value="center"
+                                                   autocomplete="off"
+                                                   {% if meta_justification == 'center' %}checked{% endif %}>
+                                            <i class="fas fa-align-center" title="Centered"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if meta_justification == 'right' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-meta-justification"
+                                                   id="srm-collection-meta-justification-right" value="right"
+                                                   autocomplete="off"
+                                                   {% if meta_justification == 'right' %}checked{% endif %}>
+                                            <i class="fas fa-align-right" title="Right Justified"></i>
+                                        </label>
+                                        <label class="btn btn-outline-secondary {% if meta_justification == 'justify' %}active{% endif %}">
+                                            <input type="radio" name="srm-collection-meta-justification"
+                                                   id="srm-collection-meta-justification-justify" value="justify"
+                                                   autocomplete="off" {% if
+                                                       meta_justification == 'justify' %}checked{% endif %}>
+                                            <i class="fas fa-align-justify" title="Justified"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-meta-font">Font Style</label>
+                                        <select class="form-control form-control-sm" name="srm-collection-meta-font"
+                                                id="srm-collection-meta-font">
+                                            <option value="normal"
+                                                    {% if meta_font is empty or meta_font == 'normal' %}selected{% endif %}>
+                                                Normal
+                                            </option>
+                                            <option value="bold" {% if meta_font == 'bold' %}selected{% endif %}>Bold
+                                            </option>
+                                            <option value="italic" {% if meta_font == 'italic' %}selected{% endif %}>
+                                                Italic
+                                            </option>
+                                            <option value="underline"
+                                                    {% if meta_font == 'underline' %}selected{% endif %}>Underline
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-collection-meta-font-size">Font Size</label>
+                                        <input name="srm-collection-meta-font-size" id="srm-collection-meta-font-size"
+                                               type="text" class="form-control form-control-sm"
+                                               value="{% if meta_font_size is
+                                                   empty %}12{% else %}{{ meta_font_size }}{% endif %}"/>
+                                        <small class="form-text text-muted">Represented in Pixels (i.e. 12px)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

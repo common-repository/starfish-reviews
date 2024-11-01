@@ -1,0 +1,86 @@
+<!-- These are required to be inserted here for the shortcode to function smoothly -->
+<script>
+    {% if slider %}
+        jQuery(document).ready(function ($) {
+            if ( $.isFunction($.fn.carousel) ) {
+                $('.carousel').carousel({
+                    interval: {{ autoadvance }},
+                    pause: "hover",
+                    ride: "carousel"
+                });
+            } else {
+                $('.srm-collection').html('<div class="srm-page-editor-notice">Starfish Reviews Collection (ID: {{ collection_id }})</div>');
+                console.error("Starfish Reviews Collection failed to load. Unable to retrieve necessary javascript files (This is a known issue with Elementor's Page Editor).");
+            }
+        });
+    {% endif %}
+    //This is required to stop FOUC: https://en.wikipedia.org/wiki/Flash_of_unstyled_content  -->
+    // var elm = document.getElementsByTagName("html")[0];
+    // elm.style.display = "none";
+    // document.addEventListener("DOMContentLoaded", function (event) {
+	//     elm.style.display = "block";
+    // });
+</script>
+<div class="srm-collection w-100 h-100 d-flex mx-auto flex-column justify-content-center">
+    <div id="srm-collection-{{ collection_id }}"
+         class="mt-3 mb-3 {% if slider %}carousel slide{% endif %}" {% if slider %}data-ride="carousel"{% endif %} {% if autoadvance == 0 %}data-interval="false"{% endif %}>
+        {% if slider and navigation != 'none' and slides|length > 1 %}
+            {% if navigation == 'dots' or navigation == 'both' %}
+                <ol class="carousel-indicators">
+                    {% for i in 0..slides %}
+                        <li data-target="#srm-collection-{{ collection_id }}" data-slide-to="{{ i }}" class="{% if i == 1 %}active{% endif %}{% if color == 'light' or color =='transparent' %} dark{%
+                            endif %}"></li>
+                    {% endfor %}
+                </ol>
+            {% endif %}
+        {% endif %}
+        <div class="p-1
+         {% if color == 'light' %}bg-white{% elseif color == 'dark' %}text-light bg-dark{% elseif color == 'transparent' %}bg-transparent{% endif %}
+         {% if shortcode %}srm-collection-shortcode{% endif %}
+         {% if slider %}carousel-inner{% endif %}">
+            {% if slides is empty %}
+                <div class="srm-collection-empty">
+                    <i class="fas fa-exclamation-triangle"></i><br/>
+                    Sorry, there are no visible reviews for this Collection.
+                </div>
+            {% else %}
+                {% for slide in slides %}
+                    {% if slider %}<div class="carousel-item {% if loop.index0 == 0 %}active{% endif %}">{% endif %}
+{# TODO: Need to consider mobile devices and force each review to be in its own row with options in the collection to choose how many rows per page #}
+                    {% for row in slide %}
+                        <div class="row m-4">
+                            {% for review in row %}
+                                <div class="col-sm">
+                                    {% embed "starfish-collection-review.html.twig" %}{% endembed %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                    {% if slider %}</div>{% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+        {% if slider and navigation != 'none' and slides|length > 1 %}
+            {% if navigation == 'arrows' or navigation == 'both' %}
+                <a class="carousel-control-prev et_smooth_scroll_disabled" href="#srm-collection-{{ collection_id }}"
+                   role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon{% if color == 'light' or color =='transparent' %} dark{% endif %}"
+                      aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next et_smooth_scroll_disabled" href="#srm-collection-{{ collection_id }}"
+                   role="button"
+                   data-slide="next">
+                    <span class="carousel-control-next-icon{% if color == 'light' or color =='transparent' %} dark{% endif %}"
+                          aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            {% endif %}
+        {% endif %}
+    </div>
+    {% if hide_branding != 'yes' %}
+        <div class="srm-collection-powered-by">
+            {{ affiliate_url|raw }}
+        </div>
+    {% endif %}
+</div>

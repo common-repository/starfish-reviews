@@ -1,0 +1,48 @@
+.srm-admin-bar-icon {
+    width: 30px !important;
+}
+
+.srm-admin-bar-next-scrape-alert {
+    color: white;
+    float: right;
+    margin-left: 10px !important;
+}
+
+.srm-notice {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.srm-notice-icon {
+    float: left;
+    margin: 10px 10px 10px 0;
+    font-size: 30px;
+}
+
+.notice-warning .srm-notice-icon .fas {
+    color: #ffb900;
+}
+
+.notice-info .srm-notice-icon .fas {
+    color: deepskyblue;
+}
+
+.srm-notice-content {
+    float: left;
+}
+
+.notice-error .srm-notice-icon {
+    color: #ffb900;
+}
+
+.srm-admin-notice-dismiss-button {
+    float:right;
+    margin-right: 15px !important;
+}
+
+.srm-page-editor-notice {
+    text-align: center;
+    padding: 15px;
+    border: thin solid #ccc;
+    color: #ccc;
+}

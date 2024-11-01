@@ -1,0 +1,40 @@
+<div id="srm-testimonial-post-{{ review['id'] }}" class="srm-testimonial-post flex-fill align-self-start">
+    {% if components is empty or 'avatar' in components %}
+    <div class="srm-testimonial-post-avatar mr-5 ml-3">
+        <img alt="{{ review['name'] }}" src="{{ review['avatar_url'] }}" class="srm-testimonial-post-avatar-medium"/>
+    </div>
+    {%  endif %}
+    {% if components is empty or 'name' in components %}
+    <div class="srm-testimonial-post-name">
+        {{ review['name'] }}
+    </div>
+    {%  endif %}
+    <div class="srm-testimonial-post-meta">
+        <div class="srm-testimonial-post-rating">
+            {% for i in 1..review['rating'] %}
+                <span class="fa fa-star srm-testimonial-post-star"></span>
+            {% endfor %}
+        </div>
+        {% if components is empty or 'date' in components %}
+        <div class="srm-testimonial-post-date">{{ review['date']|date("F jS Y") }}</div>
+        {%  endif %}
+    </div>
+    {% if components is empty or 'date' in components %}
+    <div class="srm-testimonial-post-text mt-2">
+        {{ review['review_text']|slice(0, 150) }} <span id="srm-post-moretext-{{ review['id'] }}" class="collapse multi-collapse">{{ review['review_text']|slice(150) }}</span>
+            {% if review['review_text']|length > 150 %}
+                <a id="srm-testimonial-post-readmore-{{ review['id'] }}" data-bs-toggle="collapse" href="#srm-post-moretext-{{ review['id'] }}">... Read More</a>
+            {% endif %}
+    </div>
+    {%  endif %}
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#srm-post-moretext-{{ review['id'] }}').on('hidden.bs.collapse', function () {
+                $('#srm-testimonial-post-readmore-{{ review['id'] }}').html('... Read More')
+            });
+            $('#srm-post-moretext-{{ review['id'] }}').on('show.bs.collapse', function () {
+                $('#srm-testimonial-post-readmore-{{ review['id'] }}').html(' Read Less')
+            })
+        });
+    </script>
+</div>

@@ -1,0 +1,31 @@
+<div class="bootstrap-srm">
+{% if destination_type|lower == 'multiple' and destinations is not empty %}
+    <ul class="srm-funnel-multi-destinations {% if destination_layout is empty %}srm-destinations-horizontal{% else %}srm-destinations-{{ destination_layout|lower }}{% endif %}">
+        {% for key,destination in destinations %}
+            <li class="{{ destination['desti_icon']|lower }} srm-funnel-multi-destination">
+                <a href="javascript:void(0)" class="srm-funnel-multi-destination-submit"
+                   data-srm_desti_name="{{ destination['srm_desti_name']|e }}"
+                   data-srm_desti_url="{{ destination['srm_desti_url']|raw }}"
+                   style="{% if destination['srm_desti_bg_color'] != '' %}background: {{ destination['srm_desti_bg_color'] }};{% endif %}{% if destination['srm_desti_color'] != '' %} color: {{ destination['srm_desti_color'] }};{% endif %}">
+                    {% if destination['icon_photo_id'] != null or destination['icon_photo_id'] > 0 %}
+                        <img class="icon_image"
+                             src="{{ destination['icon_photo_id']|attachmentUrl|raw }}"
+                             alt="{{ destination['srm_desti_name']|e }}"/>
+                    {% else %}
+                        <div class="{{ icons[destination['desti_icon']|upper].class }} srm-funnel-icon"></div>
+                    {% endif %}
+                    {% if destination['srm_desti_name'] != '' and destination_layout|lower == 'vertical' and destination['srm_desti_name_hide'] != "true" %}
+                        <div class="srm-funnel-destination-name">{{ destination['srm_desti_name']|e }}</div>
+                    {% endif %}
+                </a>
+                {% if destination['srm_desti_name'] != '' and destination_layout|lower == 'horizontal' and destination['srm_desti_name_hide'] != "true" %}
+                    <div class="srm-funnel-destination-name">{{ destination['srm_desti_name'] }}</div>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% if destination_type|lower == 'single' %}
+    <button type="button" class="btn btn-primary srm-funnel-single-submit">{{ button_text }}</button>
+{% endif %}
+</div>

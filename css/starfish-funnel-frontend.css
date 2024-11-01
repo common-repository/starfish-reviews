@@ -1,0 +1,271 @@
+body.single-funnel {
+    background-color: white;
+    height: 100vh !important;
+}
+
+.srm-form .faicon {
+    width: auto;
+    height: auto;
+}
+
+#srm-review-container {
+    background-color: white;
+}
+
+.srm-review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.srm-review-form .funnel_logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.srm-review-form .funnel_logo .funnel_logo_img {
+    max-width: 100%;
+    max-height: 120px;
+    margin: 0 auto;
+}
+
+.srm-review-form .srm-form label {
+    display: inline;
+}
+
+.srm-review-form .srm-form .yes-no-checked .radio_item {
+    display: inline-block;
+}
+
+.srm-review-form .srm-form .yes-no-checked .radio_item img {
+    max-width: 135px;
+    width: 100%;
+    cursor: pointer;
+    transform: scale(.9);
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    transition: all .2s ease-in-out;
+}
+
+.srm-review-form .srm-form .yes-no-checked label img:hover,
+.srm-form .yes-no-checked input[type=radio]:checked + label img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: scale(1);
+}
+
+.srm-review-form .srm-form .yes-no-checked .radio_item.radio_item_yes {
+    margin-right: 10%;
+}
+
+.srm-review-form .srm-form .yes-no-checked .radio_item input[type="radio"] {
+    visibility: hidden;
+}
+
+.srm-review-form .srm-form .yes-no-checked .faicon {
+    font-size: 120px;
+    cursor: pointer;
+}
+
+.srm-review-form .srm-form .yes-no-checked .faicon_flip {
+    transform: rotate(360deg) scaleX(-1);
+}
+
+.srm-review-form .srm-form .yes-no-checked .iconyes {
+    color: #7ed026;
+}
+
+.srm-review-form .srm-form .yes-no-checked .iconno {
+    color: #e96e48;
+}
+
+.srm-review-form .srm-form .review_yes_no_section,
+.srm-form .btn_review_submit,
+.review_under_processing {
+    display: none;
+}
+
+.srm-review-form #review_text {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.srm-review-form #submit_review,
+.public-review-button {
+    background: #4AD04C;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.srm-review-form .srm-form h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.srm-review-form #submit_review:hover {
+    background: #008000;
+}
+
+.srm-review-form #review_yes_section h3 {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.srm-review-form #review_yes_section .yes-prompt-text a {
+    color: #e94d4d;
+}
+
+.srm-review-form #review_yes_section .yes-prompt-text p {
+    padding-bottom: 14px;
+}
+
+.srm-review-form .srm-funnel-link {
+    text-decoration: underline;
+    color: grey;
+    font-size: 14px;
+}
+
+.srm-powered-by {
+    font-size: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.starfish_review_footer_section {
+    display: none;
+}
+
+.srm-review-form .alert_message {
+    display: none;
+    color: #dc3232;
+    width: 100%;
+}
+
+.srm-review-form input[type="text"],
+.srm-review-form textarea {
+    width: 100%;
+    display: block;
+}
+
+.srm-disabled-gating-public-review {
+    display: none;
+    margin-top: 30px;
+}
+
+.srm-disabled-gating-public-review a {
+    color: #fff;
+    display: inline-block;
+}
+
+.review-multiple-destination {
+    margin: 20px 20px;
+}
+
+.multi-desti-buttons {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.multi-desti-buttons li {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.multi-desti-buttons li a {
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    background: #dadada;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+a.multi-desti-submit {
+    text-decoration: none !important; /* override WP Storefront theme style */
+}
+
+a.multi-desti-submit .faicon_preview {
+    font-family: Font Awesome\ 5 Brands !important;
+}
+
+a.multi-desti-submit:before {
+    display:none!important;
+}
+
+.multi-desti-buttons li a .faicon_preview {
+    font-size: 70px !important;
+    margin: auto !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.multi-desti-buttons li a img {
+    width: auto;
+    height: auto;
+    max-width: 70px;
+    max-height: 70px;
+    margin: auto;
+    display: block;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.multi-desti-buttons li .destination-name {
+    display: block;
+    padding: 10px 0px;
+    font-size: 16px;
+    word-break: break-all;
+    max-width: 100px;
+}
+
+li.multi-desti-buttons > a,
+div.yes-no-checked > .radio_item,
+div.yes-no-checked > .radio_item {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+li.multi-desti-buttons > a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+div.yes-no-checked > .radio_item:hover,
+div.yes-no-checked > .radio_item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.srm-notice-message {
+    padding: 25px;
+    border: thin dashed orange;
+    border-radius: 10px;
+}
+.srm-notice-message .fas {
+    color: orange;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 550px) {
+  .srm-review-form .srm-form .yes-no-checked .faicon{ font-size: 80px;}
+}

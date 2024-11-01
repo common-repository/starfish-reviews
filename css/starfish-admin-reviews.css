@@ -1,0 +1,172 @@
+#srm-reviews-profile-error {
+    border: thin solid orangered;
+    padding: 5px;
+    border-radius: 5px;
+    color: orangered;
+    font-size: 12PX;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+.srm-form-instructions {
+    margin: 20px 5px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.dropdown #srm-reviews-profiles-sites {
+    border-radius: 1px !important;
+}
+
+span.srm-profile-site-untested {
+    background-color: indianred;
+    border: thin solid indianred;
+}
+
+span.srm-profile-site-tested {
+    background-color: green;
+    border: thin solid green;
+}
+
+span.srm-profile-site-open {
+    background-color: dodgerblue;
+    border: thin solid dodgerblue;
+}
+
+#srm-reviews-profile-site-open {
+    color: white;
+}
+
+#srm-reviews-profile-site-test {
+    color: white;
+    text-decoration: none;
+}
+
+.srm-reviews-profile-icon {
+    background-color: transparent;
+    float: left;
+    margin-right: 15px;
+}
+
+.srm-reviews-profile-icon img,
+#srm-reviews-profile-site-logo img {
+    width: 24px !important;
+    border-radius: 15px;
+}
+
+/* Profile Details dialog */
+#srm-reviews-profile-site-logo {
+    background-color: transparent;
+    float: left;
+}
+
+a.dropdown-item {
+    cursor: pointer;
+}
+
+.toggle-handle {
+    background-color: whitesmoke !important;
+}
+
+.srm-reviews-profiles-hide-toggle .toggle-group label,
+.srm-review-hide-toggle .toggle-group label {
+    width: fit-content !important;
+}
+
+.srm-review-profile-image img {
+    border-radius: 36px;
+}
+
+.srm-reviews-profiles-status {
+    padding: 5px;
+    border-radius: 5px;
+    width: 6em;
+    text-align: center;
+    color: white;
+}
+
+#srm-reviews-profile-google-instructions p {
+    font-size: 15px;
+}
+
+#srm-reviews-profile-google-instructions i {
+    color: darkorange;
+}
+
+.srm-reviews-profiles-status.unknown {
+    background-color: black;
+}
+
+.srm-reviews-profiles-status.active {
+    background-color: forestgreen;
+}
+
+.srm-reviews-profiles-status.expired {
+    background-color: orangered;
+}
+
+.srm-reviews-profiles-status.disabled {
+    background-color: dimgrey;
+}
+
+.srm-reviews-profiles-status.processing {
+    background-color: dimgrey;
+}
+
+.srm-reviews-star {
+    color: #ffd800;
+}
+
+.srm-reviews-icon {
+    float: left;
+    margin-right: 15px;
+}
+
+.srm-reviews-icon img {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.srm-review-details-title {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.srm-review-details-meta {
+    margin-top: 15px;
+    color: grey;
+}
+
+.srm-review-details-reviewer {
+    float: left;
+    width: 50%;
+}
+
+.srm-review-profile-image {
+    float: left;
+    margin-right: 25px;
+}
+
+.srm-review-details-summary {
+    float: right;
+    width: 50%;
+}
+
+.srm-review-details-content {
+    clear: both;
+}
+
+#srm-reviews-profile-site-slug {
+    border-radius: 0;
+}
+
+.srm-dialogue-cancel-button {
+    /*margin-right: 440px !important;*/
+}
+
+.ui-dialog-buttonset button[type='submit'] {
+    /*margin-right: -10px;*/
+}

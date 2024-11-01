@@ -1,0 +1,86 @@
+<div class="bootstrap-srm srm-testimonial-form-container">
+    <form class="srm-testimonial-form needs-validation" novalidate>
+        <!-- Hidden controls -->
+        <input type="hidden" name="srm-testimonial-referrer" value="{{ referrer }}">
+        <!-- End Hidden Controls -->
+        <div class="form-row">
+            <div class="col-auto mb-2">
+                <div id="srm-testimonial-rating-help" class="">{{ instructions }}</div>
+                <input type="number" class="rating-loading srm-testimonial-stars" id="srm-testimonial-rating" name="srm-testimonial-rating" required>
+                <div class="invalid-feedback">{{ errors.rating }}</div>
+                <label class="sr-only" for="srm-testimonial-rating">{{ labels.rating }}</label>
+            </div>
+        </div>
+        {%  if authentication.required == 'yes' and authentication.is_logged_in == false %}
+            <div class="srm-testimonial-authentication-required">{{ authentication.message }}</div>
+        {% else %}
+            {% if (category is defined) and (components is empty or 'subject' in components) %}
+                <div class="form-row">
+                    <div class="col-auto">
+                        <label class="" for="srm-testimonial-category">{{ labels.category }}</label>
+                        <input type="text" class="form-control mb-2" id="srm-testimonial-category" name="srm-testimonial-category" placeholder="{{ category }}" value="{{ category }}" readonly disabled>
+                    </div>
+                </div>
+            {% endif %}
+            {% if components is empty or 'name' in components %}
+            <div class="form-row">
+                <div class="form-floating col-auto">
+                    <input type="text" class="form-control mb-2" id="srm-testimonial-name" name="srm-testimonial-name" placeholder="{{ labels.name }}" {% if 'name' in required %}required{% endif %}>
+                    <label class="" for="srm-testimonial-name">{{ labels.name }}</label>
+                    <small id="srm-testimonial-name-help" class="form-text text-muted"></small>
+                    <div class="invalid-feedback">{{ errors.name }}</div>
+                </div>
+            </div>
+            {% endif %}
+            {% if components is empty or 'email' in components %}
+            <div class="form-row">
+                <div class="form-floating col-auto">
+                    <input type="email" class="form-control mb-2" id="srm-testimonial-email" name="srm-testimonial-email" placeholder="{{ labels.email }}" {% if 'email' in required %}required{% endif %}>
+                    <label class="" for="srm-testimonial-email">{{ labels.email }}</label>
+                    <small id="srm-testimonial-email-help" class="form-text text-muted"></small>
+                    <div class="invalid-feedback">{{ errors.email }}</div>
+                </div>
+            </div>
+            {% endif %}
+            {% if components is empty or 'phone' in components %}
+            <div class="form-row">
+                <div class="form-floating col-auto">
+                    <input type="phone" class="form-control mb-2" id="srm-testimonial-phone" name="srm-testimonial-phone" placeholder="{{ labels.phone }}" {% if 'phone' in required %}required{% endif %}>
+                    <label class="" for="srm-testimonial-phone">{{ labels.phone }}</label>
+                    <small id="srm-testimonial-phone-help" class="form-text text-muted"></small>
+                    <div class="invalid-feedback">{{ errors.phone }}</div>
+                </div>
+            </div>
+            {% endif %}
+            {% if components is empty or 'message' in components %}
+            <div class="form-row">
+                <div class="form-floating col-auto">
+                    <textarea class="form-control mb-2 h-100" id="srm-testimonial-message" name="srm-testimonial-message" rows="4" {% if 'message' in required %}required{% endif %} placeholder="{{ labels.message }}"></textarea>
+                    <label class="" for="srm-testimonial-message">{{ labels.message }}</label>
+                    <small id="srm-testimonial-message-help" class="form-text text-muted"></small>
+                    <div class="invalid-feedback">{{ errors.message }}</div>
+                </div>
+            </div>
+            {% endif %}
+            <!-- H O N E Y P O T -->
+            <div class="">
+                <div class="">
+                    <input class="srm-testimonial-hp" id="srm-testimonial-hp" name="srm-testimonial-hp">
+                    <label class="srm-testimonial-hp" for="srm-testimonial-hp">HP</label>
+                </div>
+            </div>
+            <!-- / H O N E Y P O T -->
+            <div class="form-row mt-2">
+                <div class="form-floating col-auto">
+                    <button id="srm-testimonial-submit" type="submit" class="btn btn-primary mb-2 srm-testimonial-submit">Submit</button>
+                    <div id="srm-testimonial-submit-feedback"></div>
+                </div>
+            </div>
+        {% endif %}
+    </form>
+    {% if hide_branding != 'yes' %}
+        <div class="srm-testimonial-powered-by">
+            {{ affiliate_url|raw }}
+        </div>
+    {% endif %}
+</div>

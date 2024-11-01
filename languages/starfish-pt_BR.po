@@ -1,0 +1,1184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Starfish Reviews\n"
+"PO-Revision-Date: 2020-03-17 12:13-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: starfish-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,"
+"2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__"
+"ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: srm-app\n"
+"X-Poedit-SearchPathExcluded-2: composer\n"
+"X-Poedit-SearchPathExcluded-3: webfonts\n"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:49
+#, php-format
+msgid ""
+"Your current plan (%1$s) supports Ready-Only view of the captured "
+"Feeedback. %2$s"
+msgstr ""
+"Seu plano atual (%1$s) oferece suporte para visualização Ready-Only do "
+"Feeedback capturado. %2$s"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51
+msgid "Upgrade Starfish\Premium Plan"
+msgstr "Atualizar plano Starfish\Premium"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51 classes/SRM_FUNNELS.class.php:107
+msgid "Upgrade your plan!"
+msgstr "Atualize seu plano!"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:106
+#, php-format
+msgid ""
+"Your current plan (%1$s) only allows for %2$s published funnel at a time. "
+"%4$s"
+msgid_plural ""
+"Your current plan (%1$s) only allows for %2$s published funnels at a time. "
+"%4$s"
+msgstr[0] ""
+"Seu plano atual (%1$s) permite apenas% 2 $ s funil publicado por vez. "
+"%4$s"
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:108
+msgid ""
+"The newest %1$n funnel has been set to Draft status to bring your account "
+"within compliance."
+msgid_plural ""
+"The newest %1$n funnels have been set to Draft status to bring your account "
+"within compliance."
+msgstr[0] ""
+"O funil %1$ n mais recente foi definido com o status Rascunho para deixar "
+"sua conta em conformidade."
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:201 classes/SRM_FUNNELS.class.php:241
+msgid "Please enter your name."
+msgstr "Por favor, insira seu nome."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:206
+msgid "Please enter a valid email."
+msgstr "Por favor digite um email válido."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:211 classes/SRM_FUNNELS.class.php:243
+msgid "Please enter your phone."
+msgstr "Por favor, digite seu telefone."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:214 classes/SRM_FUNNELS.class.php:246
+msgid "Leave your review."
+msgstr "Deixe seu comentário."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:215 classes/SRM_FUNNELS.class.php:247
+msgid "Your Name"
+msgstr "Seu nome"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:216 classes/SRM_FUNNELS.class.php:248
+msgid "Your Email"
+msgstr "Seu email"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:217
+msgid "Your Phone"
+msgstr "Seu telefone"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:218
+msgid "Sending..."
+msgstr "Enviando ..."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:219 classes/SRM_SETTINGS.class.php:759
+msgid "Leave a Public Review"
+msgstr "Deixe uma revisão pública"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:220
+msgid "You need to enter at least {0} characters"
+msgstr "Você precisa inserir pelo menos {0} caracteres"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:222 classes/SRM_SETTINGS.class.php:696
+msgid "Skip this feedback and leave a public review."
+msgstr "Pule este feedback e deixe uma revisão pública."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:231
+msgid "Yes"
+msgstr "sim"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:232
+msgid "No"
+msgstr "Não"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:233
+msgid "Your Review"
+msgstr "Sua revisão"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:234
+msgid "Full name"
+msgstr "Nome completo"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:235
+msgid "Email Address"
+msgstr "Endereço de e-mail"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:236
+msgid "Phone Number"
+msgstr "Número de telefone"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:237
+msgid "indicates required fields"
+msgstr "indica campos obrigatórios"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:240
+msgid "Please provide a review."
+msgstr "Por favor, forneça uma revisão."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:242
+msgid "Please enter your email."
+msgstr "Por favor introduza o seu e-mail."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:249
+msgid "Your phone."
+msgstr "Seu telefone."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:341
+msgid "Starfish Notice"
+msgstr "Aviso de estrela do mar"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:342
+#, php-format
+msgid "This funnel (%1$s) is not valid or published yet!"
+msgstr "Este funil (%1$s) não é válido ou ainda não foi publicado!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:67
+msgid "Successfully completed migration! "
+msgstr "Migração concluída com sucesso!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:76 classes/SRM_MIGRATIONS.class.php:89
+msgid "Failed to update Starfish\Premium Migration schema"
+msgstr "Falha ao atualizar o esquema Starfish\Premium Migration"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:75 init/actions/starfish-admin.action.php:35
+msgid "General"
+msgstr "Geral"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:83 init/actions/starfish-admin.action.php:37
+#: init/actions/starfish-funnels.action.php:495
+msgid "Email"
+msgstr "O email"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:91
+msgid "Funnels "
+msgstr "Funis"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:110
+msgid "Reply-To ID"
+msgstr "ID de resposta"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:116
+msgid "Will only be used if ID is a properly formatted email address."
+msgstr "Só será usado se o ID for um endereço de e-mail formatado corretamente."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:122
+msgid "From Name"
+msgstr "De nome"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:128
+msgid "Supports shortcode {site-name} to use the site's name."
+msgstr "Suporta shortcode {site-name} para usar o nome do site."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:134
+msgid "From Email"
+msgstr "Do email"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:140 classes/SRM_SETTINGS.class.php:176
+msgid "Supports shortcode {admin-email} to use the site's Administrator's email."
+msgstr "Suporta shortcode {admin-email} para usar o e-mail do administrador do site."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:146
+msgid "Email Subject"
+msgstr "Assunto do email"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:152
+msgid "Supports shortcode {funnel-name} and {tracking-id}."
+msgstr "Suporta shortcode {funnel-name} e {tracking-id}."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:158
+msgid "Message Template"
+msgstr "Modelo de Mensagem"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:164
+msgid ""
+"Make sure to include shortcode {review-message}. Also supports "
+"{funnel-name}, {tracking-id}, {reviewer-name}, {reviewer-email} and "
+"{reviewer-phone}."
+msgstr ""
+"Certifique-se de incluir o shortcode {review-message}. Também suporta "
+"{funnel-name}, {tracking-id}, {reviewer-name}, {reviewer-email} e "
+"{reviewer-phone}."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:170
+msgid "Feedback Email"
+msgstr "Email de feedback"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:189
+msgid "Funnel Slug"
+msgstr "Funnel Slug"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:195
+msgid ""
+"The Funnel post-type slug. Note: Re-save <a "
+"href=/wp-admin/options-permalink.php\" title=\"Settings "
+"Permalink\">Permalinks</a> if your funnel goes to a 404 page."
+msgstr ""
+"A lesma funil pós-tipo. Observação: salve os <a "
+"href=/wp-admin/options-permalink.php\" title=\"Link permanente de "
+"configurações\">links permanentes</a> novamente se o funil for para uma "
+"página 404."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:201
+msgid "Branding"
+msgstr "Branding"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:207
+msgid "Turn off branding on Funnel pages."
+msgstr "Desative a marca nas páginas do funil."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:213
+msgid "Branding Content"
+msgstr "Conteúdo de marca"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid "Insert HTML for your branding. Consider joining"
+msgstr "Insira HTML para sua marca. Considere entrar"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid " and inserting your affiliate link here."
+msgstr " e inserindo seu link de afiliado aqui."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:225
+msgid "Clean On Deactivation"
+msgstr "Limpeza na desativação"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:231
+msgid ""
+"DO NOT use this option, unless you want to remove ALL Starfish Reviews "
+"settings and data."
+msgstr ""
+"NÃO use esta opção, a menos que você queira remover TODAS as configurações "
+"e dados das avaliações da Starfish\Premium."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:244
+msgid "Feedback Thank You Message"
+msgstr "Feedback Mensagem de agradecimento"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:250
+msgid "Message displayed after feedback has been submitted on a \"No\" response."
+msgstr "Mensagem exibida após o feedback ter sido enviado em uma resposta \"Não\"."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:256
+msgid "Feedback Prompt"
+msgstr "Feedback Prompt"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:262
+msgid "Message displayed after submitting a \"No\" response."
+msgstr "Mensagem exibida após o envio de uma resposta \"Não\"."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:268
+#: init/actions/starfish-funnels.action.php:269
+#: init/actions/starfish-funnels.action.php:462
+msgid "Review Prompt"
+msgstr "Review Prompt"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:274
+msgid "Message displayed after submitting a \"Yes\" response."
+msgstr "Mensagem exibida após enviar uma resposta \"Sim\"."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:280
+msgid "Submit Button Text on \"No\""
+msgstr "Enviar texto do botão em \"Não\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:286
+msgid "When a user selects \"NO\" this text will be used on the Submit Button."
+msgstr "Quando um usuário seleciona \"NÃO\", este texto será usado no botão Enviar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:292
+msgid "Submit Button Text on \"Yes\""
+msgstr "Enviar texto do botão em \"Sim\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:298
+msgid "When a user selects \"YES\" this text will be used on the Submit Button."
+msgstr "Quando um usuário seleciona \"SIM\", este texto será usado no botão Enviar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:304
+#: init/actions/starfish-funnels.action.php:149
+msgid "Yes/No Question"
+msgstr "Sim / Não Pergunta"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:310
+msgid "The prompt to recommend this website or not."
+msgstr "O prompt para recomendar este site ou não."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:316
+#: init/actions/starfish-funnels.action.php:591
+#: init/actions/starfish-funnels.action.php:593
+msgid "Public Review Text"
+msgstr "Texto de revisão pública"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:322
+msgid ""
+"The text shown above the button(s) to leave a review after skipping "
+"negative feedback"
+msgstr ""
+"O texto mostrado acima do (s) botão (ões) para deixar um comentário após "
+"pular o feedback negativo"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:328
+msgid "Yes Redirect Seconds"
+msgstr "Sim Redirecionar segundos"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:334
+msgid "How many seconds to wait before redirecting to the review site."
+msgstr "Quantos segundos esperar antes de redirecionar para o site de revisão."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:340
+msgid "Skip Feedback Link Text"
+msgstr "Pular texto do link de feedback"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:346
+msgid ""
+"The link text for skipping the feedback form (Requires the Funnel 'Disable "
+"Review Gating' to be disabled)."
+msgstr ""
+"O texto do link para pular o formulário de feedback (requer que o funil "
+"'Desativar janela de revisão' esteja desativado)."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:357 classes/SRM_SETTINGS.class.php:365
+#, php-format
+msgid "Specify %1$s settings below"
+msgstr "Especifique as configurações de %1$s abaixo"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:373
+#, php-format
+msgid ""
+"Specify the default %1$s settings below. These will apply when creating new "
+"<a href=\"%2$s\" title=\"View Funnels\">Funnels</a>."
+msgstr ""
+"Especifique as configurações padrão de %1$s abaixo. Isso se aplicará ao "
+"criar novos <a href=\"%2$s\" title=\"Exibir funis\">funis</a> ."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:376
+msgid "Settings Toolbox"
+msgstr "Caixa de ferramentas de configurações"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:377
+msgid "Restore System Defaults"
+msgstr "Restaurar padrões do sistema"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:378
+msgid "Replace all existing values with the system defaults."
+msgstr "Substitua todos os valores existentes pelos padrões do sistema."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:605
+msgid "Use submitter ID as \"reply-to\" email address."
+msgstr "Use o ID do remetente como endereço de e-mail \"para resposta\"."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:613
+msgid "The name the email will appear to be from."
+msgstr "O nome do qual o e-mail aparecerá."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:621
+msgid "Email address the message will appear to be from."
+msgstr "Endereço de e-mail do qual a mensagem aparecerá."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:629
+msgid "Subject of the email."
+msgstr "Assunto do email."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:632
+msgid "Feedback from {funnel-name}"
+msgstr "Feedback de {funnel-name}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:637
+msgid "Contents of the message."
+msgstr "Conteúdo da mensagem."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:640
+msgid ""
+"Submitter ID: {tracking-id}<br/>Message: "
+"{review-message}<br/>{reviewer-name}<br/>{reviewer-email}<br/>{reviewer-"
+"phone}"
+msgstr ""
+"ID do remetente: {tracking-id} <br/> Mensagem: {review-message} <br/> {nome "
+"do revisor} <br/> {e-mail do revisor} <br/> {telefone do revisor}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:645
+msgid "The email address which feedback is sent to."
+msgstr "O endereço de e-mail para o qual o feedback é enviado."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:657
+msgid "Change the Funnel Slug"
+msgstr "Mudar o Slug do Funil"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:665
+msgid "Turn off Starfish\Premium branding on Funnel pages."
+msgstr "Desative a marca Starfish\Premium nas páginas do funil."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:673
+msgid "Delete all settings on deactivation."
+msgstr "Exclua todas as configurações na desativação."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:681
+msgid "Override \"Powered by Starfish\Premium\" Link"
+msgstr "Substituir o link \"Powered by Starfish\Premium\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:684
+msgid ""
+"Powered by <a href=\"https://starfish.reviews\" title=\"Review Generation "
+"on WordPress\" target=\"_blank\" rel=\"nofollow\">Starfish Reviews</a>"
+msgstr ""
+"Desenvolvido por <a href=\"https://starfish.reviews\" title=\"Geração de "
+"revisão no WordPress\" target=\"_blank\" rel=\"nofollow\">Starfish "
+"Comentários</a>"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:693
+msgid "Text for the link to skip the feedback form"
+msgstr "Texto do link para pular o formulário de feedback"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:702
+msgid "The message shown after submitting Feedback."
+msgstr "A mensagem exibida após o envio do feedback."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:705
+msgid "Thanks for your feedback. We'll review it and work to improve."
+msgstr "Obrigado pelo seu feedback! Vamos revisar e trabalhar para melhorar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:711
+msgid "The message shown above the Feedback form."
+msgstr "A mensagem mostrada acima do formulário de feedback."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:714
+#: init/actions/starfish-funnels.action.php:466
+msgid "We're sorry we didn't meet expectations. How can we do better in the future?"
+msgstr ""
+"Lamentamos não termos atendido às expectativas. Como podemos fazer melhor "
+"no futuro?"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:720
+msgid "The message shown above the destination options."
+msgstr "A mensagem exibida acima das opções de destino."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:723
+msgid "<h3>Excellent! Please Rate us 5-stars</h3>...and leave a helpful review."
+msgstr ""
+"<h3> Excelente! Avalie-nos com 5 estrelas </h3> ... e deixe um comentário "
+"útil."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:729
+msgid "The feedback submit button text."
+msgstr "O texto do botão de envio de feedback."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:732
+#: init/actions/starfish-funnels.action.php:540
+msgid "Send Feedback"
+msgstr "Enviar comentários"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:738
+msgid "The button text for submitting a review on single destination funnels."
+msgstr "O texto do botão para enviar uma avaliação em funis de destino único."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:741
+#: init/actions/starfish-funnels.action.php:377
+msgid "Submit Review"
+msgstr "Enviar revisão"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:747
+msgid "The main funnel question text."
+msgstr "O texto principal da pergunta do funil."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:750
+msgid "Would you recommend {site-name}?"
+msgstr "Você recomendaria {site-name}?"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:756
+msgid "The text for leaving a public review after submitting feedback."
+msgstr "O texto para deixar uma avaliação pública após enviar feedback."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:765
+msgid ""
+"The number of seconds to wait before auto-redirecting to the single "
+"destination."
+msgstr ""
+"O número de segundos de espera antes do redirecionamento automático para o "
+"único destino."
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:13
+msgid "Starfish Reviews needs to perform updates to the database"
+msgstr "Starfish Reviews precisa realizar atualizações no banco de dados"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:14
+msgid "Pending Updates:"
+msgstr "Atualizações pendentes:"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:19
+msgid "Click the button to allow Starfish\Premium to automatically perform these updates"
+msgstr ""
+"Clique no botão para permitir que a Starfish\Premium execute automaticamente essas "
+"atualizações"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:38
+msgid "The following Starfish Reviews migrations are currently in a FAILED status"
+msgstr "As seguintes migrações da Starfish Reviews estão atualmente com status FALHA"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:61
+msgid "The following Starfish Reviews migrations completed successfully"
+msgstr "As seguintes migrações do Starfish Reviews foram concluídas com sucesso"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:79
+#, php-format
+msgid ""
+"In order to activate Starfish Reviews a PHP Version of %1$s or greater is "
+"required, currently PHP Version %2$s is found."
+msgstr ""
+"Para ativar o Starfish Reviews, uma versão do PHP de %1$s ou superior é "
+"necessária, atualmente a versão do PHP %2$s foi encontrada."
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:14
+#: init/actions/starfish-admin.action.php:29
+msgid "Starfish\Premium Settings"
+msgstr "Configurações de estrelas do mar"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:15
+#: init/filters/starfish-action-links.filter.php:32
+msgid "Settings"
+msgstr "Configurações"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:31
+msgid "Different options required for the basic operation of Starfish Reviews"
+msgstr "Diferentes opções necessárias para a operação básica do Starfish Reviews"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:39
+msgid "Defaults"
+msgstr "Padrões"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:69
+msgid "Starfish\Premium Reports"
+msgstr "Relatórios Starfish\Premium"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:70
+msgid "Reports"
+msgstr "Relatórios"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:20
+msgid "Add New Feedback"
+msgstr "Adicionar novo feedback"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:21
+msgid "New Feedback"
+msgstr "Novo Feedback"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:22
+msgid "Edit Feedback"
+msgstr "Editar feedback"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:23
+msgid "View Feedback"
+msgstr "Ver feedback"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:24
+msgid "All Feedback"
+msgstr "Todos os comentários"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:25
+msgid "Search Feedback"
+msgstr "Feedback de pesquisa"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:26
+msgid "Parent Feedback:"
+msgstr "Feedback dos pais:"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:27
+msgid "No Feedback found."
+msgstr "Nenhum feedback encontrado."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:28
+msgid "No Feedback found in Trash."
+msgstr "Nenhum feedback encontrado na lixeira."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:33
+#: init/actions/starfish-funnels.action.php:48
+msgid "Description."
+msgstr "Descrição."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:88
+msgid "Date & Time"
+msgstr "Data hora"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:89
+#: init/actions/starfish-feedback.action.php:110
+msgid "ID"
+msgstr "EU IRIA"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:90
+#: init/actions/starfish-feedback.action.php:111
+msgid "Reviewer"
+msgstr "Revisor"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:91
+#: init/actions/starfish-feedback.action.php:112
+msgid "Feedback"
+msgstr "Comentários"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:92
+#: init/actions/starfish-feedback.action.php:113
+msgid "Message"
+msgstr "mensagem"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:93
+#: init/actions/starfish-feedback.action.php:114
+msgid "Funnel"
+msgstr "Funil"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:94
+#: init/actions/starfish-feedback.action.php:115
+#: init/actions/starfish-funnels.action.php:301
+msgid "Destination"
+msgstr "Destino"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:138
+#: init/actions/starfish-feedback.action.php:153
+#: init/actions/starfish-feedback.action.php:165
+#: init/actions/starfish-feedback.action.php:173
+#: init/actions/starfish-feedback.action.php:182
+#: init/actions/starfish-feedback.action.php:192
+msgid "Premium Feature, Upgrade Now!"
+msgstr "Recurso Premium, atualize agora!"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:160
+msgid "Positive"
+msgstr "Positivo"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:162
+msgid "Negative"
+msgstr "Negativo"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:238
+#: init/actions/starfish-funnels.action.php:39
+msgid "All Funnels"
+msgstr "Todos os funis"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:31
+msgid "Add New Funnel"
+msgstr "Adicionar novo funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:32
+msgid "New Funnel"
+msgstr "Novo Funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:33
+msgid "Edit Funnel"
+msgstr "Editar funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:34
+msgid "Funnel Logo"
+msgstr "Logotipo do funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:35
+msgid "Set Funnel Logo"
+msgstr "Definir logotipo do funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:36
+msgid "Remove Funnel Logo"
+msgstr "Remover logotipo do funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:37
+msgid "Use as Funnel Logo"
+msgstr "Use como logotipo do funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:38
+msgid "View Funnel"
+msgstr "Ver funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:40
+msgid "Search Funnels"
+msgstr "Funis de pesquisa"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:41
+msgid "Parent Funnels:"
+msgstr "Funis pais:"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:42
+msgid "No Funnels found."
+msgstr "Nenhum funil encontrado."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:43
+msgid "No Funnels found in Trash."
+msgstr "Nenhum funil encontrado na lixeira."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:87
+msgid "Funnel Settings"
+msgstr "Configurações de funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:88
+msgid "Positive Response"
+msgstr "Resposta positiva"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:89
+msgid "Negative Response"
+msgstr "Resposta Negativa"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:91
+msgid "Toolbox"
+msgstr "Caixa de ferramentas"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:155
+msgid "Would you recommend {WP site name here}?"
+msgstr "Você recomendaria {WP site name here}?"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:157
+msgid ""
+"Shortcode <code>{site-name}</code> uses the site name as set in WP Settings "
+"-> General."
+msgstr ""
+"O shortcode <code>{site-name}</code> usa o nome do site conforme definido "
+"em Configurações WP -&gt; Geral."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:162
+msgid "Answer Buttons Style"
+msgstr "Estilo dos botões de resposta"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:166
+msgid "Thumbs outline"
+msgstr "Contorno dos polegares"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:168
+msgid "Thumbs solid"
+msgstr "Polegares sólidos"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:170
+msgid "Faces"
+msgstr "Rostos"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:172
+msgid "Symbol circles"
+msgstr "Círculos de símbolo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:201
+msgid "Funnel Shortcode"
+msgstr "Código abreviado do funil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:276
+msgid "Accepts HTML"
+msgstr "Aceita HTML"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:281
+msgid "Number of Destinations"
+msgstr "Número de destinos"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:285
+msgid "Single"
+msgstr "solteiro"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:287
+msgid "Multiple"
+msgstr "Múltiplo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:293
+msgid "Set Multiple Destinations"
+msgstr "Definir vários destinos"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:297
+msgid "Icon"
+msgstr "Ícone"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:298
+msgid "Preview"
+msgstr "Antevisão"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:299
+msgid "Icon Colors"
+msgstr "Cores do ícone"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:300
+#: init/actions/starfish-funnels.action.php:314
+#: init/actions/starfish-funnels.action.php:480
+msgid "Name"
+msgstr "Nome"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:310
+msgid "Upload New Icon"
+msgstr "Carregar Novo Ícone"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:311
+msgid "Select Icon"
+msgstr "Selecione o ícone"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:312
+msgid "Color"
+msgstr "Cor"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:313
+msgid "Background"
+msgstr "fundo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:315
+#: init/actions/starfish-funnels.action.php:350
+msgid "Review URL"
+msgstr "URL de revisão"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:346
+msgid "Review Destination<sup>*</sup>"
+msgstr "Reveja o destino <sup>*</sup>"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:352
+msgid ""
+"Destination URL is required (i.e \"http://google.com\"). Use for single and "
+"default destination."
+msgstr ""
+"O URL de destino é obrigatório (ou seja, \"http://google.com\"). Use para "
+"destino único e padrão."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:358
+msgid "Auto Redirect (seconds)"
+msgstr "Redirecionamento automático (segundos)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:367
+msgid "Auto-forward to destination URL after X number of seconds. 0 for disable."
+msgstr ""
+"Encaminhar automaticamente para o URL de destino após X segundos. 0 para "
+"desativar."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:372
+msgid "Submit Button (Positive)"
+msgstr "Botão Enviar (Positivo)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:472
+msgid "Additional Fields"
+msgstr "Campos Adicionais"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:487
+#: init/actions/starfish-funnels.action.php:503
+#: init/actions/starfish-funnels.action.php:519
+msgid "Required"
+msgstr "Requeridos"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:511
+msgid "Phone"
+msgstr "telefone"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:526
+msgid "Email Feedback"
+msgstr "Feedback por email"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:529
+msgid "email address(es)"
+msgstr "endereço de e-mail)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:531
+msgid ""
+"email address(es) to send negative feedback to. You can add comma separated "
+"multiple email addresses. Shortcode <code>{admin-email}</code> defaults to "
+"the email set in WP Settings -> General."
+msgstr ""
+"endereços de e-mail para os quais enviar feedback negativo. Você pode "
+"adicionar vários endereços de e-mail separados por vírgulas. O código curto "
+"<code>{admin-email}</code> padronizado para o e-mail definido em "
+"Configurações WP -&gt; Geral."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:536
+msgid "Submit Button (Negative)"
+msgstr "Botão Enviar (Negativo)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:545
+msgid "Thank You Message"
+msgstr "Mensagem de agradecimento"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:549
+msgid "Thank you!"
+msgstr "Obrigado!"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:554
+msgid "Disable Review Gating"
+msgstr "Desativar avaliação de portas"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:562
+msgid "Allow negative responses to proceed to review destination."
+msgstr "Permita que as respostas negativas prossigam para o destino da revisão."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:564
+msgid ""
+"It's recommended you use this when asking for Google and Yelp reviews, to "
+"comply with their policy of not selectively asking for reviews only from "
+"people with positive feedback."
+msgstr ""
+"É recomendável que você use isso ao solicitar avaliações do Google e do "
+"Yelp, para cumprir a política de não solicitar avaliações seletivamente "
+"apenas de pessoas com feedback positivo."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:569
+#: init/actions/starfish-funnels.action.php:571
+msgid "Skip Feedback Text"
+msgstr "Pular texto de feedback"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:581
+msgid ""
+"Link text to skip the Feedback form\n"
+"                        and leave a public review"
+msgstr ""
+"Texto do link para pular o formulário de feedback\n"
+"                        e deixar uma crítica pública"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:601
+msgid "Header text presented above the destination option(s) if feedback skipped"
+msgstr ""
+"Texto do cabeçalho apresentado acima das opções de destino se o feedback "
+"for ignorado"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:769
+msgid "Review Destination Name and URL are required"
+msgstr "O nome e o URL do destino da revisão são obrigatórios"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:776
+msgid "Review Destination URL must be a valid URL (i.e. http://google.com)"
+msgstr ""
+"O URL de destino da resenha deve ser um URL válido (ou seja, "
+"http://google.com)"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:36
+msgid "Upgrade to Marketer"
+msgstr "Atualize para o Marketer"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:40
+msgid "Upgrade to Webmaster"
+msgstr "Upgrade para Webmaster"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Starfish\Premium Reviews"
+msgstr "Críticas Starfish\Premium"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://starfish.reviews"
+msgstr "https://starfish.reviews"
+
+# automatic translation
+#. Description of the plugin/theme
+msgid ""
+"The #1 review generation and review marketing plugin for WordPress! "
+"Encourage your tribe to provide 5-star reviews on Google, Facebook, and "
+"many more."
+msgstr ""
+"O plug-in de marketing de revisão e revisão nº 1 para WordPress! Incentive "
+"sua tribo a fornecer avaliações 5 estrelas no Google, Facebook e muitos "
+"mais."

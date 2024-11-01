@@ -1,0 +1,53 @@
+.srm-notice {
+    padding: 10px 0 10px 10px;
+    overflow: hidden;
+}
+
+.srm-notice-content {
+	margin-top: 9px;
+}
+
+.srm-notice-icon {
+    float: left;
+    margin: 10px 10px 10px 0;
+    font-size: 25px;
+}
+
+button#srm-start-migrations {
+    margin: 10px 0 15px 0;
+}
+
+.notice-warning .srm-notice-icon .fas {
+    color: #ffb900;
+}
+
+.notice-info .srm-notice-icon .fas {
+    color: deepskyblue;
+}
+
+.srm-notice-content {
+    float: left;
+}
+
+.notice-error .srm-notice-icon {
+    color: #ffb900;
+}
+
+.srm-admin-actions {
+    float: right;
+    margin-left: 15px;
+}
+
+.srm-admin-actions.srm-admin-feedback .dropdown-menu {
+    width: 280px;
+}
+
+.srm-admin-actions.srm-admin-feedback .dropdown-menu .far {
+    color: orangered;
+    float: right;
+    margin: -24px 10px;
+}
+
+.srm-admin-actions .fa-trash-alt {
+    cursor: pointer;
+}

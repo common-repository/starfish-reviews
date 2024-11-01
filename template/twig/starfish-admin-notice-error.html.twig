@@ -1,0 +1,13 @@
+<div class="bootstrap-srm">
+    <div class="notice notice-error srm-notice">
+        {% if dismiss_meta is not empty %}
+            <button onclick="location.href='{{ request_uri|raw }}&srm-admin-notice-dismiss={{ dismiss_meta }}'"
+                    class="srm-admin-notice-dismiss-button button button-primary">Dismiss
+            </button>
+        {% endif %}
+        <div class="srm-notice-icon">
+            <i class="fas fa-exclamation-triangle"></i>
+        </div>
+        <div class="srm-notice-content"><p><strong>Starfish Reviews Notice</strong></p>{{ content | raw }}</div>
+    </div>
+</div>

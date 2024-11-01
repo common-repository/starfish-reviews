@@ -1,0 +1,32 @@
+<tr class="mulit_desti_row">
+    <td>
+        <select name="desti_icon[]" class="desti_icon">
+            <option>{{ select_icon_label }}</option>
+            {% for icon in icons %}
+                <option value="{{ icon.name }}"{% if icon.name == selected %} selected="selected"{% endif %}>{{ icon.name }}</option>
+            {% endfor %}
+        </select>
+        <div class="photo_upload_area">
+            <button class="upload_icon_button button-primary" title="Upload Icon"><i class='fas fa-upload'></i></button>
+            <input type='hidden' name="icon_photo_id[]" class="icon_photo_id" value='{{ icon_image_id }}'>
+        </div>
+    </td>
+    <td class="mtd_icon_preview">
+        <div class="multi-desti-buttons {{ selected|lower }}" {% if selected %}style="color: {{ icon_color }}; background: {{ icon_bg_color }}{% endif %}">
+        {% if icon_image_id != null %}
+            <img class="icon_image" src="{{ icon_image_url }}" alt="{{ destination_name }}" />
+        {% else %}
+            <span class="faicon_preview {% if selected == '' %}fas fa-question{% else %}{{ icons[selected|upper].class }}{% endif %}"></span>
+        {% endif %}
+        </div>
+    </td>
+    <td class="td-color-field">
+        <label for="srm_desti_color[]">{{ icon_color_label }}</label><br/>
+        <input {% if icon_image_id != null %}disabled{% endif %} type="text" class="medium-text color-field" name="srm_desti_color[]" value="{{ icon_color }}" placeholder="{% if icon_image_id != null %}Not Available{% else %}#666{% endif %}"><br/>
+        <label for="srm_desti_bg_color[]">{{ icon_bgcolor_label }}</label><br/>
+        <input type="text" class="medium-text color-field" name="srm_desti_bg_color[]" value="{{ icon_bg_color }}" placeholder="#dadada">
+    </td>
+    <td><input type="text" class="medium-text" name="srm_desti_name[]" value="{{ destination_name }}" placeholder="{{ destination_name_placeholder }}"></td>
+    <td><input type="text" class="medium-text" name="srm_desti_url[]" value="{{ destination_url }}" placeholder="{{ destination_url_placeholder }}"></td>
+    <td class="mr_add_remove {% if selected == '' %}btn-multi-desti-add{% else %}btn-multi-desti-remove{% endif %}"><span title="Add New Destination" class="fas {% if selected == '' %}fa-plus{% else %}fa-minus{% endif %}"></span></td>
+</tr>

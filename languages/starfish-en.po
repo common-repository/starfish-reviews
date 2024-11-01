@@ -1,0 +1,470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Starfish Reviews Lite\n"
+"POT-Creation-Date: 2018-02-14 21:11+0600\n"
+"PO-Revision-Date: 2018-02-14 21:11+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: starfish-reviews-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/default-settings.php:8
+msgid "Would you recommend {site-name}?"
+msgstr ""
+
+#: inc/default-settings.php:10
+msgid "Submit Review"
+msgstr ""
+
+#: inc/default-settings.php:12
+msgid ""
+"<h3>Excellent! Please Rate us 5-stars on {destination-name}</h3>...and leave "
+"a helpful review."
+msgstr ""
+
+#: inc/default-settings.php:14
+msgid ""
+"We're sorry we didn't meet expectations. How can we do better in the future?"
+msgstr ""
+
+#: inc/default-settings.php:16
+msgid "Thanks for your feedback. We'll review it and work to improve."
+msgstr ""
+
+#: inc/default-settings.php:22
+msgid "Feedback from Starfish Reviews"
+msgstr ""
+
+#: inc/default-settings.php:24
+msgid "Message: {review-message}"
+msgstr ""
+
+#: inc/starfish-funnels.php:11
+msgctxt "post type general name"
+msgid "Funnels"
+msgstr ""
+
+#: inc/starfish-funnels.php:12
+msgctxt "post type singular name"
+msgid "Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:13
+msgctxt "admin menu"
+msgid "Funnels"
+msgstr ""
+
+#: inc/starfish-funnels.php:14
+msgctxt "add new on admin bar"
+msgid "Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:15
+msgctxt "Funnel"
+msgid "Add New"
+msgstr ""
+
+#: inc/starfish-funnels.php:16
+msgid "Add New Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:17
+msgid "New Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:18
+msgid "Edit Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:19
+msgid "View Funnel"
+msgstr ""
+
+#: inc/starfish-funnels.php:20
+msgid "All Funnels"
+msgstr ""
+
+#: inc/starfish-funnels.php:21
+msgid "Search Funnels"
+msgstr ""
+
+#: inc/starfish-funnels.php:22
+msgid "Parent Funnels:"
+msgstr ""
+
+#: inc/starfish-funnels.php:23
+msgid "No Funnels found."
+msgstr ""
+
+#: inc/starfish-funnels.php:24
+msgid "No Funnels found in Trash."
+msgstr ""
+
+#: inc/starfish-funnels.php:29 inc/starfish-reviews.php:29
+msgid "Description."
+msgstr ""
+
+#: inc/starfish-funnels.php:107
+msgid "Review Destination URL Is Required"
+msgstr ""
+
+#: inc/starfish-funnels.php:115
+msgid ""
+"You have the lite version of Starfish Reviews, which limits you to 1 funnel. "
+"Please <a href=\"https://starfishwp.com/shop/\" target=\"_blank\">upgrade "
+"to</a> the Webmaster license if you need more."
+msgstr ""
+
+#: inc/starfish-reviews.php:11
+msgctxt "post type general name"
+msgid "Reviews"
+msgstr ""
+
+#: inc/starfish-reviews.php:12
+msgctxt "post type singular name"
+msgid "Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:13
+msgctxt "admin menu"
+msgid "Starfish Reviews"
+msgstr ""
+
+#: inc/starfish-reviews.php:14
+msgctxt "add new on admin bar"
+msgid "Starfish Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:15
+msgctxt "Review"
+msgid "Add New"
+msgstr ""
+
+#: inc/starfish-reviews.php:16
+msgid "Add New Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:17
+msgid "New Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:18
+msgid "Edit Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:19
+msgid "View Review"
+msgstr ""
+
+#: inc/starfish-reviews.php:20
+msgid "All Reviews"
+msgstr ""
+
+#: inc/starfish-reviews.php:21
+msgid "Search Reviews"
+msgstr ""
+
+#: inc/starfish-reviews.php:22
+msgid "Parent Reviews:"
+msgstr ""
+
+#: inc/starfish-reviews.php:23
+msgid "No Reviews found."
+msgstr ""
+
+#: inc/starfish-reviews.php:24
+msgid "No Reviews found in Trash."
+msgstr ""
+
+#: inc/starfish-reviews.php:65
+msgid "Reviews"
+msgstr ""
+
+#: inc/starfish-settings-process.php:6
+msgid "Settings saved."
+msgstr ""
+
+#: inc/starfish-settings-process.php:12
+msgid "Nonce unverified! Try again."
+msgstr ""
+
+#: inc/starfish-settings-process.php:18
+msgid "Destination URL Required"
+msgstr ""
+
+#: inc/starfish-settings-process.php:92
+msgid "WordPress.org"
+msgstr ""
+
+#: inc/starfish-settings-process.php:93
+msgid ""
+"Excellent! You've gotten some nice feedback from your Starfish Reviews "
+"funnel. Could you give Starfish Reviews an honest rating and review on "
+msgstr ""
+
+#: inc/starfish-settings-process.php:100
+msgid ""
+"We notice you've been using Starfish Reviews Lite a while now. Are you "
+"interested in more features and control? Check out our "
+msgstr ""
+
+#: inc/starfish-settings-process.php:101
+msgid "Starfish Reviews Pro "
+msgstr ""
+
+#: inc/starfish-settings-process.php:102
+msgid "editions of the plugin."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/starfish-settings.php:5
+msgid "Starfish Reviews Lite"
+msgstr ""
+
+#: inc/starfish-settings.php:6
+msgid ""
+"<strong>How to use this plugin:</strong> In the \"Review Destination\" "
+"field, put the URL where you'd like to receive reviews, then save changes. "
+"Now send the \"Review Page URL\" to your clients, followers, users, etc, "
+"asking for feedback. They'll be asked if they like your product or service. "
+"Those who do will be sent to the \"Review Destination\" to leave you a "
+"review. The ones who don't can submit their feedback and it will be emailed "
+"to you via the \"Email Settings\"."
+msgstr ""
+
+#: inc/starfish-settings.php:12
+msgid "Want More?"
+msgstr ""
+
+#: inc/starfish-settings.php:13
+msgid "Checkout our Business and Webmaster versions"
+msgstr ""
+
+#: inc/starfish-settings.php:15
+msgid "More Funnels"
+msgstr ""
+
+#: inc/starfish-settings.php:16
+msgid "Change the Prompts"
+msgstr ""
+
+#: inc/starfish-settings.php:17
+msgid "Priority Support"
+msgstr ""
+
+#: inc/starfish-settings.php:18
+msgid "Overall Rating"
+msgstr ""
+
+#: inc/starfish-settings.php:19
+msgid "Result Analytics"
+msgstr ""
+
+#: inc/starfish-settings.php:20
+msgid "Customize Wording"
+msgstr ""
+
+#: inc/starfish-settings.php:21
+msgid "Remove Branding"
+msgstr ""
+
+#: inc/starfish-settings.php:22
+msgid "Manage Feedback"
+msgstr ""
+
+#: inc/starfish-settings.php:23
+msgid "Vote on New Features"
+msgstr ""
+
+#: inc/starfish-settings.php:25
+msgid "Learn more"
+msgstr ""
+
+#: inc/starfish-settings.php:27
+msgid "Get Support for Reviews Lite"
+msgstr ""
+
+#: inc/starfish-settings.php:43
+msgid "Review Page URL"
+msgstr ""
+
+#: inc/starfish-settings.php:46
+msgid "Re-save WP Settings>Permalink if your funnel goes to a 404 page."
+msgstr ""
+
+#: inc/starfish-settings.php:49
+msgid "Review Destination<sup style=\"color:red;\">*</sup>"
+msgstr ""
+
+#: inc/starfish-settings.php:51
+msgid ""
+"This is where people with positive feedback will be taken to leave a review."
+msgstr ""
+
+#: inc/starfish-settings.php:54
+msgid "Destination Name"
+msgstr ""
+
+#: inc/starfish-settings.php:56
+msgid ""
+"People with positive feedback will be told \"Excellent! Please rate us 5-"
+"stars on (Destination Name here)\". Eg. if your \"Review Destination\" above "
+"links to Facebook, put \"Facebook\" here."
+msgstr ""
+
+#: inc/starfish-settings.php:59
+msgid "Affiliate URL"
+msgstr ""
+
+#: inc/starfish-settings.php:61
+msgid ""
+"Override \"Powered by Starfish\" link URL with <a href=\"https://starfishwp."
+"com/affiliate/?sub=creatives\" target=\"_blank\">your affiliate URL</a>."
+msgstr ""
+
+#: inc/starfish-settings.php:70 inc/starfish-settings.php:71
+#: template/srm-page-template.php:140 template/srm-page-template.php:142
+msgid "Powered by Starfish"
+msgstr ""
+
+#: inc/starfish-settings.php:73
+msgid ""
+"Show my appreciation and support for this plugin by displaying a small "
+"\"Powered by Starfish\" link at the bottom of the funnel."
+msgstr ""
+
+#: inc/starfish-settings.php:83 inc/starfish-settings.php:84
+msgid "Deactivation"
+msgstr ""
+
+#: inc/starfish-settings.php:86
+msgid ""
+"Delete all settings on deactivation. DO NOT use this option, unless you want "
+"to remove ALL Starfish Reviews settings and data."
+msgstr ""
+
+#: inc/starfish-settings.php:89
+msgid "Email Settings"
+msgstr ""
+
+#: inc/starfish-settings.php:91
+msgid "To Email"
+msgstr ""
+
+#: inc/starfish-settings.php:93
+msgid ""
+"Email address(es) to send negative feedback to. You can add comma separated "
+"multiple email addresses. Shortcode {admin-email} default to the email set "
+"in WP Settings->General"
+msgstr ""
+
+#: inc/starfish-settings.php:96
+msgid "From Name"
+msgstr ""
+
+#: inc/starfish-settings.php:98
+msgid ""
+"The name the email will appear to be from. Supports shortcode {site-name} to "
+"use the site's name."
+msgstr ""
+
+#: inc/starfish-settings.php:101
+msgid "From Email"
+msgstr ""
+
+#: inc/starfish-settings.php:103
+msgid ""
+"Email address the message will appear to be from. Supports shortcode {admin-"
+"email} to use the site's admin email."
+msgstr ""
+
+#: inc/starfish-settings.php:106
+msgid "Email Subject"
+msgstr ""
+
+#: inc/starfish-settings.php:108
+msgid "Subject of the email."
+msgstr ""
+
+#: inc/starfish-settings.php:111
+msgid "Message Template"
+msgstr ""
+
+#: inc/starfish-settings.php:112
+msgid "{reveiw-message}"
+msgstr ""
+
+#: inc/starfish-settings.php:113
+msgid ""
+"Contents of the message. Make sure to include shortcode {review-message}."
+msgstr ""
+
+#: inc/uninstall-default-settings.php:10
+msgid ""
+"<h3>Excellent! Please Rate us 5-stars</h3>...and leave a helpful review."
+msgstr ""
+
+#: starfish-reviews-lite.php:65
+msgid "Settings"
+msgstr ""
+
+#: starfish-reviews-lite.php:105
+msgid "Starfish Settings"
+msgstr ""
+
+#: starfish-reviews-lite.php:105
+msgid "Starfish Reviews"
+msgstr ""
+
+#: template/srm-page-template.php:12
+msgid "This funnel is not valid or published yet!"
+msgstr ""
+
+#: template/srm-page-template.php:16
+msgid "Please save starfish review setting and try again."
+msgstr ""
+
+#: template/srm-page-template.php:32
+msgid "Yes"
+msgstr ""
+
+#: template/srm-page-template.php:33
+msgid "No"
+msgstr ""
+
+#: template/srm-page-template.php:53
+msgid "Leave your review."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://starfishwp.com/reviews/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Encourage your customers to leave 5-star reviews on Google, Facebook, Yellow "
+"Pages, and more. See responses, monitor your reputation rating, and create "
+"multiple funnels with Starfish, the #1 reputation management plugin for "
+"WordPress!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Starfish"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://starfishwp.com"
+msgstr ""

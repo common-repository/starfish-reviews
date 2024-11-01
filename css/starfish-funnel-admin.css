@@ -1,0 +1,293 @@
+.button_style_preview {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.button_style_preview .faicon {
+	margin-right: 20px;
+}
+
+.faicon {
+	font-size: 30px;
+}
+
+.faicon_flip {
+	transform: rotate(360deg) scaleX(-1);
+}
+
+.iconyes {
+	color: #7ed026;
+}
+
+.iconno {
+	color: #e96e48;
+}
+
+table td.nopadding {
+	padding: 0;
+}
+
+table.mulit_desti_row_section {
+	margin-bottom: 20px;
+}
+
+table td.srm-icon-select {
+	width: 215px;
+}
+
+.multi_destination table tr td {
+	border-top: 1px solid #dadada;
+	padding-top: 10px;
+	text-align: left;
+	padding-bottom: 15px;
+	min-width: 215px;
+}
+
+.multi_destination table td {
+	padding: 0;
+}
+
+.multi_destination table th:nth-child(2) {
+	text-align: center;
+}
+
+.btn-multi-desti-add,
+.btn-multi-desti-remove {
+	cursor: pointer;
+	padding: 15px;
+	width: 25px;
+}
+
+.btn-multi-desti-add span {
+	color: #7ed026;
+}
+
+.btn-multi-desti-remove span {
+	color: #e96e48;
+}
+
+select.desti_icon {
+	float: left;
+	margin-right: 10px;
+}
+
+.photo_upload_area {
+	margin-top: -5px;
+	border-left: thin solid;
+	height: 35px;
+	padding-top: 6px;
+	padding-left: 5px;
+	float: left;
+}
+
+td.mtd_icon_preview {
+	text-align: center !important;
+}
+
+.mtd_icon_preview .faicon_preview {
+	font-size: 38px;
+}
+
+.mtd_icon_preview img {
+	max-width: 40px;
+	max-height: 40px;
+	vertical-align: bottom;
+	display: inline;
+}
+
+.mtd_icon_preview .multi-desti-buttons {
+	padding: 10px;
+	margin: 5px auto;
+	display: inline-block;
+	background: #dadada;
+	color: #666;
+	width: 70px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.mtd_icon_preview .multi-desti-buttons,
+div.yes-no-checked > .radio_item,
+div.yes-no-checked > .radio_item {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.mtd_icon_preview .multi-desti-buttons:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.dashicons_reviews {
+	margin: 4px 10px 0 0;
+}
+
+#srm_review_chart_wrap {
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.srm_review_rating, .srm_review_chart {
+	width: auto;
+	float: left;
+}
+
+.srm_review_chart {
+	margin-left: 10%;
+	margin-top: -35px;
+}
+
+.srm_review_rating .srm_admin_label {
+	font-size: 130%;
+	line-height: 1.5em;
+	width: 100px;
+	display: inline-block;
+}
+
+.srm_review_rating .srm_number {
+	font-size: 130%;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+#rating_status {
+	background: #FFFFFF;
+	border: 2px solid #000000;
+	display: inline-block;
+	font-size: 130%;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+span.review_status {
+	font-weight: bold;
+}
+
+.review_status.poor {
+	color: #e96e48;
+}
+
+.review_status.average {
+	color: #ffc200;
+}
+
+.review_status.good {
+	color: #00aeef;
+}
+
+.review_status.excellent {
+	color: #57b219;
+}
+
+.ask_checkbox_label {
+	margin-right: 20px;
+}
+
+.alert_message {
+	display: none;
+	color: #dc3232;
+}
+
+@media screen and (max-width: 981px) {
+	.srm_review_rating {
+		min-height: 200px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.srm_review_rating {
+		min-height: 200px;
+		margin: 0 auto;
+		float: none;
+		width: 200px;
+	}
+}
+
+#srm_public_review_text_field,
+#srm_skip_feedback_text_field {
+	display: none;
+}
+
+input.srm-ask-required,
+label.srm-ask-required {
+	display: none;
+}
+
+.srm-dialogue.srm-help-dialogue > img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(2px 2px 2px #999);
+}
+
+.srm-admin-funnel-field-group {
+	float: left;
+	margin-right: 25px;
+	min-height: 50px;
+	min-width: 96px;
+}
+
+.srm-admin-funnel-field-group-secondary {
+	margin-top: 10px
+}
+
+.srm-sort-handle {
+	cursor: grab;
+	width: 50px;
+	float: left;
+	margin-right: -20px;
+	padding-top: 8px;
+}
+
+.srm-sortable-placeholder {
+	border: thick dashed #fbe9e7;
+	border-radius: 25px;
+	margin: 25px;
+}
+
+#srm-multi-destinations {
+	border-collapse: collapse;
+}
+
+button#srm-start-migrations {
+	margin: 10px 0 15px 0;
+}
+
+input.srm-val-error {
+	border: thin solid #ff7075;
+	background: #fce3de;
+}
+
+.srm-funnel-side-metabox {
+
+}
+
+.srm-funnel-tool {
+	margin-bottom: 25px;
+}
+
+.srm-funnel-tool .srm-sidebar-subtitle {
+	font-size: 14px;
+}
+
+.srm-funnel-tool .srm-sidebar-subtext {
+	font-size: 12px;
+	margin-top: -30px;
+}
+
+#srm-funnel-embed-snippet a {
+	float: right;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+/*
+Unset styles to current theme's default
+Conflicting Themes: Elementor
+*/
+html {
+	font-size: unset !important;
+	display: unset !important;
+}

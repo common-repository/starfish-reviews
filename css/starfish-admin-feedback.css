@@ -1,0 +1,15 @@
+.faicon {
+    font-size: 30px;
+}
+
+.faicon_flip {
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.iconyes {
+    color: #7ed026;
+}
+
+.iconno {
+    color: #e96e48;
+}

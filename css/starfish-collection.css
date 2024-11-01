@@ -1,0 +1,109 @@
+.srm-collection {
+    line-height: 19px;
+}
+
+/* Hide Featured Image */
+#postimagediv {
+    display: none;
+    visibility: hidden;
+}
+
+.srm-collection-review {
+    min-height: 150px;
+    padding: 10px
+}
+
+.srm-collection-review-source {
+    float: right;
+    text-align: right;
+}
+
+.srm-collection-review-source img {
+    width: 25px;
+    border-radius: 5px;
+}
+
+.srm-collection-review-meta {
+    margin-top: 15px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.srm-collection-review-star {
+    color: #ffd800;
+}
+
+.srm-collection-review-avatar {
+
+}
+
+.srm-collection-review-text {
+
+}
+
+.srm-collection-review-avatar img {
+    border-radius: 25px;
+}
+
+.srm-collection-review-avatar-small {
+    height: 50px;
+}
+
+.srm-collection-review-avatar-medium {
+    height: 100px;
+}
+
+.srm-collection-review-avatar-large {
+    height: 200px;
+}
+
+.srm-collection-empty {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    color: orangered;
+}
+
+.srm-collection-empty .fas {
+    color: orange;
+    font-size: 32px;
+}
+
+/* CAROUSEL */
+.carousel-item {
+    margin-left: 5% !important;
+    width: 85% !important;
+}
+
+.carousel-indicators {
+    bottom: -15px !important;
+    margin-bottom: -5px !important;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators .dark {
+    background-color: dimgrey !important;
+}
+
+.carousel-control-prev-icon.dark {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-next-icon.dark {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10% !important;
+}
+
+.srm-collection-powered-by {
+    font-size: 80%;
+    text-align: center;
+    margin-top: 30px;
+}

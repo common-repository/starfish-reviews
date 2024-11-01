@@ -1,0 +1,173 @@
+.srm-settings-sidebar {
+	float: right;
+	border: thin solid #ccc;
+	border-radius: 10px;
+	padding: 25px;
+	width: 500px;
+	margin: -10px 25px 25px 25px;
+}
+
+.srm-settings-sidebar-title {
+	margin: -25px -25px 25px -25px;
+	background-color: #ccc;
+	display: block;
+	border-radius: 9px 9px 0 0;
+	padding: 10px 10px 10px 20px;
+	color: white;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.srm-settings-sidebar-title span {
+	margin-right: 10px;
+}
+
+.srm-settings-info {
+	margin-bottom: 25px;
+}
+
+.srm-settings-form .form-table {
+	clear: unset;
+	width: unset;
+}
+
+button.srm-settings-button {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 10px 10px 10px 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #555;
+	border-color: #cccccc;
+	background: #f7f7f7;
+	-webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+	box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, .08);
+	vertical-align: top;
+}
+
+button.srm-settings-caution-button:hover {
+	background-color: #ffe189;
+	border: thin solid #edc03b;
+}
+
+button.srm-settings-button-completed {
+	background-color: forestgreen !important;
+	color: white !important;
+	border: forestgreen !important;
+}
+
+button.srm-settings-button-failed {
+	background-color: indianred !important;
+	color: white !important;
+	border: indianred !important;
+}
+
+#srm-logging-console {
+	border: thin solid #ccc;
+	border-radius: 10px;
+	padding: 25px;
+	width: 100%;
+	margin: 10px 0px 25px 0px;
+}
+
+#srm-logging-content {
+	background-color: #5e5e5e;
+	color: #f5f9d1;
+	padding: 15px;
+	height: 500px;
+	overflow: hidden;
+}
+
+#srm-logging-content pre {
+	font-size: 0.75em;
+	color: antiquewhite;
+	line-height: 1;
+	height: 100%;
+}
+
+#srm-logging-actions {
+	margin-bottom: 15px;
+}
+
+#srm-logging-actions .fa {
+	margin-top: 8px;
+}
+
+#fs_account .postbox {
+	max-width: 850px;
+}
+
+#srm-settings-communitybar {
+	float: right;
+	max-width: 400px;
+	margin-top: -55px;
+}
+
+#srm-settings-communitybar a {
+	display: block;
+	text-decoration: none;
+}
+
+.srm-settings-siteinfo-button {
+    float: right;
+}
+
+.srm-community-bar-tile {
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: lightskyblue;
+	min-height: 110px;
+}
+
+.srm-community-bar-tile i {
+	float: left;
+	margin: 10px 20px 15px 15px;
+	font-size: 65px;
+}
+
+.srm-community-bar-title {
+	color: white;
+}
+
+.srm-community-bar-text {
+	color: dimgrey;
+	font-size: 16px;
+}
+
+.srm-nav-tab-section-wrapper li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	float: left;
+}
+
+.srm-nav-tab-section-wrapper a {
+	text-decoration: underline;
+	color: #0000FFFF;
+}
+
+.srm-nav-tab-section-active {
+	font-weight: bold;
+	text-decoration: none !important;
+	color: #000 !important
+}
+
+/**  TESTIMONIAL SETTINGS **/
+#srm-testimonial-instructions h5 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}

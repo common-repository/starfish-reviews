@@ -1,0 +1,1184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Starfish Reviews\n"
+"PO-Revision-Date: 2020-03-17 12:13-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: starfish-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,"
+"2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__"
+"ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: srm-app\n"
+"X-Poedit-SearchPathExcluded-2: composer\n"
+"X-Poedit-SearchPathExcluded-3: webfonts\n"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:49
+#, php-format
+msgid ""
+"Your current plan (%1$s) supports Ready-Only view of the captured "
+"Feeedback. %2$s"
+msgstr ""
+"Din nåværende plan (%1$s) støtter Ready-Only-visning av den tilbakeførte "
+"tilbakebetalingen. %2$s"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51
+msgid "Upgrade Starfish\Premium Plan"
+msgstr "Oppgrader Starfish\Premium Plan"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51 classes/SRM_FUNNELS.class.php:107
+msgid "Upgrade your plan!"
+msgstr "Oppgrader planen din!"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:106
+#, php-format
+msgid ""
+"Your current plan (%1$s) only allows for %2$s published funnel at a time. "
+"%4$s"
+msgid_plural ""
+"Your current plan (%1$s) only allows for %2$s published funnels at a time. "
+"%4$s"
+msgstr[0] ""
+"Gjeldende abonnement (%1$s) tillater bare %2$s publisert trakt om "
+"gangen. %4$s"
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:108
+msgid ""
+"The newest %1$n funnel has been set to Draft status to bring your account "
+"within compliance."
+msgid_plural ""
+"The newest %1$n funnels have been set to Draft status to bring your account "
+"within compliance."
+msgstr[0] ""
+"Den nyeste %1$n-trakten er satt til Utkast-status for å bringe kontoen "
+"din i samsvar."
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:201 classes/SRM_FUNNELS.class.php:241
+msgid "Please enter your name."
+msgstr "Vennligst skriv inn navnet ditt."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:206
+msgid "Please enter a valid email."
+msgstr "Vennligst skriv inn en gyldig e-postadresse."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:211 classes/SRM_FUNNELS.class.php:243
+msgid "Please enter your phone."
+msgstr "Vennligst skriv inn telefonen din."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:214 classes/SRM_FUNNELS.class.php:246
+msgid "Leave your review."
+msgstr "Legg igjen din anmeldelse."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:215 classes/SRM_FUNNELS.class.php:247
+msgid "Your Name"
+msgstr "Navnet ditt"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:216 classes/SRM_FUNNELS.class.php:248
+msgid "Your Email"
+msgstr "Din epost"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:217
+msgid "Your Phone"
+msgstr "Din telefon"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:218
+msgid "Sending..."
+msgstr "Sender ..."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:219 classes/SRM_SETTINGS.class.php:759
+msgid "Leave a Public Review"
+msgstr "Legg igjen en offentlig gjennomgang"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:220
+msgid "You need to enter at least {0} characters"
+msgstr "Du må oppgi minst {0} tegn"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:222 classes/SRM_SETTINGS.class.php:696
+msgid "Skip this feedback and leave a public review."
+msgstr "Hopp over denne tilbakemeldingen og legg igjen en offentlig anmeldelse."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:231
+msgid "Yes"
+msgstr "Ja"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:232
+msgid "No"
+msgstr "Nei"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:233
+msgid "Your Review"
+msgstr "Din vurdering"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:234
+msgid "Full name"
+msgstr "Fullt navn"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:235
+msgid "Email Address"
+msgstr "Epostadresse"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:236
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:237
+msgid "indicates required fields"
+msgstr "Må utfylles"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:240
+msgid "Please provide a review."
+msgstr "Vennligst gi en anmeldelse."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:242
+msgid "Please enter your email."
+msgstr "Vennligst skriv inn e-postadressen din."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:249
+msgid "Your phone."
+msgstr "Din telefon."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:341
+msgid "Starfish Notice"
+msgstr "Merknad om sjøstjerner"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:342
+#, php-format
+msgid "This funnel (%1$s) is not valid or published yet!"
+msgstr "Denne trakten (%1$s) er ikke gyldig eller publisert ennå!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:67
+msgid "Successfully completed migration! "
+msgstr "Vellykket fullført migrering!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:76 classes/SRM_MIGRATIONS.class.php:89
+msgid "Failed to update Starfish\Premium Migration schema"
+msgstr "Kunne ikke oppdatere sjøstjerneoverføringsskjemaet"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:75 init/actions/starfish-admin.action.php:35
+msgid "General"
+msgstr "Generell"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:83 init/actions/starfish-admin.action.php:37
+#: init/actions/starfish-funnels.action.php:495
+msgid "Email"
+msgstr "E-post"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:91
+msgid "Funnels "
+msgstr "Trakter"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:110
+msgid "Reply-To ID"
+msgstr "Svar-ID"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:116
+msgid "Will only be used if ID is a properly formatted email address."
+msgstr "Vil bare brukes hvis ID er en riktig formatert e-postadresse."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:122
+msgid "From Name"
+msgstr "Fra navn"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:128
+msgid "Supports shortcode {site-name} to use the site's name."
+msgstr "Støtter kortnummer {site-name} for å bruke nettstedets navn."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:134
+msgid "From Email"
+msgstr "Fra e-post"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:140 classes/SRM_SETTINGS.class.php:176
+msgid "Supports shortcode {admin-email} to use the site's Administrator's email."
+msgstr ""
+"Støtter kortnummer {admin-e-post} for å bruke nettstedets "
+"administrator-e-post."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:146
+msgid "Email Subject"
+msgstr "E-post Emne"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:152
+msgid "Supports shortcode {funnel-name} and {tracking-id}."
+msgstr "Støtter kortnummer {trakt-navn} og {sporings-id}."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:158
+msgid "Message Template"
+msgstr "Meldingsmal"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:164
+msgid ""
+"Make sure to include shortcode {review-message}. Also supports "
+"{funnel-name}, {tracking-id}, {reviewer-name}, {reviewer-email} and "
+"{reviewer-phone}."
+msgstr ""
+"Sørg for å ta med kortnummer {review-message}. Støtter også {funnel-name}, "
+"{tracking-id}, {reviewer-name}, {reviewer-email} og {reviewer-phone}."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:170
+msgid "Feedback Email"
+msgstr "Tilbakemelding E-post"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:189
+msgid "Funnel Slug"
+msgstr "Trakt Slug"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:195
+msgid ""
+"The Funnel post-type slug. Note: Re-save <a "
+"href=/wp-admin/options-permalink.php\" title=\"Settings "
+"Permalink\">Permalinks</a> if your funnel goes to a 404 page."
+msgstr ""
+"Trakten etter typen slug. Merk: Lagre <a "
+"href=/wp-admin/options-permalink.php\" title=\"Innstillinger "
+"Permalink\">permelinkene på nytt</a> hvis trakten går til en 404-side."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:201
+msgid "Branding"
+msgstr "Merkevarebygging"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:207
+msgid "Turn off branding on Funnel pages."
+msgstr "Slå av merkevarebygging på trakt-sider."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:213
+msgid "Branding Content"
+msgstr "Merkevareinnhold"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid "Insert HTML for your branding. Consider joining"
+msgstr "Sett inn HTML for merkevaren din. Vurder å bli med"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid " and inserting your affiliate link here."
+msgstr " og sette inn tilknyttet lenke her."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:225
+msgid "Clean On Deactivation"
+msgstr "Rengjør ved deaktivering"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:231
+msgid ""
+"DO NOT use this option, unless you want to remove ALL Starfish Reviews "
+"settings and data."
+msgstr ""
+"IKKE bruk dette alternativet, med mindre du vil fjerne ALLE innstillinger "
+"og data for Starfish Reviews."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:244
+msgid "Feedback Thank You Message"
+msgstr "Tilbakemelding takkemelding"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:250
+msgid "Message displayed after feedback has been submitted on a \"No\" response."
+msgstr "Melding som vises etter tilbakemelding på \"Nei\" -svar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:256
+msgid "Feedback Prompt"
+msgstr "Tilbakemelding"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:262
+msgid "Message displayed after submitting a \"No\" response."
+msgstr "Meldingen vises etter at du har sendt et \"Nei\" -svar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:268
+#: init/actions/starfish-funnels.action.php:269
+#: init/actions/starfish-funnels.action.php:462
+msgid "Review Prompt"
+msgstr "Gjennomgå ledeteksten"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:274
+msgid "Message displayed after submitting a \"Yes\" response."
+msgstr "Meldingen vises etter at du har sendt et \"Ja\" -svar."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:280
+msgid "Submit Button Text on \"No\""
+msgstr "Send knappetekst på \"Nei\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:286
+msgid "When a user selects \"NO\" this text will be used on the Submit Button."
+msgstr "Når en bruker velger \"NEI\", vil denne teksten bli brukt på Send-knappen."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:292
+msgid "Submit Button Text on \"Yes\""
+msgstr "Send knappetekst på \"Ja\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:298
+msgid "When a user selects \"YES\" this text will be used on the Submit Button."
+msgstr "Når en bruker velger \"JA\", vil denne teksten bli brukt på Send-knappen."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:304
+#: init/actions/starfish-funnels.action.php:149
+msgid "Yes/No Question"
+msgstr "Ja / nei spørsmål"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:310
+msgid "The prompt to recommend this website or not."
+msgstr "Spørsmålet om å anbefale dette nettstedet eller ikke."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:316
+#: init/actions/starfish-funnels.action.php:591
+#: init/actions/starfish-funnels.action.php:593
+msgid "Public Review Text"
+msgstr "Offentlig gjennomgangstekst"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:322
+msgid ""
+"The text shown above the button(s) to leave a review after skipping "
+"negative feedback"
+msgstr ""
+"Teksten som vises over knappene for å gi en anmeldelse etter å ha hoppet "
+"over negativ tilbakemelding"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:328
+msgid "Yes Redirect Seconds"
+msgstr "Ja Viderekoble sekunder"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:334
+msgid "How many seconds to wait before redirecting to the review site."
+msgstr "Hvor mange sekunder å vente før omdirigering til gjennomgangssiden."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:340
+msgid "Skip Feedback Link Text"
+msgstr "Hopp over tilbakemeldingstekst"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:346
+msgid ""
+"The link text for skipping the feedback form (Requires the Funnel 'Disable "
+"Review Gating' to be disabled)."
+msgstr ""
+"Koblingsteksten for å hoppe over tilbakemeldingsskjemaet (Krever at trakt "
+"'Disable Review Gating' deaktiveres)."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:357 classes/SRM_SETTINGS.class.php:365
+#, php-format
+msgid "Specify %1$s settings below"
+msgstr "Angi %1$s innstillinger nedenfor"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:373
+#, php-format
+msgid ""
+"Specify the default %1$s settings below. These will apply when creating new "
+"<a href=\"%2$s\" title=\"View Funnels\">Funnels</a>."
+msgstr ""
+"Angi standardinnstillingene for %1$s nedenfor. Disse gjelder når du "
+"oppretter nye <a href=\"%2$s\" title=\"Vis trakter\">trakter</a> ."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:376
+msgid "Settings Toolbox"
+msgstr "Innstillingsverktøykasse"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:377
+msgid "Restore System Defaults"
+msgstr "Gjenopprett systemstandarder"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:378
+msgid "Replace all existing values with the system defaults."
+msgstr "Erstatt alle eksisterende verdier med systemstandardene."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:605
+msgid "Use submitter ID as \"reply-to\" email address."
+msgstr "Bruk sender-ID som \"svar på\" e-postadresse."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:613
+msgid "The name the email will appear to be from."
+msgstr "Navnet e-posten ser ut til å være fra."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:621
+msgid "Email address the message will appear to be from."
+msgstr "E-postadressen meldingen ser ut til å være fra."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:629
+msgid "Subject of the email."
+msgstr "E-postens emne."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:632
+msgid "Feedback from {funnel-name}"
+msgstr "Tilbakemelding fra {funnel-name}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:637
+msgid "Contents of the message."
+msgstr "Innholdet i meldingen."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:640
+msgid ""
+"Submitter ID: {tracking-id}<br/>Message: "
+"{review-message}<br/>{reviewer-name}<br/>{reviewer-email}<br/>{reviewer-"
+"phone}"
+msgstr ""
+"Innsender-ID: {tracking-id} <br/> Melding: {review-message} <br/> "
+"{anmelder-navn} <br/> {anmelder-e-post} <br/> {anmelder-telefon}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:645
+msgid "The email address which feedback is sent to."
+msgstr "E-postadressen som tilbakemeldingen sendes til."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:657
+msgid "Change the Funnel Slug"
+msgstr "Endre traktens slug"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:665
+msgid "Turn off Starfish\Premium branding on Funnel pages."
+msgstr "Slå av Starfish\Premium-merkevarebygging på trakt-sider."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:673
+msgid "Delete all settings on deactivation."
+msgstr "Slett alle innstillinger ved deaktivering."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:681
+msgid "Override \"Powered by Starfish\Premium\" Link"
+msgstr "Overstyr \"Powered by Starfish\Premium\" -linken"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:684
+msgid ""
+"Powered by <a href=\"https://starfish.reviews\" title=\"Review Generation "
+"on WordPress\" target=\"_blank\" rel=\"nofollow\">Starfish Reviews</a>"
+msgstr ""
+"Drevet av <a href=\"https://starfish.reviews\" title=\"Gjennomgå Generation "
+"på WordPress\" target=\"_blank\" rel=\"nofollow\">Starfish Reviews</a>"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:693
+msgid "Text for the link to skip the feedback form"
+msgstr "Tekst for lenken for å hoppe over tilbakemeldingsskjemaet"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:702
+msgid "The message shown after submitting Feedback."
+msgstr "Meldingen som vises etter tilbakemelding."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:705
+msgid "Thanks for your feedback. We'll review it and work to improve."
+msgstr "Takk for din tilbakemelding. Vi vurderer det og jobber for å forbedre det."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:711
+msgid "The message shown above the Feedback form."
+msgstr "Meldingen som vises over tilbakemeldingsskjemaet."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:714
+#: init/actions/starfish-funnels.action.php:466
+msgid "We're sorry we didn't meet expectations. How can we do better in the future?"
+msgstr ""
+"Vi beklager at vi ikke oppfylte forventningene. Hvordan kan vi gjøre det "
+"bedre i fremtiden?"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:720
+msgid "The message shown above the destination options."
+msgstr "Meldingen som vises over destinasjonsalternativene."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:723
+msgid "<h3>Excellent! Please Rate us 5-stars</h3>...and leave a helpful review."
+msgstr ""
+"<h3> Utmerket! Vennligst ranger oss 5 stjerner </h3> ... og legg igjen en "
+"nyttig anmeldelse."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:729
+msgid "The feedback submit button text."
+msgstr "Tilbakemeldingene send inn knappetekst."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:732
+#: init/actions/starfish-funnels.action.php:540
+msgid "Send Feedback"
+msgstr "Send tilbakemelding"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:738
+msgid "The button text for submitting a review on single destination funnels."
+msgstr "Knappeteksten for å sende inn en anmeldelse på enkeltmålstrakter."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:741
+#: init/actions/starfish-funnels.action.php:377
+msgid "Submit Review"
+msgstr "Send anmeldelse"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:747
+msgid "The main funnel question text."
+msgstr "Hovedtraktspørsmålsteksten."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:750
+msgid "Would you recommend {site-name}?"
+msgstr "Vil du anbefale {site-name}?"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:756
+msgid "The text for leaving a public review after submitting feedback."
+msgstr ""
+"Teksten for å legge igjen en offentlig gjennomgang etter innlevering av "
+"tilbakemelding."
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:765
+msgid ""
+"The number of seconds to wait before auto-redirecting to the single "
+"destination."
+msgstr ""
+"Antall sekunder å vente før automatisk omdirigering til den enkelte "
+"destinasjonen."
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:13
+msgid "Starfish Reviews needs to perform updates to the database"
+msgstr "Starfish Reviews må utføre oppdateringer til databasen"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:14
+msgid "Pending Updates:"
+msgstr "Ventende oppdateringer:"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:19
+msgid "Click the button to allow Starfish\Premium to automatically perform these updates"
+msgstr ""
+"Klikk på knappen for å tillate at Starfish\Premium automatisk utfører disse "
+"oppdateringene"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:38
+msgid "The following Starfish Reviews migrations are currently in a FAILED status"
+msgstr "Følgende migrasjoner av Starfish Reviews er for øyeblikket i MISLAGT-status"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:61
+msgid "The following Starfish Reviews migrations completed successfully"
+msgstr "Følgende migrasjoner av Starfish Reviews ble fullført"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:79
+#, php-format
+msgid ""
+"In order to activate Starfish Reviews a PHP Version of %1$s or greater is "
+"required, currently PHP Version %2$s is found."
+msgstr ""
+"For å aktivere Starfish Reviews kreves det en PHP-versjon på %1$s eller "
+"høyere. For øyeblikket er PHP-versjon %2$s funnet."
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:14
+#: init/actions/starfish-admin.action.php:29
+msgid "Starfish\Premium Settings"
+msgstr "Starfish\Premium Settings"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:15
+#: init/filters/starfish-action-links.filter.php:32
+msgid "Settings"
+msgstr "Innstillinger"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:31
+msgid "Different options required for the basic operation of Starfish Reviews"
+msgstr "Ulike alternativer som kreves for grunnleggende drift av Starfish Reviews"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:39
+msgid "Defaults"
+msgstr "Standardinnstillinger"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:69
+msgid "Starfish\Premium Reports"
+msgstr "Starfish\Premium Reports"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:70
+msgid "Reports"
+msgstr "Rapporter"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:20
+msgid "Add New Feedback"
+msgstr "Legg til ny tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:21
+msgid "New Feedback"
+msgstr "Ny tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:22
+msgid "Edit Feedback"
+msgstr "Rediger tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:23
+msgid "View Feedback"
+msgstr "Se tilbakemeldinger"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:24
+msgid "All Feedback"
+msgstr "All tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:25
+msgid "Search Feedback"
+msgstr "Søk tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:26
+msgid "Parent Feedback:"
+msgstr "Foreldres tilbakemelding:"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:27
+msgid "No Feedback found."
+msgstr "Ingen tilbakemeldinger funnet."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:28
+msgid "No Feedback found in Trash."
+msgstr "Ingen tilbakemeldinger funnet i papirkurven."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:33
+#: init/actions/starfish-funnels.action.php:48
+msgid "Description."
+msgstr "Beskrivelse."
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:88
+msgid "Date & Time"
+msgstr "Dato tid"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:89
+#: init/actions/starfish-feedback.action.php:110
+msgid "ID"
+msgstr "ID"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:90
+#: init/actions/starfish-feedback.action.php:111
+msgid "Reviewer"
+msgstr "Anmelder"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:91
+#: init/actions/starfish-feedback.action.php:112
+msgid "Feedback"
+msgstr "Tilbakemelding"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:92
+#: init/actions/starfish-feedback.action.php:113
+msgid "Message"
+msgstr "Beskjed"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:93
+#: init/actions/starfish-feedback.action.php:114
+msgid "Funnel"
+msgstr "Trakt"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:94
+#: init/actions/starfish-feedback.action.php:115
+#: init/actions/starfish-funnels.action.php:301
+msgid "Destination"
+msgstr "Mål"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:138
+#: init/actions/starfish-feedback.action.php:153
+#: init/actions/starfish-feedback.action.php:165
+#: init/actions/starfish-feedback.action.php:173
+#: init/actions/starfish-feedback.action.php:182
+#: init/actions/starfish-feedback.action.php:192
+msgid "Premium Feature, Upgrade Now!"
+msgstr "Premium Feature, oppgrader nå!"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:160
+msgid "Positive"
+msgstr "Positivt"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:162
+msgid "Negative"
+msgstr "Negativ"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:238
+#: init/actions/starfish-funnels.action.php:39
+msgid "All Funnels"
+msgstr "Alle trakter"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:31
+msgid "Add New Funnel"
+msgstr "Legg til ny trakt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:32
+msgid "New Funnel"
+msgstr "Ny trakt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:33
+msgid "Edit Funnel"
+msgstr "Rediger trakt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:34
+msgid "Funnel Logo"
+msgstr "Traktlogo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:35
+msgid "Set Funnel Logo"
+msgstr "Sett traktlogo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:36
+msgid "Remove Funnel Logo"
+msgstr "Fjern traktlogo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:37
+msgid "Use as Funnel Logo"
+msgstr "Bruk som traktlogo"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:38
+msgid "View Funnel"
+msgstr "Vis trakt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:40
+msgid "Search Funnels"
+msgstr "Søk i trakter"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:41
+msgid "Parent Funnels:"
+msgstr "Foreldretrakter:"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:42
+msgid "No Funnels found."
+msgstr "Ingen trakter funnet."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:43
+msgid "No Funnels found in Trash."
+msgstr "Ingen trakter funnet i papirkurven."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:87
+msgid "Funnel Settings"
+msgstr "Traktinnstillinger"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:88
+msgid "Positive Response"
+msgstr "Positiv respons"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:89
+msgid "Negative Response"
+msgstr "Negativt svar"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:91
+msgid "Toolbox"
+msgstr "Verktøykasse"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:155
+msgid "Would you recommend {WP site name here}?"
+msgstr "Vil du anbefale {WP-nettstedets navn her}?"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:157
+msgid ""
+"Shortcode <code>{site-name}</code> uses the site name as set in WP Settings "
+"-> General."
+msgstr ""
+"Shortcode <code>{site-name}</code> bruker nettstedsnavnet som angitt i "
+"WP-innstillinger -&gt; Generelt."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:162
+msgid "Answer Buttons Style"
+msgstr "Svar Knapper Stil"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:166
+msgid "Thumbs outline"
+msgstr "Tommelen skisserer"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:168
+msgid "Thumbs solid"
+msgstr "Tommelen solid"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:170
+msgid "Faces"
+msgstr "Ansikter"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:172
+msgid "Symbol circles"
+msgstr "Symbol sirkler"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:201
+msgid "Funnel Shortcode"
+msgstr "Trakt Shortcode"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:276
+msgid "Accepts HTML"
+msgstr "Godtar HTML"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:281
+msgid "Number of Destinations"
+msgstr "Antall destinasjoner"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:285
+msgid "Single"
+msgstr "Enkelt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:287
+msgid "Multiple"
+msgstr "Flere"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:293
+msgid "Set Multiple Destinations"
+msgstr "Angi flere destinasjoner"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:297
+msgid "Icon"
+msgstr "Ikon"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:298
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:299
+msgid "Icon Colors"
+msgstr "Ikonfarger"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:300
+#: init/actions/starfish-funnels.action.php:314
+#: init/actions/starfish-funnels.action.php:480
+msgid "Name"
+msgstr "Navn"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:310
+msgid "Upload New Icon"
+msgstr "Last opp nytt ikon"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:311
+msgid "Select Icon"
+msgstr "Velg Ikon"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:312
+msgid "Color"
+msgstr "Farge"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:313
+msgid "Background"
+msgstr "Bakgrunn"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:315
+#: init/actions/starfish-funnels.action.php:350
+msgid "Review URL"
+msgstr "Gå gjennom URL"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:346
+msgid "Review Destination<sup>*</sup>"
+msgstr "Gjennomgå destinasjon <sup>*</sup>"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:352
+msgid ""
+"Destination URL is required (i.e \"http://google.com\"). Use for single and "
+"default destination."
+msgstr ""
+"Destinasjons-URL kreves (dvs. \"http://google.com\"). Brukes for enkelt og "
+"standard destinasjon."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:358
+msgid "Auto Redirect (seconds)"
+msgstr "Automatisk omdirigering (sekunder)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:367
+msgid "Auto-forward to destination URL after X number of seconds. 0 for disable."
+msgstr ""
+"Automatisk videresending til destinasjons-URL etter X antall sekunder. 0 "
+"for deaktivering."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:372
+msgid "Submit Button (Positive)"
+msgstr "Send-knapp (positiv)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:472
+msgid "Additional Fields"
+msgstr "Flere felt"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:487
+#: init/actions/starfish-funnels.action.php:503
+#: init/actions/starfish-funnels.action.php:519
+msgid "Required"
+msgstr "Påkrevd"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:511
+msgid "Phone"
+msgstr "Telefon"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:526
+msgid "Email Feedback"
+msgstr "Tilbakemelding på e-post"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:529
+msgid "email address(es)"
+msgstr "e-post adresse)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:531
+msgid ""
+"email address(es) to send negative feedback to. You can add comma separated "
+"multiple email addresses. Shortcode <code>{admin-email}</code> defaults to "
+"the email set in WP Settings -> General."
+msgstr ""
+"e-postadresse (r) å sende negativ tilbakemelding til. Du kan legge til "
+"kommaadskilte flere e-postadresser. Kortnummer <code>{admin-email}</code> "
+"standard e-postsett i WP-innstillinger -&gt; Generelt."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:536
+msgid "Submit Button (Negative)"
+msgstr "Send-knapp (negativ)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:545
+msgid "Thank You Message"
+msgstr "Takk melding"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:549
+msgid "Thank you!"
+msgstr "Takk skal du ha!"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:554
+msgid "Disable Review Gating"
+msgstr "Deaktiver anmeldelse Gating"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:562
+msgid "Allow negative responses to proceed to review destination."
+msgstr "Tillat negative svar for å gå videre til gjennomgang av destinasjonen."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:564
+msgid ""
+"It's recommended you use this when asking for Google and Yelp reviews, to "
+"comply with their policy of not selectively asking for reviews only from "
+"people with positive feedback."
+msgstr ""
+"Det anbefales at du bruker dette når du ber om Google- og Yelp-anmeldelser, "
+"for å overholde retningslinjene deres om ikke bare å be om anmeldelser fra "
+"personer med positive tilbakemeldinger."
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:569
+#: init/actions/starfish-funnels.action.php:571
+msgid "Skip Feedback Text"
+msgstr "Hopp over tilbakemeldingstekst"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:581
+msgid ""
+"Link text to skip the Feedback form\n"
+"                        and leave a public review"
+msgstr ""
+"Lenke tekst for å hoppe over tilbakemeldingsskjemaet\n"
+"                        og legge igjen en offentlig gjennomgang"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:601
+msgid "Header text presented above the destination option(s) if feedback skipped"
+msgstr ""
+"Overskriftstekst presentert over destinasjonsalternativet hvis "
+"tilbakemelding hoppet over"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:769
+msgid "Review Destination Name and URL are required"
+msgstr "Navn på destinasjon og URL er påkrevd"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:776
+msgid "Review Destination URL must be a valid URL (i.e. http://google.com)"
+msgstr ""
+"Destinasjonsadresse for gjennomgang må være en gyldig nettadresse (dvs. "
+"http://google.com)"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:36
+msgid "Upgrade to Marketer"
+msgstr "Oppgrader til Markedsfører"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:40
+msgid "Upgrade to Webmaster"
+msgstr "Oppgrader til Webmaster"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Starfish Reviews"
+msgstr "Starfish Anmeldelser"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://starfish.reviews"
+msgstr "https://starfish.reviews"
+
+# automatic translation
+#. Description of the plugin/theme
+msgid ""
+"The #1 review generation and review marketing plugin for WordPress! "
+"Encourage your tribe to provide 5-star reviews on Google, Facebook, and "
+"many more."
+msgstr ""
+"Den # 1 gjennomgang generasjon og gjennomgang markedsføring plugin for "
+"WordPress! Oppmuntre stammen din til å gi 5-stjerners anmeldelser på "
+"Google, Facebook og mange flere."

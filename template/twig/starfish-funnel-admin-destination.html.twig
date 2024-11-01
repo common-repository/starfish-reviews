@@ -1,0 +1,57 @@
+<div class="bootstrap-srm">
+    <tr class="mulit_desti_row {% if empty_row %}srm-desti-empty{% endif %}">
+        <td class="srm-icon-select">
+            {% if not empty_row %}
+                <span class="srm-sort-handle fas fa-bars fa-lg" title="Drag to Reorder"></span>
+            {% endif %}
+            <select name="desti_icon[]" class="desti_icon">
+                <option value="">{{ select_icon_label }}</option>
+                {% for icon in icons %}
+                    <option value="{{ icon.name }}"{% if icon.name == selected %} selected="selected"{% endif %}>{{ icon.name }}</option>
+                {% endfor %}
+            </select>
+            <div class="photo_upload_area">
+                <button class="upload_icon_button button-primary" title="Upload Icon"><i class='fas fa-upload'></i></button>
+                <input type='hidden' name="icon_photo_id[]" class="icon_photo_id" value='{{ icon_image_id }}'>
+            </div>
+        </td>
+        <td class="mtd_icon_preview">
+            <div class="multi-desti-buttons {{ selected|lower }}"
+                 style="{% if icon_color %}color: {{ icon_color }}; {% endif %}{% if icon_bg_color %}background: {{ icon_bg_color }}{% endif %}">
+                {% if icon_image_id != null and selected == null %}
+                    <img class="icon_image" src="{{ icon_image_url }}" alt="{{ destination_name }}"/>
+                {% else %}
+                    <span class="faicon_preview {% if selected == '' %}fas fa-question{% else %}{{ icons[selected|upper].class }}{% endif %}"></span>
+                {% endif %}
+            </div>
+        </td>
+        <td class="td-color-field">
+            <label for="srm_desti_color[]">{{ icon_color_label }}</label><br/>
+            <input type="text" class="medium-text color-field" name="srm_desti_color[]" value="{{ icon_color }}"
+                   placeholder="{% if icon_image_id !=
+                       null %}Not Available{% else %}#666{% endif %}"
+                   {% if icon_image_id != null %}readonly{% endif %}><br/>
+            <label for="srm_desti_bg_color[]">{{ icon_bgcolor_label }}</label><br/>
+            <input type="text" class="medium-text color-field" name="srm_desti_bg_color[]" value="{{ icon_bg_color }}"
+                   placeholder="#dadada">
+        </td>
+        <td>
+            <input type="text" class="medium-text" name="srm_desti_name[]" value="{{ destination_name }}"
+                   placeholder="{{ destination_name_placeholder }}">
+            <p>
+                <input type="checkbox" class="small" name="srm_desti_name_hide[]"
+                       {% if destination_name_hide %}checked{% endif %} value="true"> Hide from display?
+            </p>
+        </td>
+        <td>
+            <input type="text" class="medium-text" name="srm_desti_url[]" value="{{ destination_url }}"
+                   placeholder="{{ destination_url_placeholder }}">
+        </td>
+        <td class="mr_add_remove">
+            <div class="{% if selected or icon_image_id != null %}btn-multi-desti-remove{% else %}btn-multi-desti-add{% endif %}">
+                <span title="{% if selected or icon_image_id != null %}Remove Destination{% else %}Add New Destination{% endif %}"
+                      class="fas {% if selected or icon_image_id != null %}fa-minus{% else %}fa-plus{% endif %}"></span>
+            </div>
+        </td>
+    </tr>
+</div>

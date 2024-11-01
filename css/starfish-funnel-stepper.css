@@ -1,0 +1,174 @@
+/*!
+ * bsStepper v{version} (https://github.com/Johann-S/srm-funnel-stepper)
+ * Copyright 2018 - {year} Johann-S <johann.servoire@gmail.com>
+ * Licensed under MIT (https://github.com/Johann-S/srm-funnel-stepper/blob/master/LICENSE)
+ */
+
+.srm-funnel-stepper .srm-funnel-step-trigger {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #6c757d;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: none;
+	border-radius: .25rem;
+	transition: background-color .15s ease-out, color .15s ease-out;
+}
+
+.srm-funnel-stepper .srm-funnel-step-trigger:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+.srm-funnel-stepper .srm-funnel-step-trigger:disabled,
+.srm-funnel-stepper .srm-funnel-step-trigger.disabled {
+	pointer-events: none;
+	opacity: .65;
+}
+
+.srm-funnel-stepper .srm-funnel-step-trigger:focus {
+	color: #007bff;
+	outline: none;
+}
+
+.srm-funnel-stepper .srm-funnel-step-trigger:hover {
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, .06);
+}
+
+@media (max-width: 520px) {
+	.srm-funnel-stepper .srm-funnel-step-trigger {
+		flex-direction: column;
+		padding: 10px;
+	}
+}
+
+.srm-funnel-stepper-label {
+	display: inline-block;
+	margin: .25rem;
+}
+
+.srm-funnel-stepper-header {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 520px) {
+	.srm-funnel-stepper-header {
+		margin: 0 -10px;
+		text-align: center;
+	}
+}
+
+.srm-funnel-stepper-line,
+.srm-funnel-stepper .line {
+	flex: 1 0 32px;
+	min-width: 1px;
+	min-height: 1px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, .12);
+}
+
+@media (max-width: 400px) {
+	.srm-funnel-stepper-line,
+	.srm-funnel-stepper .line {
+		flex-basis: 20px;
+	}
+}
+
+.srm-funnel-stepper-circle {
+	display: inline-flex;
+	align-content: center;
+	justify-content: center;
+	width: 2em;
+	height: 2em;
+	padding: .5em 0;
+	margin: .25rem;
+	line-height: 1em;
+	color: #fff;
+	background-color: #6c757d;
+	border-radius: 1em;
+}
+
+.active .srm-funnel-stepper-circle {
+	background-color: #007bff;
+}
+
+.srm-funnel-stepper-content {
+	padding: 0 20px 20px;
+}
+
+@media (max-width: 520px) {
+	.srm-funnel-stepper-content {
+		padding: 0;
+	}
+}
+
+.srm-funnel-stepper.vertical {
+	display: flex;
+}
+
+.srm-funnel-stepper.vertical .srm-funnel-stepper-header {
+	flex-direction: column;
+	align-items: stretch;
+	margin: 0;
+}
+
+.srm-funnel-stepper.vertical .srm-funnel-stepper-pane,
+.srm-funnel-stepper.vertical .content {
+	display: block;
+}
+
+.srm-funnel-stepper.vertical .srm-funnel-stepper-pane:not(.fade),
+.srm-funnel-stepper.vertical .content:not(.fade) {
+	display: block;
+	visibility: hidden;
+}
+
+.srm-funnel-stepper-pane:not(.fade),
+.srm-funnel-stepper .content:not(.fade) {
+	display: none;
+}
+
+.srm-funnel-stepper .content.fade,
+.srm-funnel-stepper-pane.fade {
+	visibility: hidden;
+	transition-duration: .3s;
+	transition-property: opacity;
+}
+
+.srm-funnel-stepper-pane.fade.active,
+.srm-funnel-stepper .content.fade.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.srm-funnel-stepper-pane.active:not(.fade),
+.srm-funnel-stepper .content.active:not(.fade) {
+	display: block;
+	visibility: visible;
+}
+
+.srm-funnel-stepper-pane.dstepper-block,
+.srm-funnel-stepper .content.dstepper-block {
+	display: block;
+}
+
+.srm-funnel-stepper:not(.vertical) .srm-funnel-stepper-pane.dstepper-none,
+.srm-funnel-stepper:not(.vertical) .content.dstepper-none {
+	display: none;
+}
+
+.vertical .srm-funnel-stepper-pane.fade.dstepper-none,
+.vertical .content.fade.dstepper-none {
+	visibility: hidden;
+}

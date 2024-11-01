@@ -1,0 +1,73 @@
+/* Multi-Destinations - HORIZONTAL LAYOUT */
+.srm-destinations-horizontal.srm-funnel-multi-destinations {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.srm-destinations-horizontal.srm-funnel-multi-destinations li {
+	display: inline-block;
+	width: 100px;
+	height: auto;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination > a:before {
+	display: none !important;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination > a .srm-funnel-icon {
+	font-size: 70px !important;
+	margin: auto !important;
+	width: auto !important;
+	height: auto !important;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination > a img {
+	width: auto;
+	height: auto;
+	max-width: 70px;
+	max-height: 70px;
+	margin: auto;
+	display: block;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination .srm-funnel-destination-name {
+	display: block;
+	padding: 10px 0px;
+	font-size: 16px;
+	word-break: break-all;
+	max-width: 100px;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination > a {
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	background: #dadada;
+	color: #666;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	text-decoration: none !important;
+}
+
+.srm-destinations-horizontal li.srm-funnel-multi-destination > a:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+/* shrink Starfish Reviews feedback buttons in widgets */
+.textwidget .srm-funnel-decision.srm-funnel-icon {
+	font-size: 90px;
+}

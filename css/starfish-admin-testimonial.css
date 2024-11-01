@@ -1,0 +1,25 @@
+.srm-testimonials-star {
+    color: #ffd800;
+}
+
+.srm-testimonial-hide-toggle .toggle-group label {
+    width: fit-content !important;
+}
+
+.toggle-handle {
+    background-color: whitesmoke !important;
+}
+
+.srm-testimonials-avatar {
+    background-color: transparent;
+    float: left;
+    margin-right: 15px;
+}
+
+.srm-testimonials-avatar img {
+    width: 50px !important;
+}
+
+th#shortcode, th#name {
+    width: 15%;
+}

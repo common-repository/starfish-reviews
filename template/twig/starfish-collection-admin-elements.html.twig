@@ -1,0 +1,95 @@
+<div class="tab-pane fade show" id="elements" role="tabpanel" aria-labelledby="elements-tab">
+    <div id="srm-collection-elements" class="card mt-1">
+        <div class="card-body m-0">
+            <p class="card-text">Select the specific Review elements to be displayed.</p>
+            <div class="form-group">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-title" id="srm-collection-elements-title"
+                                       {% if elements_title is empty or
+                                           elements_title == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-title">Title</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-rating" id="srm-collection-elements-rating"
+                                       {% if elements_rating is empty
+                                           or elements_rating == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-rating">Rating</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-date" id="srm-collection-elements-date"
+                                       {% if elements_date is empty
+                                           or elements_date == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-date">Date</label>
+                            </div>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-avatar" id="srm-collection-elements-avatar"
+                                       {% if elements_avatar is empty or
+                                           elements_avatar == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-avatar">Avatar</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-name" id="srm-collection-elements-name"
+                                       {% if elements_name is empty
+                                           or elements_name == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-name">Name</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-readmore" id="srm-collection-elements-readmore"
+                                       {% if elements_readmore is empty
+                                           or elements_readmore == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-readmore">Read
+                                    More</label>
+                            </div>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-source" id="srm-collection-elements-source"
+                                       {% if elements_source == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-source">Source
+                                    Icon</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-noreview" id="srm-collection-elements-noreview"
+                                       {% if elements_noreview == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-noreview">Include
+                                    ratings with no review</label>
+                            </div>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" value="1"
+                                       name="srm-collection-elements-review" id="srm-collection-elements-review"
+                                       {% if elements_review is empty
+                                           or elements_review == '1' %}checked{% endif %}>
+                                <label class="custom-control-label" for="srm-collection-elements-review">Review
+                                    Text</label>
+                            </div>
+                            <br/>
+                            <label for="srm-collection-elements-maxchar">Review Text Maximum Characters</label>
+                            <input type="text" class="form-control form-control-sm"
+                                   name="srm-collection-elements-maxchar" id="srm-collection-elements-maxchar"
+                                   value="{% if
+                                       elements_maxchar is empty %}100{% else %}{{ elements_maxchar }}{% endif %}">
+                            <div class="description">If review text exceeds the max value a "Read More" link will be
+                                provided.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

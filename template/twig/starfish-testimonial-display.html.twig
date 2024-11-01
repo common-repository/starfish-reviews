@@ -1,0 +1,55 @@
+<!-- These are required to be inserted here for the shortcode to function smoothly -->
+<script>
+    {% if slider %}
+    jQuery(document).ready(function ($) {
+        if ($.isFunction($.fn.carousel)) {
+            $('.carousel').carousel({
+                interval: 10000,
+                pause: "hover",
+                ride: "carousel",
+            });
+        } else {
+            console.error("Starfish Reviews Testimonial failed to load. Unable to retrieve necessary javascript files (Please contact support).");
+        }
+    });
+    {% endif %}
+</script>
+<div class='bootstrap-srm'>
+    <div class="srm-testimonial-display w-100 h-100 d-flex mx-auto flex-column justify-content-center bg-white">
+        <div id="srm-testimonial-display-{{ shortcode_id }}" class="mt-3 mb-3 {% if slider %}carousel carousel-dark slide{% endif %}">
+            <div class="p-1 srm-testimonial-display-inner {% if slider %}carousel-inner{% endif %}">
+                {% if pages is empty %}
+                    <div class="srm-collection-empty">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Sorry, there are no visible reviews for this Collection.
+                    </div>
+                {% else %}
+                    {% for page in pages %}
+                        {% if slider %}<div class="carousel-item {% if loop.index0 == 0 %}active{% endif %}">{% endif %}
+                        <div class="d-flex flex-row flex-wrap justify-content-start align-items-center m-4">
+                            {% for review in page %}
+                                {% embed "starfish-testimonial-post.html.twig" %}{% endembed %}
+                            {% endfor %}
+                        </div>
+                        {% if slider %}</div>{% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+            {% if slider and pages|length > 1 %}
+                <button class="btn btn-link carousel-control-prev" type="button" data-bs-target="#srm-testimonial-display-{{ shortcode_id }}" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn btn-link carousel-control-next" type="button" data-bs-target="#srm-testimonial-display-{{ shortcode_id }}" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            {% endif %}
+        </div>
+        {% if hide_branding != 'yes' %}
+            <div class="srm-testimonial-powered-by">
+                {{ affiliate_url|raw }}
+            </div>
+        {% endif %}
+    </div>
+</div>

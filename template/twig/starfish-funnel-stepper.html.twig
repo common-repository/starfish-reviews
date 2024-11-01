@@ -1,0 +1,154 @@
+{% if is_premium == false and destination_type|lower == 'multiple' %}
+    <div class="srm-funnel-scripts">
+        <!-- Starfish Reviews Premium Notice  -->
+        <script>
+            console.info('%cLooks like you\'re trying to use premium Starfish Reviews features without a paid license. (.e.g., shortcode, multiple destination funnel). Please upgrade to Starfish Premium ' + 'Reviews Premium: https://starfish.reviews/plans-pricing/', 'background-color:yellow; padding:15px;');
+        </script>
+    </div>
+    <div id="srm-funnel-{{ id }}" data-funnel_id="{{ id }}" class="srm-funnel"></div>
+{% else %}
+    <div class="bootstrap-srm">
+        <div class="d-flex align-items-center flex-column justify-content-center h-100">
+            <div id="srm-funnel-{{ id }}"
+                 class="srm-funnel bs-stepper mb-5 p-4 bg-white srm-funnel-{{ id }} {% if shortcode %}srm-funnel-shortcode{% endif %}"
+                data-funnel_id="{{ id }}">
+                <div class="bs-stepper-header" role="tablist">
+                    {% if thumbnail is not empty %}
+                        <div class="srm-funnel-logo"><img src="{{ thumbnail[0] }}"/></div>
+                    {% endif %}
+                    <div class="header-steps">
+                        <div class="step active" data-target="#srm-funnel-{{ id }}-1">
+                            <button type="button" class="step-trigger" role="tab" aria-controls="srm-funnel-{{ id }}-1"
+                                    id="srm-funnel-{{ id }}-1-trigger">
+                                <span class="bs-stepper-circle">1</span>
+                            </button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="step" data-target="#srm-funnel-{{ id }}-2">
+                            <button type="button" class="step-trigger" role="tab" aria-controls="srm-funnel-{{ id }}-2"
+                                    id="srm-funnel-{{ id }}-2-trigger">
+                                <span class="bs-stepper-circle">2</span>
+                            </button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="step" data-target="#srm-funnel-{{ id }}-3">
+                            <button type="button" class="step-trigger" role="tab" aria-controls="srm-funnel-{{ id }}-3"
+                                    id="srm-funnel-{{ id }}-3-trigger">
+                                <span class="bs-stepper-circle">3</span>
+                            </button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="step" data-target="#srm-funnel-{{ id }}-4">
+                            <button type="button" class="step-trigger" role="tab" aria-controls="srm-funnel-{{ id }}-4"
+                                    id="srm-funnel-{{ id }}-4-trigger">
+                                <span class="bs-stepper-circle">4</span>
+                            </button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="step" data-target="#srm-funnel-{{ id }}-5">
+                            <button type="button" class="step-trigger" role="tab" aria-controls="srm-funnel-{{ id }}-5"
+                                    id="srm-funnel-{{ id }}-5-trigger">
+                                <span class="bs-stepper-circle">5</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-stepper-content">
+                    <!-- STEP #1 | Negative or Positive feedback -->
+                    <div id="srm-funnel-{{ id }}-1" class="bs-stepper-pane active" role="tabpanel"
+                         aria-labelledby="srm-funnel-{{ id }}-1-trigger">
+                        <h3 class="srm-funnel-heading">{{ question }}</h3>
+                        <ul id="srm-funnel-questions">
+                            <li id="srm-funnel-positive" title="{{ labels['positive_response'] }}"
+                                class="{{ positive_class }} srm-funnel-decision srm-funnel-icon"></li>
+                            <li id="srm-funnel-negative" title="{{ labels['negative_response'] }}"
+                                class="{{ negative_class }} srm-funnel-decision srm-funnel-icon"></li>
+                        </ul>
+                    </div>
+                    <!-- STEP #2 | Positive Feedback -->
+                    <div id="srm-funnel-{{ id }}-2" class="bs-stepper-pane" role="tabpanel"
+                         aria-labelledby="srm-funnel-{{ id }}-2-trigger">
+                        <div class="srm-funnel-prompt">{{ positive_review_prompt|raw }}</div>
+                        <!-- Single or Multiple Destinations? -->
+                        {% embed "starfish-funnel-destinations.html.twig" %}{% endembed %}
+                    </div>
+                    <!-- STEP #3 | Negative Feedback -->
+                    <div id="srm-funnel-{{ id }}-3" class="bs-stepper-pane" role="tabpanel"
+                         aria-labelledby="srm-funnel-{{ id }}-3-trigger">
+                        <div class="srm-funnel-prompt">{{ negative_review_prompt|raw }}</div>
+                        <form class="srm-funnel-form needs-validation" novalidate onsubmit="return false">
+                            <div class="form-group">
+                                <div class="col-sm mb-3">
+                                    <label for="srm-funnel-reviewer-text">{{ labels['feedback_text'] }} *</label>
+                                    <textarea class="form-control form-control-sm" id="srm-funnel-reviewer-text"
+                                              required
+                                              placeholder="{{ placeholders['feedback_text']|default(placeholders['feedback_text']) }}"></textarea>
+                                    <div class="invalid-feedback">{{ feedback['feedback_text'] }}</div>
+                                </div>
+                                {% if ask_name['enabled']|lower == 'yes' %}
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-funnel-reviewer-name">{{ labels['full_name'] }} {% if ask_name['required'] == 'yes' %}*{% endif %}</label>
+                                        <input type="text" class="form-control form-control-sm"
+                                               {% if ask_name['required'] == 'yes' %}required{% endif %}
+                                               id="srm-funnel-reviewer-name"
+                                               placeholder="{{ placeholders['full_name']|default(placeholders['full_name']) }}">
+                                        <div class="invalid-feedback">{{ ask_name['alert']|default(feedback['full_name']) }}</div>
+                                    </div>
+                                {% endif %}
+                                {% if ask_email['enabled']|lower == 'yes' %}
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-funnel-reviewer-email">{{ labels['email_address'] }} {% if ask_email['required'] == 'yes' %}*{% endif %}</label>
+                                        <input type="email" class="form-control form-control-sm"
+                                               {% if ask_email['required'] == 'yes' %}required{% endif %}
+                                               id="srm-funnel-reviewer-email"
+                                               placeholder="{{ placeholders['email_address']|default(placeholders['email_address']) }}">
+                                        <div class="invalid-feedback">{{ ask_email['alert']|default(feedback['email_address']) }}</div>
+                                    </div>
+                                {% endif %}
+                                {% if ask_phone['enabled']|lower == 'yes' %}
+                                    <div class="col-sm mb-3">
+                                        <label for="srm-funnel-reviewer-phone">{{ labels['phone_number'] }} {% if ask_phone['required'] == 'yes' %}*{% endif %}</label>
+                                        <input type="text" class="form-control form-control-sm"
+                                               {% if ask_phone['required'] == 'yes' %}required{% endif %}
+                                               id="srm-funnel-reviewer-phone"
+                                               placeholder="{{ placeholders['phone_number']|default(placeholders['phone_number']) }}">
+                                        <div class="invalid-feedback">{{ ask_phone['alert']|default(feedback['phone_number']) }}</div>
+                                    </div>
+                                {% endif %}
+                                <div class="col-sm mb-3">
+                                    {% if disable_review_gating|lower == 'yes' %}
+                                        <a href="javascript:void(0)" id="srm-funnel-feedback-skip"
+                                           class="srm-funnel-link">{{ skip_feedback_text|default(placeholders['skip_feedback_text'])|e }}</a>
+                                    {% endif %}
+                                    <p>
+                                        <button type="submit" class="btn btn-primary"
+                                                id="srm-funnel-feedback-submit">{{ no_button_text }}</button>
+                                    </p>
+                                    <span class="srm-funnel-required-indicator">* {{ labels['required_fields_note'] }}</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- STEP #4 | Thank You  -->
+                    <div id="srm-funnel-{{ id }}-4" class="bs-stepper-pane" role="tabpanel"
+                         aria-labelledby="srm-funnel-{{ id }}-4-trigger">
+                        <div class="srm-funnel-prompt">{{ no_thank_you_msg|raw }}</div>
+                    </div>
+                    <!-- STEP #5 | Skipped Feedback (Disabled Review Gating) -->
+                    <div id="srm-funnel-{{ id }}-5" class="bs-stepper-pane" role="tabpanel"
+                         aria-labelledby="srm-funnel-{{ id }}-5-trigger">
+                        <div class="srm-funnel-prompt">{{ public_review_text }}</div>
+                        <!-- Single or Multiple Destinations? -->
+                        {% embed "starfish-funnel-destinations.html.twig" %}{% endembed %}
+                    </div>
+                    <div class="srm-funnel-feedback-id"></div>
+                    {% if hide_branding != 'yes' %}
+                        <div class="srm-funnel-powered-by">
+                            {{ affiliate_url|default(placeholders['affiliate_url'])|raw }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}

@@ -1,0 +1,1171 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Starfish Reviews\n"
+"PO-Revision-Date: 2020-03-17 12:13-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: starfish-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,"
+"2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__"
+"ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: srm-app\n"
+"X-Poedit-SearchPathExcluded-2: composer\n"
+"X-Poedit-SearchPathExcluded-3: webfonts\n"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:49
+#, php-format
+msgid ""
+"Your current plan (%1$s) supports Ready-Only view of the captured "
+"Feeedback. %2$s"
+msgstr ""
+"แผนปัจจุบันของคุณ (%1$s) รองรับมุมมองแบบ Ready-Only ของ Feeedback "
+"ที่จับได้  %2$s"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51
+msgid "Upgrade Starfish\Premium Plan"
+msgstr "อัปเกรดแผนปลาดาว"
+
+# automatic translation
+#: classes/SRM_FEEDBACK.class.php:51 classes/SRM_FUNNELS.class.php:107
+msgid "Upgrade your plan!"
+msgstr "อัปเกรดแผนของคุณ!"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:106
+#, php-format
+msgid ""
+"Your current plan (%1$s) only allows for %2$s published funnel at a time. "
+"%4$s"
+msgid_plural ""
+"Your current plan (%1$s) only allows for %2$s published funnels at a time. "
+"%4$s"
+msgstr[0] ""
+"แผนปัจจุบันของคุณ (%1$s) อนุญาตให้เผยแพร่ได้ครั้งละ %2$s "
+"ช่องทางเท่านั้น %4$s"
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:108
+msgid ""
+"The newest %1$n funnel has been set to Draft status to bring your account "
+"within compliance."
+msgid_plural ""
+"The newest %1$n funnels have been set to Draft status to bring your account "
+"within compliance."
+msgstr[0] ""
+"ช่องทางใหม่ล่าสุด %1$n "
+"ได้รับการตั้งค่าเป็นสถานะร่างเพื่อให้บัญชีของคุณสอดคล้องกับนโยบาย"
+msgstr[1] ""
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:201 classes/SRM_FUNNELS.class.php:241
+msgid "Please enter your name."
+msgstr "กรุณากรอกชื่อของคุณ."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:206
+msgid "Please enter a valid email."
+msgstr "กรุณาใส่อีเมลที่ถูกต้อง."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:211 classes/SRM_FUNNELS.class.php:243
+msgid "Please enter your phone."
+msgstr "กรุณาใส่โทรศัพท์ของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:214 classes/SRM_FUNNELS.class.php:246
+msgid "Leave your review."
+msgstr "แสดงความคิดเห็นของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:215 classes/SRM_FUNNELS.class.php:247
+msgid "Your Name"
+msgstr "ชื่อของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:216 classes/SRM_FUNNELS.class.php:248
+msgid "Your Email"
+msgstr "อีเมลของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:217
+msgid "Your Phone"
+msgstr "โทรศัพท์ของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:218
+msgid "Sending..."
+msgstr "การส่ง..."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:219 classes/SRM_SETTINGS.class.php:759
+msgid "Leave a Public Review"
+msgstr "ออกความคิดเห็นสาธารณะ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:220
+msgid "You need to enter at least {0} characters"
+msgstr "คุณต้องป้อนอักขระอย่างน้อย {0} ตัว"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:222 classes/SRM_SETTINGS.class.php:696
+msgid "Skip this feedback and leave a public review."
+msgstr "ข้ามความคิดเห็นนี้และแสดงความคิดเห็นต่อสาธารณะ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:231
+msgid "Yes"
+msgstr "ใช่"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:232
+msgid "No"
+msgstr "ไม่"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:233
+msgid "Your Review"
+msgstr "บทวิจารณ์ของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:234
+msgid "Full name"
+msgstr "ชื่อเต็ม"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:235
+msgid "Email Address"
+msgstr "ที่อยู่อีเมล"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:236
+msgid "Phone Number"
+msgstr "หมายเลขโทรศัพท์"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:237
+msgid "indicates required fields"
+msgstr "ระบุฟิลด์ที่จำเป็น"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:240
+msgid "Please provide a review."
+msgstr "โปรดให้ความเห็น"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:242
+msgid "Please enter your email."
+msgstr "กรุณากรอกอีเมลของคุณ"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:249
+msgid "Your phone."
+msgstr "โทรศัพท์ของคุณ."
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:341
+msgid "Starfish Notice"
+msgstr "ประกาศปลาดาว"
+
+# automatic translation
+#: classes/SRM_FUNNELS.class.php:342
+#, php-format
+msgid "This funnel (%1$s) is not valid or published yet!"
+msgstr "ช่องทางนี้ (%1$s) ยังไม่ถูกต้องหรือเผยแพร่!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:67
+msgid "Successfully completed migration! "
+msgstr "ย้ายข้อมูลสำเร็จ!"
+
+# automatic translation
+#: classes/SRM_MIGRATIONS.class.php:76 classes/SRM_MIGRATIONS.class.php:89
+msgid "Failed to update Starfish\Premium Migration schema"
+msgstr "อัปเดตสคีมา Starfish\Premium Migration ไม่สำเร็จ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:75 init/actions/starfish-admin.action.php:35
+msgid "General"
+msgstr "ทั่วไป"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:83 init/actions/starfish-admin.action.php:37
+#: init/actions/starfish-funnels.action.php:495
+msgid "Email"
+msgstr "อีเมล์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:91
+msgid "Funnels "
+msgstr "ช่องทาง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:110
+msgid "Reply-To ID"
+msgstr "รหัสตอบกลับ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:116
+msgid "Will only be used if ID is a properly formatted email address."
+msgstr "จะใช้ก็ต่อเมื่อ ID เป็นที่อยู่อีเมลที่มีรูปแบบถูกต้อง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:122
+msgid "From Name"
+msgstr "จากชื่อ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:128
+msgid "Supports shortcode {site-name} to use the site's name."
+msgstr "รองรับรหัสย่อ {site-name} เพื่อใช้ชื่อไซต์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:134
+msgid "From Email"
+msgstr "จากอีเมล"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:140 classes/SRM_SETTINGS.class.php:176
+msgid "Supports shortcode {admin-email} to use the site's Administrator's email."
+msgstr "รองรับรหัสย่อ {admin-email} เพื่อใช้อีเมลของผู้ดูแลระบบของไซต์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:146
+msgid "Email Subject"
+msgstr "หัวเรื่องของอีเมล"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:152
+msgid "Supports shortcode {funnel-name} and {tracking-id}."
+msgstr "รองรับรหัสย่อ {funnel-name} และ {tracking-id}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:158
+msgid "Message Template"
+msgstr "เทมเพลตข้อความ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:164
+msgid ""
+"Make sure to include shortcode {review-message}. Also supports "
+"{funnel-name}, {tracking-id}, {reviewer-name}, {reviewer-email} and "
+"{reviewer-phone}."
+msgstr ""
+"อย่าลืมใส่รหัสย่อ {review-message} นอกจากนี้ยังรองรับ {funnel-name}, "
+"{tracking-id}, {reviewer-name}, {reviewer-email} และ {reviewer-phone}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:170
+msgid "Feedback Email"
+msgstr "อีเมลความคิดเห็น"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:189
+msgid "Funnel Slug"
+msgstr "กระสุนช่องทาง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:195
+msgid ""
+"The Funnel post-type slug. Note: Re-save <a "
+"href=/wp-admin/options-permalink.php\" title=\"Settings "
+"Permalink\">Permalinks</a> if your funnel goes to a 404 page."
+msgstr ""
+"กระสุนโพสต์ประเภทช่องทาง หมายเหตุ: บันทึก <a "
+"href=/wp-admin/options-permalink.php\" "
+"title=\"การตั้งค่าลิงก์ถาวร\">ลิงก์ถาวร</a> "
+"อีกครั้งหากช่องทางของคุณไปที่หน้า 404"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:201
+msgid "Branding"
+msgstr "การสร้างแบรนด์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:207
+msgid "Turn off branding on Funnel pages."
+msgstr "ปิดการสร้างแบรนด์บนหน้าช่องทาง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:213
+msgid "Branding Content"
+msgstr "เนื้อหาการสร้างแบรนด์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid "Insert HTML for your branding. Consider joining"
+msgstr "แทรก HTML สำหรับการสร้างแบรนด์ของคุณ พิจารณาเข้าร่วม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:219
+msgid " and inserting your affiliate link here."
+msgstr " และใส่ลิงค์พันธมิตรของคุณที่นี่"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:225
+msgid "Clean On Deactivation"
+msgstr "ทำความสะอาดเมื่อเลิกใช้งาน"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:231
+msgid ""
+"DO NOT use this option, unless you want to remove ALL Starfish Reviews "
+"settings and data."
+msgstr ""
+"อย่าใช้ตัวเลือกนี้เว้นแต่คุณจะต้องการลบการตั้งค่าและข้อมูล Starfish Reviews "
+"ทั้งหมด"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:244
+msgid "Feedback Thank You Message"
+msgstr "ข้อเสนอแนะขอบคุณข้อความ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:250
+msgid "Message displayed after feedback has been submitted on a \"No\" response."
+msgstr "ข้อความจะปรากฏขึ้นหลังจากส่งความคิดเห็นในการตอบกลับ \"ไม่\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:256
+msgid "Feedback Prompt"
+msgstr "พร้อมรับคำติชม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:262
+msgid "Message displayed after submitting a \"No\" response."
+msgstr "ข้อความปรากฏขึ้นหลังจากส่งการตอบกลับ \"ไม่\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:268
+#: init/actions/starfish-funnels.action.php:269
+#: init/actions/starfish-funnels.action.php:462
+msgid "Review Prompt"
+msgstr "พร้อมรับคำวิจารณ์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:274
+msgid "Message displayed after submitting a \"Yes\" response."
+msgstr "ข้อความปรากฏขึ้นหลังจากส่งคำตอบ \"ใช่\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:280
+msgid "Submit Button Text on \"No\""
+msgstr "ส่งข้อความปุ่มบน \"ไม่\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:286
+msgid "When a user selects \"NO\" this text will be used on the Submit Button."
+msgstr "เมื่อผู้ใช้เลือก \"ไม่\" ข้อความนี้จะถูกใช้บนปุ่มส่ง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:292
+msgid "Submit Button Text on \"Yes\""
+msgstr "ส่งข้อความปุ่มบน \"ใช่\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:298
+msgid "When a user selects \"YES\" this text will be used on the Submit Button."
+msgstr "เมื่อผู้ใช้เลือก \"ใช่\" ข้อความนี้จะถูกใช้บนปุ่มส่ง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:304
+#: init/actions/starfish-funnels.action.php:149
+msgid "Yes/No Question"
+msgstr "ใช่ / ไม่ใช่คำถาม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:310
+msgid "The prompt to recommend this website or not."
+msgstr "แจ้งให้แนะนำเว็บไซต์นี้หรือไม่"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:316
+#: init/actions/starfish-funnels.action.php:591
+#: init/actions/starfish-funnels.action.php:593
+msgid "Public Review Text"
+msgstr "ข้อความบทวิจารณ์สาธารณะ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:322
+msgid ""
+"The text shown above the button(s) to leave a review after skipping "
+"negative feedback"
+msgstr "ข้อความที่แสดงเหนือปุ่มเพื่อแสดงความคิดเห็นหลังจากข้ามข้อเสนอแนะเชิงลบ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:328
+msgid "Yes Redirect Seconds"
+msgstr "ใช่เปลี่ยนเส้นทางวินาที"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:334
+msgid "How many seconds to wait before redirecting to the review site."
+msgstr "ต้องรอกี่วินาทีก่อนที่จะเปลี่ยนเส้นทางไปยังไซต์ตรวจสอบ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:340
+msgid "Skip Feedback Link Text"
+msgstr "ข้ามข้อความลิงก์คำติชม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:346
+msgid ""
+"The link text for skipping the feedback form (Requires the Funnel 'Disable "
+"Review Gating' to be disabled)."
+msgstr ""
+"ข้อความลิงก์สำหรับข้ามแบบฟอร์มข้อเสนอแนะ (ต้องปิดช่องทาง "
+"'ปิดใช้งานการตรวจสอบ Gating')"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:357 classes/SRM_SETTINGS.class.php:365
+#, php-format
+msgid "Specify %1$s settings below"
+msgstr "ระบุการตั้งค่า %1$s ด้านล่าง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:373
+#, php-format
+msgid ""
+"Specify the default %1$s settings below. These will apply when creating new "
+"<a href=\"%2$s\" title=\"View Funnels\">Funnels</a>."
+msgstr ""
+"ระบุการตั้งค่า %1$s เริ่มต้นด้านล่าง สิ่งเหล่านี้จะนำไปใช้เมื่อสร้าง <a "
+"href=\"%2$s\" title=\"ดูช่องทาง\">ช่องทาง</a> ใหม่"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:376
+msgid "Settings Toolbox"
+msgstr "กล่องเครื่องมือการตั้งค่า"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:377
+msgid "Restore System Defaults"
+msgstr "คืนค่าเริ่มต้นของระบบ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:378
+msgid "Replace all existing values with the system defaults."
+msgstr "แทนที่ค่าที่มีอยู่ทั้งหมดด้วยค่าเริ่มต้นของระบบ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:605
+msgid "Use submitter ID as \"reply-to\" email address."
+msgstr "ใช้รหัสผู้ส่งเป็นที่อยู่อีเมล \"ตอบกลับ\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:613
+msgid "The name the email will appear to be from."
+msgstr "ชื่ออีเมลจะดูเหมือนมาจาก"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:621
+msgid "Email address the message will appear to be from."
+msgstr "ที่อยู่อีเมลที่ข้อความจะมาจาก"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:629
+msgid "Subject of the email."
+msgstr "หัวเรื่องของอีเมล"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:632
+msgid "Feedback from {funnel-name}"
+msgstr "ความคิดเห็นจาก {funnel-name}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:637
+msgid "Contents of the message."
+msgstr "เนื้อหาของข้อความ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:640
+msgid ""
+"Submitter ID: {tracking-id}<br/>Message: "
+"{review-message}<br/>{reviewer-name}<br/>{reviewer-email}<br/>{reviewer-"
+"phone}"
+msgstr ""
+"รหัสผู้ส่ง: {tracking-id}<br/> ข้อความ: {review-message}<br/> "
+"{ผู้ตรวจสอบชื่อ}<br/> {reviewer-email}<br/> {reviewer-phone}"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:645
+msgid "The email address which feedback is sent to."
+msgstr "ที่อยู่อีเมลที่ส่งคำติชมไป"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:657
+msgid "Change the Funnel Slug"
+msgstr "เปลี่ยน Funnel Slug"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:665
+msgid "Turn off Starfish\Premium branding on Funnel pages."
+msgstr "ปิดการสร้างแบรนด์ Starfish\Premium บนหน้าช่องทาง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:673
+msgid "Delete all settings on deactivation."
+msgstr "ลบการตั้งค่าทั้งหมดเมื่อปิดการใช้งาน"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:681
+msgid "Override \"Powered by Starfish\Premium\" Link"
+msgstr "แทนที่ลิงก์ \"ขับเคลื่อนโดยปลาดาว\""
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:684
+msgid ""
+"Powered by <a href=\"https://starfish.reviews\" title=\"Review Generation "
+"on WordPress\" target=\"_blank\" rel=\"nofollow\">Starfish Reviews</a>"
+msgstr ""
+"ขับเคลื่อนโดย <a href=\"https://starfish.reviews\" "
+"title=\"ตรวจสอบการสร้างบน WordPress\" target=\"_blank\" "
+"rel=\"nofollow\">รีวิวปลาดาว</a>"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:693
+msgid "Text for the link to skip the feedback form"
+msgstr "ข้อความสำหรับลิงก์เพื่อข้ามแบบฟอร์มข้อเสนอแนะ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:702
+msgid "The message shown after submitting Feedback."
+msgstr "ข้อความที่แสดงหลังจากส่งคำติชม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:705
+msgid "Thanks for your feedback. We'll review it and work to improve."
+msgstr "ขอบคุณสำหรับความคิดเห็นของคุณ เราจะตรวจสอบและดำเนินการปรับปรุง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:711
+msgid "The message shown above the Feedback form."
+msgstr "ข้อความที่แสดงด้านบนแบบฟอร์มคำติชม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:714
+#: init/actions/starfish-funnels.action.php:466
+msgid "We're sorry we didn't meet expectations. How can we do better in the future?"
+msgstr "ขออภัยที่เราไม่เป็นไปตามความคาดหวัง เราจะทำอย่างไรให้ดีขึ้นในอนาคต?"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:720
+msgid "The message shown above the destination options."
+msgstr "ข้อความที่แสดงเหนือตัวเลือกปลายทาง"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:723
+msgid "<h3>Excellent! Please Rate us 5-stars</h3>...and leave a helpful review."
+msgstr ""
+"<h3>ยอดเยี่ยม! กรุณาให้คะแนนเรา 5 ดาว</h3> ... "
+"และแสดงความคิดเห็นที่เป็นประโยชน์"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:729
+msgid "The feedback submit button text."
+msgstr "ข้อความปุ่มส่งความคิดเห็น"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:732
+#: init/actions/starfish-funnels.action.php:540
+msgid "Send Feedback"
+msgstr "ส่งความคิดเห็น"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:738
+msgid "The button text for submitting a review on single destination funnels."
+msgstr "ข้อความปุ่มสำหรับส่งบทวิจารณ์ในช่องทางปลายทางเดียว"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:741
+#: init/actions/starfish-funnels.action.php:377
+msgid "Submit Review"
+msgstr "ส่งรีวิว"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:747
+msgid "The main funnel question text."
+msgstr "ข้อความคำถามช่องทางหลัก"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:750
+msgid "Would you recommend {site-name}?"
+msgstr "คุณจะแนะนำ {site-name} ไหม"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:756
+msgid "The text for leaving a public review after submitting feedback."
+msgstr "ข้อความสำหรับแสดงความคิดเห็นต่อสาธารณะหลังจากส่งข้อเสนอแนะ"
+
+# automatic translation
+#: classes/SRM_SETTINGS.class.php:765
+msgid ""
+"The number of seconds to wait before auto-redirecting to the single "
+"destination."
+msgstr "จำนวนวินาทีที่ต้องรอก่อนที่จะเปลี่ยนเส้นทางไปยังปลายทางเดียวโดยอัตโนมัติ"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:13
+msgid "Starfish Reviews needs to perform updates to the database"
+msgstr "Starfish Reviews ต้องทำการอัปเดตฐานข้อมูล"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:14
+msgid "Pending Updates:"
+msgstr "การอัปเดตที่รอดำเนินการ:"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:19
+msgid "Click the button to allow Starfish\Premium to automatically perform these updates"
+msgstr "คลิกปุ่มเพื่ออนุญาตให้ Starfish\Premium ทำการอัปเดตเหล่านี้โดยอัตโนมัติ"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:38
+msgid "The following Starfish Reviews migrations are currently in a FAILED status"
+msgstr "การย้ายข้อมูล Starfish Reviews ต่อไปนี้อยู่ในสถานะ FAILED"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:61
+msgid "The following Starfish Reviews migrations completed successfully"
+msgstr "การย้ายข้อมูล Starfish Reviews ต่อไปนี้เสร็จสมบูรณ์แล้ว"
+
+# automatic translation
+#: init/actions/starfish-admin-notices.action.php:79
+#, php-format
+msgid ""
+"In order to activate Starfish Reviews a PHP Version of %1$s or greater is "
+"required, currently PHP Version %2$s is found."
+msgstr ""
+"ในการเปิดใช้งานรีวิว Starfish\Premium จำเป็นต้องมีเวอร์ชัน PHP %1$s "
+"ขึ้นไปขณะนี้พบเวอร์ชัน PHP %2$s"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:14
+#: init/actions/starfish-admin.action.php:29
+msgid "Starfish\Premium Settings"
+msgstr "การตั้งค่าปลาดาว"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:15
+#: init/filters/starfish-action-links.filter.php:32
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:31
+msgid "Different options required for the basic operation of Starfish Reviews"
+msgstr "ตัวเลือกต่างๆที่จำเป็นสำหรับการใช้งานพื้นฐานของ Starfish Reviews"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:39
+msgid "Defaults"
+msgstr "ค่าเริ่มต้น"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:69
+msgid "Starfish\Premium Reports"
+msgstr "รายงานปลาดาว"
+
+# automatic translation
+#: init/actions/starfish-admin.action.php:70
+msgid "Reports"
+msgstr "รายงาน"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:20
+msgid "Add New Feedback"
+msgstr "เพิ่มคำติชมใหม่"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:21
+msgid "New Feedback"
+msgstr "ข้อเสนอแนะใหม่"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:22
+msgid "Edit Feedback"
+msgstr "แก้ไขคำติชม"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:23
+msgid "View Feedback"
+msgstr "ดูคำติชม"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:24
+msgid "All Feedback"
+msgstr "ข้อเสนอแนะทั้งหมด"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:25
+msgid "Search Feedback"
+msgstr "ค้นหาคำติชม"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:26
+msgid "Parent Feedback:"
+msgstr "ความคิดเห็นของผู้ปกครอง:"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:27
+msgid "No Feedback found."
+msgstr "ไม่พบคำติชม"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:28
+msgid "No Feedback found in Trash."
+msgstr "ไม่พบคำติชมในถังขยะ"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:33
+#: init/actions/starfish-funnels.action.php:48
+msgid "Description."
+msgstr "คำอธิบาย"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:88
+msgid "Date & Time"
+msgstr "วันเวลา"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:89
+#: init/actions/starfish-feedback.action.php:110
+msgid "ID"
+msgstr "ID"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:90
+#: init/actions/starfish-feedback.action.php:111
+msgid "Reviewer"
+msgstr "ผู้ตรวจทาน"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:91
+#: init/actions/starfish-feedback.action.php:112
+msgid "Feedback"
+msgstr "ข้อเสนอแนะ"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:92
+#: init/actions/starfish-feedback.action.php:113
+msgid "Message"
+msgstr "ข้อความ"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:93
+#: init/actions/starfish-feedback.action.php:114
+msgid "Funnel"
+msgstr "ช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:94
+#: init/actions/starfish-feedback.action.php:115
+#: init/actions/starfish-funnels.action.php:301
+msgid "Destination"
+msgstr "ปลายทาง"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:138
+#: init/actions/starfish-feedback.action.php:153
+#: init/actions/starfish-feedback.action.php:165
+#: init/actions/starfish-feedback.action.php:173
+#: init/actions/starfish-feedback.action.php:182
+#: init/actions/starfish-feedback.action.php:192
+msgid "Premium Feature, Upgrade Now!"
+msgstr "คุณสมบัติพิเศษอัปเกรดทันที!"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:160
+msgid "Positive"
+msgstr "บวก"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:162
+msgid "Negative"
+msgstr "เชิงลบ"
+
+# automatic translation
+#: init/actions/starfish-feedback.action.php:238
+#: init/actions/starfish-funnels.action.php:39
+msgid "All Funnels"
+msgstr "ช่องทางทั้งหมด"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:31
+msgid "Add New Funnel"
+msgstr "เพิ่มช่องทางใหม่"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:32
+msgid "New Funnel"
+msgstr "ช่องทางใหม่"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:33
+msgid "Edit Funnel"
+msgstr "แก้ไขช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:34
+msgid "Funnel Logo"
+msgstr "โลโก้ช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:35
+msgid "Set Funnel Logo"
+msgstr "ตั้งค่าโลโก้ช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:36
+msgid "Remove Funnel Logo"
+msgstr "ลบโลโก้ช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:37
+msgid "Use as Funnel Logo"
+msgstr "ใช้เป็นโลโก้ช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:38
+msgid "View Funnel"
+msgstr "ดูช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:40
+msgid "Search Funnels"
+msgstr "กระบวนการค้นหา"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:41
+msgid "Parent Funnels:"
+msgstr "ช่องทางหลัก:"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:42
+msgid "No Funnels found."
+msgstr "ไม่พบช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:43
+msgid "No Funnels found in Trash."
+msgstr "ไม่พบช่องทางในถังขยะ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:87
+msgid "Funnel Settings"
+msgstr "การตั้งค่าช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:88
+msgid "Positive Response"
+msgstr "การตอบสนองเชิงบวก"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:89
+msgid "Negative Response"
+msgstr "การตอบสนองเชิงลบ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:91
+msgid "Toolbox"
+msgstr "กล่องเครื่องมือ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:155
+msgid "Would you recommend {WP site name here}?"
+msgstr "คุณจะแนะนำ {WP site name here} ไหม"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:157
+msgid ""
+"Shortcode <code>{site-name}</code> uses the site name as set in WP Settings "
+"-> General."
+msgstr ""
+"Shortcode <code>{site-name}</code> ใช้ชื่อไซต์ตามที่ตั้งไว้ใน WP Settings "
+"-&gt; General"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:162
+msgid "Answer Buttons Style"
+msgstr "ตอบลักษณะปุ่ม"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:166
+msgid "Thumbs outline"
+msgstr "โครงร่างนิ้วหัวแม่มือ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:168
+msgid "Thumbs solid"
+msgstr "นิ้วหัวแม่มือแข็ง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:170
+msgid "Faces"
+msgstr "ใบหน้า"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:172
+msgid "Symbol circles"
+msgstr "วงกลมสัญลักษณ์"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:201
+msgid "Funnel Shortcode"
+msgstr "รหัสย่อของช่องทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:276
+msgid "Accepts HTML"
+msgstr "ยอมรับ HTML"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:281
+msgid "Number of Destinations"
+msgstr "จำนวนจุดหมายปลายทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:285
+msgid "Single"
+msgstr "โสด"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:287
+msgid "Multiple"
+msgstr "หลายรายการ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:293
+msgid "Set Multiple Destinations"
+msgstr "ตั้งค่าปลายทางหลายแห่ง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:297
+msgid "Icon"
+msgstr "ไอคอน"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:298
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:299
+msgid "Icon Colors"
+msgstr "ไอคอนสี"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:300
+#: init/actions/starfish-funnels.action.php:314
+#: init/actions/starfish-funnels.action.php:480
+msgid "Name"
+msgstr "ชื่อ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:310
+msgid "Upload New Icon"
+msgstr "อัปโหลดไอคอนใหม่"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:311
+msgid "Select Icon"
+msgstr "เลือกไอคอน"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:312
+msgid "Color"
+msgstr "สี"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:313
+msgid "Background"
+msgstr "พื้นหลัง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:315
+#: init/actions/starfish-funnels.action.php:350
+msgid "Review URL"
+msgstr "URL บทวิจารณ์"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:346
+msgid "Review Destination<sup>*</sup>"
+msgstr "ตรวจสอบปลายทาง <sup>*</sup>"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:352
+msgid ""
+"Destination URL is required (i.e \"http://google.com\"). Use for single and "
+"default destination."
+msgstr ""
+"ต้องระบุ URL ปลายทาง (เช่น \"http://google.com\") "
+"ใช้สำหรับปลายทางเดียวและปลายทางเริ่มต้น"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:358
+msgid "Auto Redirect (seconds)"
+msgstr "เปลี่ยนเส้นทางอัตโนมัติ (วินาที)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:367
+msgid "Auto-forward to destination URL after X number of seconds. 0 for disable."
+msgstr ""
+"ส่งต่อไปยัง URL ปลายทางโดยอัตโนมัติหลังจาก X จำนวนวินาที 0 "
+"สำหรับปิดการใช้งาน"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:372
+msgid "Submit Button (Positive)"
+msgstr "ปุ่มส่ง (บวก)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:472
+msgid "Additional Fields"
+msgstr "ฟิลด์เพิ่มเติม"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:487
+#: init/actions/starfish-funnels.action.php:503
+#: init/actions/starfish-funnels.action.php:519
+msgid "Required"
+msgstr "จำเป็น"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:511
+msgid "Phone"
+msgstr "โทรศัพท์"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:526
+msgid "Email Feedback"
+msgstr "ข้อเสนอแนะทางอีเมล"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:529
+msgid "email address(es)"
+msgstr "ที่อยู่อีเมล"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:531
+msgid ""
+"email address(es) to send negative feedback to. You can add comma separated "
+"multiple email addresses. Shortcode <code>{admin-email}</code> defaults to "
+"the email set in WP Settings -> General."
+msgstr ""
+"ที่อยู่อีเมลเพื่อส่งข้อเสนอแนะเชิงลบถึง "
+"คุณสามารถเพิ่มที่อยู่อีเมลหลายรายการโดยคั่นด้วยเครื่องหมายจุลภาค รหัสย่อ "
+"<code>{admin-email}</code> ค่าเริ่มต้นของอีเมลที่ตั้งค่าใน WP Settings "
+"-&gt; General"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:536
+msgid "Submit Button (Negative)"
+msgstr "ปุ่มส่ง (เชิงลบ)"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:545
+msgid "Thank You Message"
+msgstr "ข้อความขอบคุณ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:549
+msgid "Thank you!"
+msgstr "ขอบคุณ!"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:554
+msgid "Disable Review Gating"
+msgstr "ปิดการใช้งานตรวจสอบ Gating"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:562
+msgid "Allow negative responses to proceed to review destination."
+msgstr "อนุญาตให้ตอบกลับเพื่อดำเนินการตรวจสอบปลายทาง"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:564
+msgid ""
+"It's recommended you use this when asking for Google and Yelp reviews, to "
+"comply with their policy of not selectively asking for reviews only from "
+"people with positive feedback."
+msgstr ""
+"ขอแนะนำให้คุณใช้สิ่งนี้เมื่อขอความเห็นของ Google และ Yelp "
+"เพื่อให้สอดคล้องกับนโยบายของพวกเขาที่จะไม่ขอรีวิวเฉพาะจากผู้ที่มีความคิดเห็น"
+"ในเชิงบวกเท่านั้น"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:569
+#: init/actions/starfish-funnels.action.php:571
+msgid "Skip Feedback Text"
+msgstr "ข้ามข้อความคำติชม"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:581
+msgid ""
+"Link text to skip the Feedback form\n"
+"                        and leave a public review"
+msgstr ""
+"ข้อความลิงก์เพื่อข้ามแบบฟอร์มคำติชม\n"
+"                        และแสดงความคิดเห็นต่อสาธารณะ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:601
+msgid "Header text presented above the destination option(s) if feedback skipped"
+msgstr "ข้อความส่วนหัวที่แสดงเหนือตัวเลือกปลายทางหากความคิดเห็นถูกข้ามไป"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:769
+msgid "Review Destination Name and URL are required"
+msgstr "ต้องระบุชื่อปลายทางและ URL ของการตรวจสอบ"
+
+# automatic translation
+#: init/actions/starfish-funnels.action.php:776
+msgid "Review Destination URL must be a valid URL (i.e. http://google.com)"
+msgstr "URL ปลายทางของการตรวจสอบต้องเป็น URL ที่ถูกต้อง (เช่น http://google.com)"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:36
+msgid "Upgrade to Marketer"
+msgstr "อัปเกรดเป็น Marketer"
+
+# automatic translation
+#: init/filters/starfish-action-links.filter.php:40
+msgid "Upgrade to Webmaster"
+msgstr "อัปเกรดเป็น Webmaster"
+
+# automatic translation
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Starfish Reviews"
+msgstr "รีวิวปลาดาว"
+
+# automatic translation
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://starfish.reviews"
+msgstr "https://starfish.reviews"
+
+# automatic translation
+#. Description of the plugin/theme
+msgid ""
+"The #1 review generation and review marketing plugin for WordPress! "
+"Encourage your tribe to provide 5-star reviews on Google, Facebook, and "
+"many more."
+msgstr ""
+"การสร้างบทวิจารณ์อันดับ 1 และปลั๊กอินการตลาดสำหรับ WordPress! "
+"สนับสนุนให้ชนเผ่าของคุณแสดงความคิดเห็นระดับ 5 ดาวบน Google, Facebook "
+"และอื่น ๆ อีกมากมาย"

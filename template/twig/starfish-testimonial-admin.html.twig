@@ -1,0 +1,74 @@
+<div class='bootstrap-srm'>
+<div id="srm-testimonial" class='inside'>
+    <table class="form-table" aria-describedby="Testimonial">
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-hidden">Visibility</label>
+            </th>
+            <td>
+                <input type="checkbox" {% if hidden %}checked{% endif %} data-style="srm-testimonial-hide-toggle" data-size="small" data-toggle="toggle" data-on="Hidden" data-off="Visible" data-onstyle="warning" data-offstyle="info" class="regular-text" name="srm-testimonial-hidden" id="srm-testimonial-hidden" value="{% if hidden is empty %}false{% else %}{{ hidden }}{% endif %}"
+                       placeholder="">
+                <p class="description" id="srm-testimonial-hidden-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-referrer">Referrer</label>
+            </th>
+            <td>
+                <input type="text" class="regular-text" name="srm-testimonial-referrer" id="srm-testimonial-referrer" value="{{ referrer }}"
+                placeholder="">
+                <p class="description" id="srm-testimonial-referrer-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-rating">Rating</label>
+            </th>
+            <td>
+                <input type="number" class="" name="srm-testimonial-rating" id="srm-testimonial-rating" value="{{ rating }}">
+                <p class="description" id="srm-testimonial-rating-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-name">Name</label>
+            </th>
+            <td>
+                <input type="text" class="regular-text" name="srm-testimonial-name" id="srm-testimonial-name" value="{{ name }}"
+                       placeholder="">
+                <p class="description" id="srm-testimonial-name-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-phone">Phone</label>
+            </th>
+            <td>
+                <input type="text" class="regular-text" name="srm-testimonial-phone" id="srm-testimonial-phone" value="{{ phone }}"
+                       placeholder="">
+                <p class="description" id="srm-testimonial-phone-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-email">Email</label>
+            </th>
+            <td>
+                <input type="text" class="regular-text" name="srm-testimonial-email" id="srm-testimonial-email" value="{{ email }}"
+                       placeholder="">
+                <p class="description" id="srm-testimonial-email-description"></p>
+            </td>
+        </tr>
+        <tr class="">
+            <th scope="row">
+                <label for="srm-testimonial-message">Message</label>
+            </th>
+            <td>
+                <textarea class="regular-textarea" name="srm-testimonial-message" id="srm-testimonial-message" cols="50" rows="10">{{ message }}</textarea>
+                <p class="description" id="srm-testimonial-message-description"></p>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>

@@ -1,0 +1,32 @@
+<div class="bootstrap-srm">
+    <div id="srm-{{ post_type }}-shortcode" class="srm-tool {{ premium_class }}">
+        <script>
+            new ClipboardJS('#srm-copy-shortcode-link-{{ post_id }}');
+        </script>
+        <div class="srm-sidebar-subtitle">
+            {{ premium_badge}} Shortcode {{ premium_link }}
+        </div>
+        <code>[starfish testimonial="{{ post_id }}"]</code>
+        <a id="srm-copy-shortcode-link-{{ post_id }}" href="javascript:;" title="Copy to Clipboard" data-clipboard-text='[starfish {{ post_type }}="{{ post_id }}"]'>
+            <i class="fa fa-copy" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div id="srm-{{ post_type }}-embed-snippet" class="srm-tool">
+        <div class="srm-sidebar-subtitle">Embed Code</div>
+        <p class="description">{{ embed_description }}</p>
+        <script>new ClipboardJS('#srm-copy-embedcode-link-{{ post_id }}');</script>
+        <a id="srm-copy-embedcode-link-{{ post_id }}" href="javascript:;" title="Copy to Clipboard" data-clipboard-text='&lt;object
+            name="starfish-reviews-{{ post_type }}-{{ post_id }}" type="text/html" style="overflow: hidden;" align="center" width="640" height="425" data="{{ embed_url }}"&gt;&lt;/object&gt;'>
+            <i class="fa fa-copy" aria-hidden="true"></i>
+        </a>
+        <pre>
+            <code class="html">
+    &lt;object name="starfish-reviews-{{ post_type }}-{{ post_id }}" type="text/html" style="overflow: hidden;" align="center" width="640" height="425" data="{{ embed_url }}"&gt;&lt;/object&gt;
+            </code>
+        </pre>
+    </div>
+    <div id="srm-{{ post_type }}-usage" class="srm-tool">
+        <div class="srm-sidebar-subtitle">{{ post_type|capitalize }} Usage</div>
+        {{ usage|raw }}
+    </div>
+</div>

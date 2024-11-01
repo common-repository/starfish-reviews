@@ -1,0 +1,712 @@
+# Translation of Starfish Reviews in Tagalog
+# This file is distributed under the same license as the Starfish Reviews package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-05 13:37:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1.0;\n"
+"X-Generator: GlotPress/2.3.1.0\n"
+"Language: tl_PH\n"
+"Project-Id-Version: Starfish Reviews\n"
+
+#: inc/starfish-settings.php:112
+msgid "Review Message"
+msgstr "Suriin ang Mensahe"
+
+#: inc/starfish-funnels.php:874
+msgid "Nonce verify failed"
+msgstr "Nonce verify failed"
+
+#: inc/starfish-funnels.php:869
+msgid "An error has occured. Your image was not added."
+msgstr "May maling naganap. Ang iyong imahe ay hindi naidagdag."
+
+#: inc/starfish-funnels.php:847
+msgid "Image is too large. It must be less than 2M!"
+msgstr "Masyadong malaki ang larawan. Dapat itong mas mababa sa 2M!"
+
+#: inc/starfish-funnels.php:843
+msgid "Please select an image to upload!"
+msgstr "Mangyaring pumili ng isang imahe na i-upload!"
+
+#: inc/starfish-funnels.php:455
+msgid "Public Review Text"
+msgstr "Pampublikong Tekstong Puna"
+
+#: inc/starfish-funnels.php:444
+msgid "Allow negative responses to proceed to review destination."
+msgstr "Pahintulutan ang mga negatibong tugon na magpatuloy sa patutunguhan ng puna."
+
+#: inc/starfish-funnels.php:442
+msgid "Disable Review Gating"
+msgstr "Huwag paganahin ang Review Gating"
+
+#: inc/starfish-funnels.php:433
+msgid "Submit Button (Negative)"
+msgstr "Pindutang Pangsumite (Negatibo)"
+
+#: inc/starfish-funnels.php:395 inc/starfish-funnels.php:456
+#: inc/starfish-shortcode.php:155
+msgid "Leave a Public Review"
+msgstr "Mag-iwan ng Pampublikong Pagsusuri"
+
+#: inc/starfish-funnels.php:330
+msgid "Submit Button (Positive)"
+msgstr "Pindutang Pangsumite (Positibo)"
+
+#: inc/starfish-funnels.php:322
+msgid "Destination is required. Use for single and default destination."
+msgstr "Ang patutunguhan ay kailangan. Gamitin para sa isa at default na patutunguhan."
+
+#: inc/starfish-funnels.php:261 inc/starfish-funnels.php:309
+msgid "#000000"
+msgstr "#000000"
+
+#: inc/starfish-funnels.php:260 inc/starfish-funnels.php:310
+msgid "#ffffff"
+msgstr "#ffffff"
+
+#: inc/starfish-funnels.php:251 inc/starfish-funnels.php:300
+msgid "Upload"
+msgstr "Mag-upload"
+
+#: inc/starfish-funnels.php:248 inc/starfish-funnels.php:297
+msgid "Browse..."
+msgstr "Mag-browse"
+
+#: inc/starfish-funnels.php:245 inc/starfish-funnels.php:294
+msgid "Upload image"
+msgstr "Mag-upload ng larawan"
+
+#: inc/starfish-funnels.php:244 inc/starfish-funnels.php:293
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/starfish-funnels.php:243 inc/starfish-funnels.php:292
+msgid "Etsy"
+msgstr "Etsy"
+
+#: inc/starfish-funnels.php:242 inc/starfish-funnels.php:291
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/starfish-funnels.php:241 inc/starfish-funnels.php:290
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: inc/starfish-funnels.php:240 inc/starfish-funnels.php:289
+msgid "Google Play"
+msgstr "Google Play"
+
+#: inc/starfish-funnels.php:239 inc/starfish-funnels.php:288
+msgid "Apple App Store"
+msgstr "Apple App Store"
+
+#: inc/starfish-funnels.php:238 inc/starfish-funnels.php:287
+msgid "iTunes"
+msgstr "iTunes"
+
+#: inc/starfish-funnels.php:237 inc/starfish-funnels.php:286
+msgid "Audible"
+msgstr "Audible"
+
+#: inc/starfish-funnels.php:236 inc/starfish-funnels.php:285
+msgid "Amazon"
+msgstr "Amazon"
+
+#: inc/starfish-funnels.php:235 inc/starfish-funnels.php:284
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: inc/starfish-funnels.php:234 inc/starfish-funnels.php:283
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/starfish-funnels.php:233 inc/starfish-funnels.php:282
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/starfish-funnels.php:232 inc/starfish-funnels.php:281
+msgid "Google"
+msgstr "Google"
+
+#: inc/starfish-funnels.php:231 inc/starfish-funnels.php:280
+msgid "Select Icon"
+msgstr "Pumili ng Icon"
+
+#: inc/starfish-funnels.php:214 inc/starfish-reviews.php:67
+#: inc/starfish-reviews.php:82
+msgid "Destination"
+msgstr "Patutunguhan"
+
+#: inc/starfish-funnels.php:213 inc/starfish-funnels.php:263
+#: inc/starfish-funnels.php:312
+msgid "Name"
+msgstr "Pangalan"
+
+#: inc/starfish-funnels.php:212
+msgid "Icon-BG Color"
+msgstr "Icon-BG Kulay"
+
+#: inc/starfish-funnels.php:211
+msgid "Preview"
+msgstr "Prebiyu"
+
+#: inc/starfish-funnels.php:210
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/starfish-funnels.php:207
+msgid "Set Multiple Destinations"
+msgstr "Magtakda ng Maramihang Patutunguhan"
+
+#: inc/starfish-funnels.php:201
+msgid "Multiple"
+msgstr "Maramihan"
+
+#: inc/starfish-funnels.php:200
+msgid "Single"
+msgstr "Isa"
+
+#: inc/starfish-funnels.php:197
+msgid "Number of Destinations"
+msgstr "Bilang ng Patutunguhan"
+
+#: inc/starfish-funnels.php:106
+msgid "Symbol circles"
+msgstr "Mga Simbolong Bilog"
+
+#: inc/starfish-funnels.php:105
+msgid "Faces"
+msgstr "Mga Mukha"
+
+#: inc/starfish-funnels.php:104
+msgid "Thumbs solid"
+msgstr "Solidong Hinlalaki"
+
+#: inc/starfish-funnels.php:103
+msgid "Thumbs outline"
+msgstr "Balangkas na Hinlalaki"
+
+#: inc/starfish-funnels.php:60
+msgid "Negative Response"
+msgstr "Negatibong Tugon"
+
+#: inc/starfish-funnels.php:59
+msgid "Positive Response"
+msgstr "Positibong Tugon"
+
+#. Author URI of the plugin/theme
+msgid "https://starfishwp.com"
+msgstr "https://starfishwp.com"
+
+#. Author of the plugin/theme
+msgid "Starfish"
+msgstr "Starfish"
+
+#. Description of the plugin/theme
+msgid "Encourage your customers to leave 5-star reviews on Google, Facebook, Yellow Pages, and more. See responses, monitor your reputation rating, and create multiple funnels with Starfish, the #1.0 reputation management plugin for WordPress!"
+msgstr "Hikayatin ang iyong mga customer na umalis sa 5-star na mga review sa Google, Facebook, Yellow Pages, at higit pa. Tingnan ang mga tugon, subaybayan ang iyong marka ng reputasyon, at lumikha ng maramihang mga funnel na may Starfish, ang #1.0 plugin sa pamamahala ng reputasyon para sa WordPress!"
+
+#. Plugin URI of the plugin/theme
+msgid "http://starfishwp.com/reviews/"
+msgstr "http://starfishwp.com/reviews/"
+
+#. Plugin Name of the plugin/theme
+msgid "Starfish Reviews"
+msgstr "Starfish Reviews"
+
+#: starfish-reviews.php:133 starfish-reviews.php:174
+msgid "Settings"
+msgstr "Mga Setting"
+
+#: inc/starfish-shortcode.php:437 inc/starfish-shortcode.php:439
+msgid "Powered by Starfish"
+msgstr "Powered by Starfish"
+
+#: inc/starfish-shortcode.php:200
+msgid "characters."
+msgstr "mga karakter."
+
+#: inc/starfish-shortcode.php:199
+msgid "You need to enter at least"
+msgstr "Kailangan mong maglagay ng hindi bababa sa"
+
+#: inc/starfish-shortcode.php:137
+msgid "Please enter your phone number."
+msgstr "Pakilagay sa numero ng iyong telepono."
+
+#: inc/starfish-shortcode.php:136
+msgid "Your Phone"
+msgstr "Ang Iyong Telepono"
+
+#: inc/starfish-shortcode.php:130
+msgid "Please enter your email address."
+msgstr "Mangyaring ilagay ang iyong email address."
+
+#: inc/starfish-shortcode.php:129
+msgid "Your Email"
+msgstr "Ang Iyong Email"
+
+#: inc/starfish-shortcode.php:123
+msgid "Please enter your name."
+msgstr "Pakilagay ang iyong pangalan."
+
+#: inc/starfish-shortcode.php:122
+msgid "Your Name"
+msgstr "Ang Iyong Pangalan"
+
+#: inc/starfish-shortcode.php:121 inc/starfish-shortcode.php:128
+#: inc/starfish-shortcode.php:135
+msgid " (Required)"
+msgstr "(Kailangan)"
+
+#: inc/starfish-shortcode.php:115
+msgid "Leave your review."
+msgstr "Iwanan ang iyong Puna."
+
+#: inc/starfish-shortcode.php:6
+msgid "This funnel is not valid or published yet!"
+msgstr "Ang funnel na ito ay hindi wasto o hindi pa nai-publish!"
+
+#: inc/starfish-settings.php:113
+msgid "Contents of the message. Make sure to include shortcode {review-message}. Also supports {funnel-name}, {feedback-id}, {reviewer-name}, {reviewer-email} and {reviewer-phone}."
+msgstr "Mga nilalaman ng mensahe. Tiyaking isama ang shortcode {review-message}. Sinusuportahan din ang {funnel-name}, {feedback-id}, {reviewer-name}, {reviewer-email} at {reviewer-phone}."
+
+#: inc/starfish-settings.php:111
+msgid "Message Template"
+msgstr "Template ng Mensahe"
+
+#: inc/starfish-settings.php:108
+msgid "Subject of the email. Supports shortcode {funnel-name} and {feedback-id}."
+msgstr "Paksa ng email. Sinusuportahan ang shortcode {funnel-name} at {feedback-id}."
+
+#: inc/starfish-settings.php:106
+msgid "Email Subject"
+msgstr "Paksa ng Email"
+
+#: inc/starfish-settings.php:103
+msgid "Will only be used if ID is a properly formatted email address."
+msgstr "Gagamitin lamang kung ang ID ay isang maayos na na-format na email address."
+
+#: inc/starfish-settings.php:102
+msgid "Use submitter ID as \"reply-to\" email address."
+msgstr "Gamitin ang submitter ID bilang \"reply-to\" na email address."
+
+#: inc/starfish-settings.php:99 inc/starfish-settings.php:100
+msgid "Reply To Email"
+msgstr "Sumagot Sa Email"
+
+#: inc/starfish-settings.php:90
+msgid "Email address the message will appear to be from. Supports shortcode {admin-email} to use the site's admin email."
+msgstr "Ang email address na mensahe ay lilitaw na mula sa. Sinusuportahan ang shortcode {admin-email} upang magamit ang admin email ng site."
+
+#: inc/starfish-settings.php:88
+msgid "From Email"
+msgstr "Mula sa Email"
+
+#: inc/starfish-settings.php:85
+msgid "The name the email will appear to be from. Supports shortcode {site-name} to use the site's name."
+msgstr "Ang pangalan na lilitaw mula sa email. Sinusuportahan ang shortcode {site-name} upang gamitin ang pangalan ng site."
+
+#: inc/starfish-settings.php:83
+msgid "From Name"
+msgstr "Mula sa Pangalan"
+
+#: inc/starfish-settings.php:79
+msgid "Email Settings"
+msgstr "Setting ng Email"
+
+#: inc/starfish-settings.php:74
+msgid "Delete all settings on deactivation. DO NOT use this option, unless you want to remove ALL Starfish Reviews settings and data."
+msgstr "Tanggalin ang lahat ng settings sa de-aktibasyonn. HUWAG gamitin ang pagpipiliang ito maliban kung gusto mong alisin ang settings ng LAHAT ng Starfish Reviews at data."
+
+#: inc/starfish-settings.php:71 inc/starfish-settings.php:72
+msgid "Deactivation"
+msgstr "De-aktibasyon"
+
+#: inc/starfish-settings.php:62
+msgid "Override \"Powered by Starfish\" link URL with <a href=\"https://starfishwp.com/affiliate/?sub=creatives\" target=\"_blank\">your affiliate URL</a>."
+msgstr "I-override ang link na \"Powered by Starfish\" sa <a href=\"https://starfishwp.com/affiliate/?sub=creatives\" target=\"_blank\"> iyong affiliate URL </a>."
+
+#: inc/starfish-settings.php:60
+msgid "Affiliate URL"
+msgstr "Affiliate URL"
+
+#: inc/starfish-settings.php:56
+msgid "Turn off Starfish branding on Funnel pages."
+msgstr "I-off ang Starfish branding sa mga pahina ng mga Funnel."
+
+#: inc/starfish-settings.php:53 inc/starfish-settings.php:54
+msgid "Starfish Branding"
+msgstr "Starfish Branding"
+
+#: inc/starfish-settings.php:44
+msgid "Re-save WP Settings>Permalink if your funnel goes to a 404 page."
+msgstr "I-save muli ang WP Settings>Permalink kung papunta ang iyong funnel sa isang 404 na pahina."
+
+#: inc/starfish-settings.php:42
+msgid "Review Page Slug"
+msgstr "Suriin ang Slug ng Pahina"
+
+#: inc/starfish-settings.php:35 starfish-reviews.php:174
+msgid "Starfish Settings"
+msgstr "Starfish Settings"
+
+#: inc/starfish-settings-process.php:12
+msgid "Nonce unverified! Try again."
+msgstr "Nonce unverified! Subukan muli."
+
+#: inc/starfish-settings-process.php:6
+msgid "Settings saved."
+msgstr "Nai-save ang mga setting."
+
+#: inc/starfish-reviews.php:314 inc/starfish-reviews.php:317
+msgid "Excellent"
+msgstr "Mahusay"
+
+#: inc/starfish-reviews.php:311
+msgid "Good"
+msgstr "Mabuti"
+
+#: inc/starfish-reviews.php:308
+msgid "Average"
+msgstr "Katampatan"
+
+#: inc/starfish-reviews.php:305
+msgid "Poor"
+msgstr "Mahina"
+
+#: inc/starfish-reviews.php:206
+msgid "Negative:"
+msgstr "Negatibo:"
+
+#: inc/starfish-reviews.php:205
+msgid "Positive:"
+msgstr "Positibo:"
+
+#: inc/starfish-reviews.php:204
+msgid "Total:"
+msgstr "Kabuuan:"
+
+#: inc/starfish-reviews.php:203
+msgid "Rating:"
+msgstr "Marka:"
+
+#: inc/starfish-reviews.php:180 inc/starfish-reviews.php:186
+msgid "Reviews"
+msgstr "Mga Puna"
+
+#: inc/starfish-reviews.php:115
+msgid "Negative"
+msgstr "Negatibo"
+
+#: inc/starfish-reviews.php:113
+msgid "Positive"
+msgstr "Positibo"
+
+#: inc/starfish-reviews.php:66 inc/starfish-reviews.php:81
+msgid "Funnel"
+msgstr "Funnel"
+
+#: inc/starfish-reviews.php:65 inc/starfish-reviews.php:80
+msgid "Message"
+msgstr "Mensahe"
+
+#: inc/starfish-reviews.php:64 inc/starfish-reviews.php:79
+msgid "Feedback"
+msgstr "Tugon"
+
+#: inc/starfish-reviews.php:63 inc/starfish-reviews.php:78
+msgid "Reviewer"
+msgstr "Tagapuna"
+
+#: inc/starfish-reviews.php:62 inc/starfish-reviews.php:77
+msgid "ID"
+msgstr "ID"
+
+#: inc/starfish-reviews.php:61
+msgid "Date & Time"
+msgstr "Petsa & Oras"
+
+#: inc/starfish-reviews.php:24
+msgid "No Reviews found in Trash."
+msgstr "Walang Mga Puna na natagpuan sa Basura."
+
+#: inc/starfish-reviews.php:23
+msgid "No Reviews found."
+msgstr "Walang nakita na Mga Puna."
+
+#: inc/starfish-reviews.php:22
+msgid "Parent Reviews:"
+msgstr "Mga Pangunahing Puna:"
+
+#: inc/starfish-reviews.php:21
+msgid "Search Reviews"
+msgstr "Hanapin ang mga Puna"
+
+#: inc/starfish-reviews.php:20
+msgid "All Reviews"
+msgstr "Laht ng mga Puna"
+
+#: inc/starfish-reviews.php:19
+msgid "View Review"
+msgstr "Tingnan ang mga Puna"
+
+#: inc/starfish-reviews.php:18
+msgid "Edit Review"
+msgstr "I-edit and Puna"
+
+#: inc/starfish-reviews.php:17
+msgid "New Review"
+msgstr "Bagong Puna"
+
+#: inc/starfish-reviews.php:16
+msgid "Add New Review"
+msgstr "Magdagdag ng Bagong Puna"
+
+#: inc/starfish-reviews.php:15
+msgctxt "Review"
+msgid "Add New"
+msgstr "Magdagdag ng Bago"
+
+#: inc/starfish-reviews.php:14
+msgctxt "add new on admin bar"
+msgid "Starfish Review"
+msgstr "Starfish Review"
+
+#: inc/starfish-reviews.php:13
+msgctxt "admin menu"
+msgid "Starfish Reviews"
+msgstr "Starfish Reviews"
+
+#: inc/starfish-reviews.php:12
+msgctxt "post type singular name"
+msgid "Review"
+msgstr "Puna"
+
+#: inc/starfish-reviews.php:11
+msgctxt "post type general name"
+msgid "Reviews"
+msgstr "Mga Puna"
+
+#: inc/starfish-funnels.php:618
+msgid "You have the Business version of Starfish Reviews, which limits you to 6 funnels. Please <a href=\"https://starfishwp.com/shop/\" target=\"_blank\">upgrade to</a> the Webmaster license if you need more."
+msgstr "Mayroon kang Business bersyon ng Starfish Reviews na naglilimita sa iyo sa 6 na funnels. Mangyaring <a href=\"https://starfishwp.com/shop/\" target=\"_blank\"> mag-upgrade sa </a> Webmaster na lisensya kung kailangan mo ng higit pa."
+
+#: inc/starfish-funnels.php:610
+msgid "Review Destination URL Is Required"
+msgstr "Ang URL na Patutunguhan ng Puna ay Kailangan"
+
+#: inc/starfish-funnels.php:439
+msgid "Thank you!"
+msgstr "Salamat!"
+
+#: inc/starfish-funnels.php:438
+msgid "Thank You Message"
+msgstr "Pasasalamat na Mensahe"
+
+#: inc/starfish-funnels.php:429
+msgid "email address(es) to send negative feedback to. You can add comma separated multiple email addresses. Shortcode {admin-email} defaults to the email set in WP Settings>General."
+msgstr "email address(es) kung saan ipapadala ang negatibong puna. Maaari kang magdagdag ng maraming mga email address na pinaghihiwalay ng kuwit . Shortcode {admin-email} mga default sa hanay ng e-mail sa WP Settings>General."
+
+#: inc/starfish-funnels.php:429
+msgid "email address(es)"
+msgstr "email address(es)"
+
+#: inc/starfish-funnels.php:428
+msgid "Email Feedback"
+msgstr "Email Feedback"
+
+#: inc/starfish-funnels.php:423
+msgid "Ask for phone?"
+msgstr "Hingin ang numero sa telepono?"
+
+#: inc/starfish-funnels.php:421
+msgid "Reviewer Phone"
+msgstr "Telepono ng Tagapuna"
+
+#: inc/starfish-funnels.php:416
+msgid "Ask for email?"
+msgstr "Hingin ang email?"
+
+#: inc/starfish-funnels.php:414
+msgid "Reviewer Email"
+msgstr "Email ng Tagapuna"
+
+#: inc/starfish-funnels.php:410 inc/starfish-funnels.php:417
+#: inc/starfish-funnels.php:424
+msgid "Required?"
+msgstr "Kailangan?"
+
+#: inc/starfish-funnels.php:409
+msgid "Ask for name?"
+msgstr "Hingin ang pangalan?"
+
+#: inc/starfish-funnels.php:407
+msgid "Reviewer Name"
+msgstr "Pangalan ng Tagapuna"
+
+#: inc/starfish-funnels.php:327
+msgid "Auto-forward to destination URL after X number of seconds. 0 for disable."
+msgstr "Auto-forward sa patutunguhang URL pagkatapos ng X bilang ng mga segundo. 0 para huwag paganahin."
+
+#: inc/starfish-funnels.php:325
+msgid "Auto Redirect (seconds)"
+msgstr "Auto Redirect (segundo)"
+
+#: inc/starfish-funnels.php:264 inc/starfish-funnels.php:313
+#: inc/starfish-funnels.php:321
+msgid "Review URL"
+msgstr "Review URL"
+
+#: inc/starfish-funnels.php:320
+msgid "Review Destination<sup>*</sup>"
+msgstr "Patutunguhan ng Puna<sup>*</sup>"
+
+#: inc/starfish-funnels.php:194
+msgid "Accepts HTML"
+msgstr "Tumatanggap ng HTML"
+
+#: inc/starfish-funnels.php:193
+msgid "Excellent! Please rate us 5-stars."
+msgstr "Mahusay! Pakimarka sa amin ang 5-star."
+
+#: inc/starfish-funnels.php:192 inc/starfish-funnels.php:403
+msgid "Review Prompt"
+msgstr "Review Prompt"
+
+#: inc/starfish-funnels.php:130
+msgid "Funnel Shortcode"
+msgstr "Funnel Shortcode"
+
+#: inc/starfish-funnels.php:100
+msgid "Answer Buttons Style"
+msgstr "Ang Estilo ng Sagutang Pindutan"
+
+#: inc/starfish-funnels.php:97
+msgid "Shortcode {site-name} uses the site name as set in WP Settings>General."
+msgstr "Ang shortcode {site-name} ay gumagamit ng pangalan ng site na nakatakda sa WP Settings>General."
+
+#: inc/starfish-funnels.php:96
+msgid "Would you recommend {WP site name here}?"
+msgstr "Inirerekomenda mo ba ang {WP site name dito}?"
+
+#: inc/starfish-funnels.php:95
+msgid "Yes/No Question"
+msgstr "Oo/Hindi na Tanong"
+
+#: inc/starfish-funnels.php:58
+msgid "Funnel Settings"
+msgstr "Funnel Settings"
+
+#: inc/starfish-funnels.php:33 inc/starfish-reviews.php:29
+msgid "Description."
+msgstr "Paglalarawan."
+
+#: inc/starfish-funnels.php:28
+msgid "No Funnels found in Trash."
+msgstr "Walang Funnels na natagpuan sa Basura."
+
+#: inc/starfish-funnels.php:27
+msgid "No Funnels found."
+msgstr "Walang Funnels na natagpuan."
+
+#: inc/starfish-funnels.php:26
+msgid "Parent Funnels:"
+msgstr "Pangunahing Funnels:"
+
+#: inc/starfish-funnels.php:25
+msgid "Search Funnels"
+msgstr "Maghanap ng Funnels"
+
+#: inc/starfish-funnels.php:24 inc/starfish-reviews.php:340
+msgid "All Funnels"
+msgstr "Lahat ng Funnels"
+
+#: inc/starfish-funnels.php:23
+msgid "View Funnel"
+msgstr "Tingnan ang Funnel"
+
+#: inc/starfish-funnels.php:22
+msgid "Use as Funnel Logo"
+msgstr "Gamitin bilang Logo ng Funnel"
+
+#: inc/starfish-funnels.php:21
+msgid "Remove Funnel Logo"
+msgstr "Tanggalin ang Logo ng Funnel"
+
+#: inc/starfish-funnels.php:20
+msgid "Set Funnel Logo"
+msgstr "Itakda ang Logo ng Funnel"
+
+#: inc/starfish-funnels.php:19
+msgid "Funnel Logo"
+msgstr "Funnel Logo"
+
+#: inc/starfish-funnels.php:18
+msgid "Edit Funnel"
+msgstr "I-edit ang Funnel"
+
+#: inc/starfish-funnels.php:17
+msgid "New Funnel"
+msgstr "Bagong Funnel"
+
+#: inc/starfish-funnels.php:16
+msgid "Add New Funnel"
+msgstr "Magdagdag ng Bagong Funnel"
+
+#: inc/starfish-funnels.php:15
+msgctxt "Funnel"
+msgid "Add New"
+msgstr "Magdagdag ng Bago"
+
+#: inc/starfish-funnels.php:14
+msgctxt "add new on admin bar"
+msgid "Funnel"
+msgstr "Funnel"
+
+#: inc/starfish-funnels.php:13
+msgctxt "admin menu"
+msgid "Funnels"
+msgstr "Mga Funnel"
+
+#: inc/starfish-funnels.php:12
+msgctxt "post type singular name"
+msgid "Funnel"
+msgstr "Funnel"
+
+#: inc/starfish-funnels.php:11
+msgctxt "post type general name"
+msgid "Funnels"
+msgstr "Mga Funnel"
+
+#: inc/default-settings.php:21
+msgid "Feedback from {funnel-name}"
+msgstr "Tugon galing sa {funnel-name}"
+
+#: inc/default-settings.php:16
+msgid "Thanks for your feedback. We'll review it and work to improve."
+msgstr "Salamat sa iyong tugon. Susuriin namin ito at tatrabahuin upang mapabuti."
+
+#: inc/default-settings.php:14 inc/starfish-funnels.php:404
+msgid "We're sorry we didn't meet expectations. How can we do better in the future?"
+msgstr "Ikinalulungkot namin na hindi namin natugunan ang mga inaasahan. Paano kami makakabuti sa hinaharap?"
+
+#: inc/default-settings.php:12
+msgid "<h3>Excellent! Please Rate us 5-stars</h3>...and leave a helpful review."
+msgstr "<h3>Napakahusay! Mangyaring markahan kami ng 5-star</h3> ... at mag-iwan ng kapaki-pakinabang na puna."
+
+#: inc/default-settings.php:10 inc/starfish-funnels.php:434
+msgid "Send Feedback"
+msgstr "Magbigay ng Tugon"
+
+#: inc/default-settings.php:8 inc/starfish-funnels.php:331
+msgid "Submit Review"
+msgstr "Isumite ang Puna"
+
+#: inc/default-settings.php:6
+msgid "Would you recommend {site-name}?"
+msgstr "Irerekomenda mo ba ang {site-name}?"

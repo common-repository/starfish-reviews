@@ -1,0 +1,69 @@
+.srm-review-form{ max-width: 600px; margin: 30px auto; text-align: center; padding: 30px 30px; background-color: transparent; }
+.srm-review-form .funnel_logo{ text-align: center; margin-bottom: 20px; }
+.srm-review-form .funnel_logo .funnel_logo_img{ max-width: 100%; max-height: 120px; margin: 0 auto; }
+.srm-review-form .srm-form label{ display: inline; }
+.srm-review-form .srm-form .yes-no-checked .radio_item{ display: inline-block; }
+.srm-review-form .srm-form .yes-no-checked .radio_item img{ max-width: 135px; width: 100%; cursor: pointer; transform: scale(.9); opacity: 0.75; filter: alpha(opacity=75); transition: all .2s ease-in-out;}
+.srm-review-form .srm-form .yes-no-checked label img:hover, .srm-form .yes-no-checked input[type=radio]:checked+label img { opacity: 1; filter: alpha(opacity=100); transform: scale(1); }
+.srm-review-form .srm-form .yes-no-checked .radio_item.radio_item_yes{ margin-right: 10%; }
+.srm-review-form .srm-form .yes-no-checked .radio_item input[type="radio"]{ visibility: hidden; }
+.srm-review-form .srm-form .yes-no-checked .faicon{ font-size: 120px; cursor: pointer;}
+.srm-review-form .srm-form .yes-no-checked .faicon_flip { transform: rotate(360deg) scaleX(-1); }
+.srm-review-form .srm-form .yes-no-checked .iconyes{color: #7ed026;}
+.srm-review-form .srm-form .yes-no-checked .iconno{color: #e96e48;}
+.srm-review-form .srm-form .review_yes_no_section, .srm-form .btn_review_submit, .review_under_processing{ display: none;}
+.srm-review-form #review_text{ border-radius: 5px;padding: 10px; width: 100%;  font-size: 16px;}
+.srm-review-form #submit_review, .public-review-button{ background:#4AD04C;border-radius: 5px; padding:10px 20px; color:#FFF; cursor:pointer; border:none; margin-top:5px !important; font-size: 16px; font-weight: bold; }
+.srm-review-form .srm-form h2{font-size: 28px; margin-bottom: 24px;}
+.srm-review-form #submit_review:hover{ background:#008000;}
+.srm-review-form .srm-form h2{font-size: 28px; margin-bottom: 24px;}
+.srm-review-form #review_yes_section h3 {font-size: 24px;padding: 20px 0;}
+.srm-review-form #review_yes_section .yes-prompt-text a{ color:#e94d4d;}
+.srm-review-form #review_yes_section .yes-prompt-text p{ padding-bottom:14px;}
+.srm-powered-by{ font-size: 80%; text-align: center; margin-top: 30px; }
+.starfish_review_footer_section{ display: none; }
+.srm-review-form .alert_message{ display: none; color: #dc3232; width: 100%; }
+.srm-review-form input[type="text"], .srm-review-form textarea{ width: 100%; display: block; }
+.srm-public-review-button{ display: none; margin-top: 30px; }
+.srm-public-review-button a{ color: #fff; display: inline-block; }
+.srm-public-review-button a:hover{ color: #fff; }
+.review-multiple-destination { margin: 20px 20px; }
+.multi-desti-buttons{ display: inline; margin: 0; }
+.multi-desti-buttons li{ display: inline-grid; max-width: 100px; margin-bottom: 10px; margin: 10px; }
+.multi-desti-buttons li .destination-name{ padding: 5px 10px; font-size: 10px }
+.multi-desti-buttons li a { padding: 10px; margin: 5px auto; display: inline-block; background: #dadada; color: #666; width: 70px; border-radius: 5px; }
+.multi-desti-buttons li a .faicon_preview{ font-size: 38px; }
+.multi-desti-buttons li a img{
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: bottom;
+    display: inline;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.multi-desti-buttons li a:hover{ color: #fff; }
+.multi-desti-buttons .google a:hover{ background-color: #dd4b39; }
+.multi-desti-buttons .facebook a:hover{ background-color: #3b5998; }
+.multi-desti-buttons .yelp a:hover{ background-color: #af0606; }
+.multi-desti-buttons .tripadvisor a:hover{ background-color: #00af87; }
+.multi-desti-buttons .amazon a:hover{ background-color: #ff9900; }
+.multi-desti-buttons .audible a:hover{ background-color: #f7991c; }
+.multi-desti-buttons .itunes a:hover{ background-color: #333333; }
+.multi-desti-buttons .appleappstore a:hover{ background-color: #34C5F9; }
+.multi-desti-buttons .googleplay a:hover{ background-color: #fbbc05; }
+.multi-desti-buttons .foursquare a:hover{ background-color: #f94877; }
+.multi-desti-buttons .wordpress a:hover{ background-color: #21759b; }
+.multi-desti-buttons .etsy a:hover{ background-color: #d5641c; }
+.multi-desti-buttons .youtube a:hover{ background-color: #ff0000; }
+.srm-notice-message {
+    padding: 25px;
+    border: thin dashed orange;
+    border-radius: 10px;
+}
+.srm-notice-message .fas {
+    color: orange;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 550px) {
+  .srm-review-form .srm-form .yes-no-checked .faicon{ font-size: 80px;}
+}

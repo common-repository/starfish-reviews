@@ -1,0 +1,98 @@
+.card {
+    padding: 0;
+    border: none;
+    max-width: unset;
+}
+
+#collection_settings_meta_box {
+    display: inline-block;
+    width: 100%;
+}
+
+#srm-collection-settings > .card {
+    border: none;
+}
+
+.srm-collection-layout-option {
+    float: left;
+    margin: 10px;
+}
+
+.srm-collection-layout-option > [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.srm-collection-layout-option > img {
+    cursor: pointer;
+}
+
+.srm-collection-layout-option > [type=radio]:checked + img {
+    outline: 2px solid royalblue;
+}
+
+.srm-collection-slider-toggle .toggle-group label {
+    width: fit-content !important;
+}
+
+.srm-collection-col {
+    color: #0071a1;
+    border-radius: 1em;
+    border: thin solid #0071a1;
+    background: #f3f5f6;
+    padding: 10px;
+    margin: 15px;
+}
+
+.srm-collection-col .column-title-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.srm-collections-disable-col {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.srm-collections-disable-col:after {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    content: "\f071  Element Disabled";
+    font-size: 14px;
+    margin-top: 22px;
+    font-weight: bold;
+    opacity: unset;
+    position: absolute;
+    color: maroon;
+}
+
+.srm-collection-hide-toggle .toggle-group label {
+    width: fit-content !important;
+}
+
+.toggle-handle {
+    background-color: whitesmoke !important;
+}
+
+.srm-collection-side-metabox {
+
+}
+
+.srm-collection-tool {
+    margin-bottom: 25px;
+}
+
+.srm-collection-tool .srm-sidebar-subtitle {
+    font-size: 14px;
+}
+
+.srm-collection-tool .srm-sidebar-subtext {
+    font-size: 12px;
+}
+
+#srm-collection-embed-snippet a {
+    float: right;
+    margin-left: 10px;
+    margin-top: 20px;
+}

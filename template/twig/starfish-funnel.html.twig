@@ -1,0 +1,146 @@
+{% if not shortcode %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endif %}
+<div id="srm-review-container"
+     class="srm-review-form srm-review-funnel-{{ id }} {% if shortcode %}srm-review-shortcode{% endif %}">
+    {% if thumbnail is not empty %}
+        <div class="funnel_logo"><img class="funnel_logo_img" src="{{ thumbnail[0] }}"/></div>
+    {%  endif %}
+    <form class="srm-form" id="srm-review-form" action="" method="post">
+        <h2 class="question_heading">{{ question }}</h2>
+        <div class="review_submit_form_field">
+            <div class="yes-no-checked" id="yes-no-checked">
+                <div class="radio_item radio_item_yes">
+                    <input type="radio" name="yes_no_flag" class="srm-radio" id="srm_review_yes" value="Yes">
+                    <label for="srm_review_yes"><span class="faicon iconyes {{ yes_class }}"></span></label>
+                </div>
+                <div class="radio_item radio_item_no">
+                    <input type="radio" name="yes_no_flag" class="srm-radio" id="srm_review_no" value="No">
+                    <label for="srm_review_no"><span class="faicon iconno {{ no_class }}"></span></label>
+                </div>
+            </div>
+            <div class="review_yes_section review_yes_no_section" id="review_yes_section">
+                <div class="yes-prompt-text">{{ yes_review_prompt|raw }}</div>
+                {% if destination_type|lower == 'multiple' and destinations is not empty %}
+                    <div class="review-multiple-destination">
+                        <ul class="multi-desti-buttons">
+                            {% for key,destination in destinations %}
+                                <li class="multi-desti-buttons {{ destination['desti_icon']|lower }}">
+                                    <a {% if destination['srm_desti_bg_color'] != '' or destination['srm_desti_color'] != '' %}style="background: {{ destination['srm_desti_bg_color'] }}; color: {{ destination['srm_desti_color'] }}"{% endif %}
+                                       href="javascript:void(0)" class="multi-desti-submit"
+                                       data-srm_icon="{{ destination['desti_icon']|e }}"
+                                       data-srm_photo_id="{{ destination['icon_photo_id']|e }}"
+                                       data-srm_desti_name="{{ destination['srm_desti_name']|e }}"
+                                       data-srm_desti_url="{{ destination['srm_desti_url']|raw }}"
+                                       data-srm_action="submit_review">
+                                        {% if destination['icon_photo_id'] != null or destination['icon_photo_id'] > 0 %}
+                                            <img class="icon_image"
+                                                 src="{{ destination['icon_photo_id']|attachmentUrl|raw }}"
+                                                 alt="{{ destination['srm_desti_name']|e }}"/>
+                                        {% else %}
+                                            <span class="faicon_preview {{ icons[destination['desti_icon']|upper].class }}"></span>
+                                        {% endif %}
+                                    </a>
+                                    {% if destination['srm_desti_name'] != '' %}
+                                        <span class="destination-name">{{ destination['srm_desti_name']|e }}</span>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="review_no_section review_yes_no_section" id="review_no_section">
+                {{ no_review_prompt }}
+                <p>
+                    <textarea name="review_text" id="review_text"
+                              placeholder="{{ placeholders['review_text']|default('Leave your review.') }}"></textarea>
+                    <span class="alert_message review_text_alert"></span>
+                </p>
+                {% if ask_name['enabled']|lower == 'yes' %}
+                    <p>
+                        <input type="text" class="{% if ask_name['required'] == 'yes' %}required{% endif %}"
+                               name="srm_reviewer_name" id="srm_reviewer_name"
+                               placeholder="{{ placeholders['name']|default('Your Name') }}{% if ask_name['required'] == 'yes' %} (Required){% endif %}">
+                        <span class="alert_message name_alert">{{ ask_name['alert']|default('Please enter your name.') }}</span>
+                    </p>
+                {% endif %}
+                {% if ask_email['enabled']|lower == 'yes' %}
+                    <p>
+                        <input type="text" class="{% if ask_email['required'] == 'yes' %}required{% endif %}"
+                               name="srm_reviewer_email" id="srm_reviewer_email"
+                               placeholder="{{ placeholders['email']|default('Your Email') }}{% if ask_email['required'] == 'yes' %} (Required){% endif %}">
+                        <span class="alert_message email_alert">{{ ask_email['alert']|default('Please enter a valid email.') }}</span>
+                    </p>
+                {% endif %}
+                {% if ask_phone['enabled']|lower == 'yes' %}
+                    <p>
+                        <input type="text" class="{% if ask_phone['required'] == 'yes' %}required{% endif %}"
+                               name="srm_reviewer_phone" id="srm_reviewer_phone"
+                               placeholder="{{ placeholders['phone']|default('Your Phone') }}{% if ask_phone['required'] == 'yes' %} (Required){% endif %}">
+                        <span class="alert_message phone_alert">{{ ask_phone['alert']|default('Please enter your phone.') }}</span>
+                    </p>
+                {% endif %}
+                {% if disable_review_gating|lower == 'yes' %}
+                    <a href="javascript:void(0)" id="srm-feedback-skip"
+                       class="srm-funnel-link"
+                       data-srm_action="feedback_skip">{{ skip_feedback_text|default(placeholders['skip_feedback_text'])|e }}</a>
+                {% endif %}
+            </div>
+            {% if destination_type|lower == 'single' %}
+                <input type="hidden" name="desti_url" id="desti_url" value="{{ destination_url }}">
+            {% endif %}
+            <input type="hidden" name="funnel_desti_type" id="funnel_desti_type" value="{{ destination_type }}">
+            <input type="hidden" name="funnel_id" id="funnel_id" value="{{ id }}">
+            <input type="hidden" name="tracking_id" id="tracking_id" value="{{ query_tracking_id }}">
+            <input type="hidden" id="srm-created-feedback-id" value="">
+            <input type="button" class="btn_review_submit" name="submit_review" id="submit_review"
+                   value="{{ button_text }}" data-srm_action="submit_review">
+        </div>
+    </form>
+    <div class="review_under_processing">{{ placeholders['processing']|default('Sending...') }}</div>
+    {% if disable_review_gating|lower == 'yes' %}
+        <div class="srm-disabled-gating-public-review">
+            {% if destination_type|lower == 'single' %}
+                <a href="javascript:void(0)" id="srm-public-review" class="srm-leave-public-review public-review-button"
+                   data-srm_action="disabled_gating_public_review" data-srm_desti_url="{{ destination_url }}">
+                    {{ public_review_text|default(placeholders['public_review_text']) }}
+                </a>
+            {% endif %}
+            {% if destination_type|lower == 'multiple' and destinations is not empty %}
+                <h3>{{ public_review_text|default(placeholders['public_review_text']) }}</h3>
+                <div class="review-multiple-destination">
+                    <ul class="multi-desti-buttons">
+                        {% for key,destination in destinations %}
+                            <li class="multi-desti-buttons {{ destination['desti_icon']|lower }}">
+                                <a {% if destination['srm_desti_bg_color'] != '' or destination['srm_desti_color'] != '' %}style="background: {{ destination['srm_desti_bg_color'] }}; color: {{ destination['srm_desti_color'] }}"{% endif %}
+                                   href="javascript:void(0)" class="multi-desti-submit"
+                                   data-srm_icon="{{ destination['desti_icon']|e }}"
+                                   data-srm_photo_id="{{ destination['icon_photo_id']|e }}"
+                                   data-srm_desti_name="{{ destination['srm_desti_name']|e }}"
+                                   data-srm_desti_url="{{ destination['srm_desti_url']|raw }}"
+                                   data-srm_action="disabled_gating_public_review">
+                                    {% if destination['icon_photo_id'] != null or destination['icon_photo_id'] > 0 %}
+                                        <img class="icon_image"
+                                             src="{{ destination['icon_photo_id']|attachmentUrl|raw }}"
+                                             alt="{{ destination['srm_desti_name']|e }}"/>
+                                    {% else %}
+                                        <span class="faicon_preview {{ icons[destination['desti_icon']|upper].class }}"></span>
+                                    {% endif %}
+                                </a>
+                                {% if destination['srm_desti_name'] != '' %}
+                                    <span class="destination-name">{{ destination['srm_desti_name']|e }}</span>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if branding != 'hide' %}
+        <div id="srm_powred_by_txt" class="srm-powered-by">
+            {{ affiliate_url|default(placeholders['affiliate_url'])|raw }}
+        </div>
+    {% endif %}
+</div>

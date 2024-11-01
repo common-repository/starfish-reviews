@@ -1,0 +1,24 @@
+    <div class="bootstrap-srm srm-admin-actions srm-admin-feedback">
+        <div class="btn-group dropdown">
+            <button id="srm-export-feedback" type="button" {% if count == 0 %}disabled{% endif %}
+                    class="btn btn-sm btn-info"
+                    title="{% if count > 0 %}Export below feedback to a CSV file{% else %}No feedback received yet.{% endif %}">
+                Export
+            </button>
+            {% if files is not empty %}
+                <button type="button" title="Past Exports" class="btn btn-info btn-sm dropdown-toggle dropdown-toggle-split"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="badge badge-light">{{ files|length }}</span>
+                    <span class="sr-only">Past Export</span>
+                </button>
+                <div class="dropdown-menu">
+                    {% for file in files %}
+                        <a class="dropdown-item" title="Download Export" href="{{ file.url }}">{{ file.name }}</a> <i aria-hidden="true"
+                            title="Delete Export" style="color: orangered" class="srm-admin-delete-feedback far
+                    fa-trash-alt"></i>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        <iframe title="Feedback Export" id="srm-feedback-export-iframe" style="display: none; visibility: hidden"></iframe>
+    </div>

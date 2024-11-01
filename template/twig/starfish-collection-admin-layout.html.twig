@@ -1,0 +1,79 @@
+<div class="tab-pane fade" id="layout" role="tabpanel" aria-labelledby="layout-tab">
+    <div id="srm-collection-layout" class="card mt-1">
+        <div class="card-body m-0">
+            <p class="card-text">Select how each review will be laid out.</p>
+            <div class="form-group">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-layout">Layout</label>
+                            <select class="form-control form-control-sm" name="srm-collection-layout"
+                                    id="srm-collection-layout">
+                                <option value="columns"
+                                        {% if layout is empty or layout == 'columns' %}selected{% endif %}>Columns
+                                </option>
+                                <option disabled value="notifications" {% if layout == 'notifications' %}selected{% endif %}>
+                                    Notifications (Coming Soon!)
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-columns">Number of Columns</label>
+                            <select class="form-control form-control-sm" name="srm-collection-columns"
+                                    id="srm-collection-columns">
+                                <option value="1" {% if columns is empty or columns == '1' %}selected{% endif %}>1
+                                </option>
+                                <option value="2" {% if columns == '2' %}selected{% endif %}>2</option>
+                                <option value="3" {% if columns == '3' %}selected{% endif %}>3</option>
+                                <option value="4" {% if columns == '4' %}selected{% endif %}>4</option>
+                            </select>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-rows">Number of Rows</label>
+                            <select class="form-control form-control-sm" name="srm-collection-rows"
+                                    id="srm-collection-rows">
+                                <option value="1" {% if rows is empty or rows == '1' %}selected{% endif %}>1</option>
+                                <option value="2" {% if rows == '2' %}selected{% endif %}>2</option>
+                                <option value="3" {% if rows == '3' %}selected{% endif %}>3</option>
+                                <option value="4" {% if rows == '4' %}selected{% endif %}>4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-slider">Enable Slider?</label>
+                            <select class="form-control form-control-sm" name="srm-collection-slider"
+                                    id="srm-collection-slider">
+                                <option value="1" {% if slider == '1' %}selected{% endif %}>Yes</option>
+                                <option value="0" {% if slider is empty or slider == '0' %}selected{% endif %}>No
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-autoadvance">Auto-Advance</label>
+                            <input name="srm-collection-autoadvance" id="srm-collection-autoadvance" type="text"
+                                   class="form-control form-control-sm"
+                                   value="{% if autoadvance is empty %}7500{% else %}{{ autoadvance }}{% endif %}"
+                                   disabled/>
+                            <small class="form-text text-muted">In Milliseconds; 1,000 = 1 second. (Use 0 to disable
+                                auto-advance.)</small>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <label for="srm-collection-navigation">Navigation</label>
+                            <select class="form-control form-control-sm" name="srm-collection-navigation"
+                                    id="srm-collection-navigation" disabled>
+                                <option value="arrows"
+                                        {% if navigation is empty or navigation == 'arrows' %}selected{% endif %}>Arrows
+                                </option>
+                                <option value="dots" {% if navigation == 'dots' %}selected{% endif %}>Dots</option>
+                                <option value="both" {% if navigation == 'both' %}selected{% endif %}>Both</option>
+                                <option value="none" {% if navigation == 'none' %}selected{% endif %}>None</option>
+                            </select>
+                            <small class="form-text text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

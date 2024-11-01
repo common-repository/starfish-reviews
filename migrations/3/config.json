@@ -1,0 +1,10 @@
+{
+  "version": "3",
+  "is_premium": true,
+  "name": "profiles_url_characters",
+  "description": "Increase the number of varchar count for the URL column",
+  "data": true,
+  "status": null,
+  "comment": null,
+  "executed_on": null
+}

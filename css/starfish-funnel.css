@@ -1,0 +1,214 @@
+@import 'starfish-funnel-multi-horizontal.css';
+@import 'starfish-funnel-multi-vertical.css';
+
+body.single-funnel {
+	background-color: white;
+	height: 100vh !important;
+	font-family: sans-serif;
+}
+
+.bs-stepper-content {
+	padding: 20px;
+}
+
+.bs-stepper-content div.srm-funnel-error {
+	border: thin solid red;
+	border-radius: 5px;
+	padding: 15px;
+	color: red;
+	text-align: center;
+}
+
+.single-funnel h2:before {
+	display: none;
+}
+
+.bs-stepper {
+	margin: 25px 25px;
+	text-align: center;
+	display: table;
+	min-width: auto;
+	max-width: 50vw;
+}
+
+.header-steps {
+	display: none;
+}
+
+.srm-funnel-heading,
+.srm-funnel-prompt {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.srm-funnel-logo {
+	text-align: center;
+	margin: 15px auto;
+}
+
+.srm-funnel-logo img {
+	max-width: 100%;
+	max-height: 120px;
+	margin: 0 auto;
+}
+
+.srm-funnel-decision {
+	display: inline-block;
+}
+
+.srm-funnel-decision.srm-funnel-icon {
+	font-size: 7em;
+}
+
+#srm-funnel-positive {
+	margin-right: 15px;
+}
+
+.srm-funnel-icon {
+	display: inline-block;
+	width: unset !important;
+	height: unset !important;
+}
+
+#srm-funnel-positive.srm-funnel-icon {
+	color: #7ed026;
+	--theme-color-text_link: #7ed026;
+}
+
+#srm-funnel-negative.srm-funnel-icon {
+	color: #e96e48;
+	--theme-color-text_link: #e96e48;
+	transform: rotateY(-180deg);
+	margin-top: 35px;
+	/*margin-left: 15px;*/
+}
+
+.srm-funnel-decision:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+#srm-funnel-negative.srm-funnel-decision:hover {
+	transform: rotateY(-180deg) scale(1.05);
+}
+
+.srm-funnel-link {
+	text-decoration: underline;
+	color: grey;
+	font-size: 14px;
+}
+
+#srm-funnel-questions {
+	display: inline;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#srm-funnel-questions li {
+    display: inline-block !important;
+}
+
+#srm-funnel-multi-destinations {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a.srm-funnel-multi-destination-submit {
+	text-decoration: none !important; /* override WP Storefront theme style */
+}
+
+.srm-funnel > [class^="fa-"], .srm-funnel > [class*=" fa-"] {
+	font-family: Font Awesome\ 5 Brands !important;
+}
+
+/*==============  Form */
+form.srm-funnel-form {
+	margin-top: 15px;
+}
+
+form input, form textarea {
+	font-family: sans-serif;
+}
+
+form.srm-funnel-form Label {
+	float: left;
+	font-size: 16px;
+	margin-bottom: unset;
+}
+
+form .invalid-feedback {
+	text-align: left;
+	font-size: 14px;
+}
+
+form .srm-funnel-required-indicator {
+	font-size: 14px;
+}
+
+form #srm-funnel-feedback-submit:hover {
+    color: white;
+}
+
+/*==============  Footer */
+.srm-funnel-powered-by {
+	font-size: 80%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.srm-funnel-feedback-id {
+	font-size: 12px;
+	color: lightgray;
+	text-align: right;
+	font-family: monospace;
+	float: right;
+	display: none;
+}
+
+.srm-notice-message {
+	padding: 25px;
+	border: thin dashed orange;
+	border-radius: 10px;
+}
+
+.srm-notice-message .fa {
+	color: orange;
+	margin-bottom: 15px;
+}
+
+/*============== SHORTCODE */
+body:not(.single-funnel) .bs-stepper {
+	min-width: auto !important;
+}
+
+/*
+Unset styles to current theme's default
+Conflicting Theme/builder: Elementor
+*/
+html {
+	font-size: unset !important;
+	display: unset !important;
+}
+
+/* shrink padding and margins in TEXT widgets */
+.textwidget .bs-stepper-content {
+	padding: 0;
+}
+
+.textwidget .bs-stepper, .textwidget .srm-funnel-heading {
+	margin: 0;
+}
+
+/*==============  MEDIA QUERIES */
+@media only screen and (max-width: 960px) {
+	.bs-stepper {
+		margin: 25px 25px;
+		text-align: center;
+		display: table;
+		min-width: 90vw;
+		max-width: 90vw;
+	}
+}
